@@ -23,6 +23,7 @@ body {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 16px;
 	line-height: 1.75;
+	color: $text_color;
 }
 
 h1,
@@ -32,6 +33,7 @@ h4,
 h5,
 h6 {
 	font-family: 'M PLUS 1p', sans-serif;
+	line-height: 1.25;
 }
 
 h2 {
@@ -213,6 +215,8 @@ a {
 
 .mv {
 	background: $bg_lignt_gray;
+	margin: 0 0 60px 0;
+	text-align: center;
 
 	.ttl {
 		font-size: 40px;
@@ -224,6 +228,64 @@ a {
 		line-height: 1.36;
 		font-family: 'M PLUS 1p', sans-serif;
 	}
+}
+
+.participation {
+	margin: 0 0 60px 0;
+}
+
+.register {
+	margin: 0 0 60px 0;
+}
+
+.column {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.notice {
+	width: 600px;
+
+	.lists {
+		border-top: 1px solid $secondary_color;
+
+		ul {
+			li {
+				list-style: none;
+				border-top: 1px solid $secondary_color;
+
+				.list_column {
+					text-decoration: none;
+					color: $text_color;
+
+					height: 60px;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+
+					.date {
+						font-size: 13px;
+						margin: 0 10px 0 0;
+					}
+
+					p {
+						font-size: 17px;
+						font-weight: 700;
+					}
+				}
+
+				.description {
+					background: $bg_lignt_gray;
+					padding: 30px;
+				}
+			}
+		}
+	}
+}
+
+.schedule {
+	width: 400px;
 }
 
 .cards {
@@ -257,8 +319,10 @@ a {
 					border: 1px solid $primary_color_dark;
 					background: $primary_color;
 					color: #fff;
-					transition: all 0.2s;
 
+					transform: translateY(-3px);
+					box-shadow: rgba(17, 12, 46, 0.15) 0px 20px 50px 0px;
+					transition: all 0.2s;
 				}
 
 				&:hover .ico01 {
@@ -283,33 +347,38 @@ a {
 
 				.ico01 {
 					background: url("../img/01_panel_ico.svg") no-repeat center center;
-					width: 40px;
-					height: 40px;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
 
 				}
 
 				.ico02 {
 					background: url("../img/02_abst_ico.svg") no-repeat center center;
-					width: 40px;
-					height: 40px;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
 				}
 
 				.ico03 {
 					background: url("../img/03_newgenepanel_ico.svg") no-repeat center center;
-					width: 40px;
-					height: 40px;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
 				}
 
 				.ico04 {
 					background: url("../img/04_newgeneabst_ico.svg") no-repeat center center;
-					width: 40px;
-					height: 40px;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
 				}
 
 				.ico05 {
 					background: url("../img/05_participation_ico.svg") no-repeat center center;
-					width: 40px;
-					height: 40px;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
 				}
 			}
 		}
