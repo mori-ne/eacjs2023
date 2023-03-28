@@ -1,9 +1,314 @@
 @charset "UTF-8";
 @use "ress";
 
-// Noto Sans Japanese Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+// Noto Sans Regular Bold + M PLUS 1p Bold
+// Japanese Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap');
 
-* {
+$primary_color:#be4682;
+$primary_color_dark:#993869;
+$text_color: #444444;
+$secondary_txt_color:#999891;
+$secondary_color:#F0EEE4;
+$radius_base: 6px;
+$bg_gray: #e6e6e6;
+$bg_lignt_gray: #F9F9F9;
+$brakepint_pc: 1200px;
+
+//-----------------------------------------------------------------------------------
+//--------------------------------  ベース  -----------------------------------------
+//-----------------------------------------------------------------------------------
+
+body {
 	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 16px;
+	line-height: 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'M PLUS 1p', sans-serif;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+a {
+	color: $primary_color;
+	text-decoration: underline;
+
+	&:hover {
+		color: #993869;
+		text-decoration: none;
+	}
+}
+
+.h3 {
+	h3 {
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+		color: $primary_color;
+		font-size: 14px;
+	}
+}
+
+//-----------------------------------------------------------------------------------
+//--------------------------------  レイアウト  --------------------------------------
+//-----------------------------------------------------------------------------------
+
+.inner {
+	max-width: $brakepint_pc;
+	margin: 0 auto;
+}
+
+.header {
+
+	.header_inner {
+		height: 100px;
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+
+		.logo {
+			width: 260px;
+			height: auto;
+		}
+
+		.contact {
+			margin-left: auto;
+			margin-right: 25px;
+
+			a {
+				font-size: 14px;
+				color: $text_color;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.translate {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			color: $secondary_txt_color;
+			background: $secondary_color;
+			width: 120px;
+			height: 44px;
+			text-decoration: none;
+			border-radius: $radius_base;
+			transition: all 0.2s;
+
+			&:hover {
+				background: $secondary_txt_color;
+				color: #F0EEE4;
+				transition: all 0.2s;
+			}
+
+			i {
+				width: 22px;
+
+			}
+		}
+	}
+
+	.nav_inner {
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+
+		.nav_pc {
+			.nav_list {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin: 0 auto;
+
+				li {
+					list-style: none;
+					width: 150px;
+					height: 60px;
+					position: relative;
+
+					a {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 150px;
+						height: 60px;
+						color: $text_color;
+						font-family: 'Noto Sans JP', sans-serif;
+						font-weight: 700;
+						text-decoration: none;
+
+						&:hover {
+							color: $primary_color;
+						}
+
+						i {
+							padding: 0 0 0 5px;
+							font-size: 12px;
+							color: $primary_color;
+						}
+
+					}
+
+					.dropdown_list {
+						// 
+						display: none;
+						// 
+						position: absolute;
+						top: 60px;
+						left: 0;
+						background: $primary_color;
+						z-index: 9999;
+
+						li {
+							a {
+								text-align: center;
+								font-size: 15px;
+								font-weight: 400;
+								color: #fff;
+								transition: all 0.2s;
+
+								&:hover {
+									opacity: 0.8;
+									transition: all 0.2s;
+								}
+							}
+						}
+					}
+
+				}
+
+			}
+		}
+	}
+}
+
+.mv {
+	background: $bg_lignt_gray;
+
+	.ttl {
+		font-size: 40px;
+		line-height: 1.25;
+	}
+
+	.sub_ttl {
+		font-size: 22px;
+		line-height: 1.36;
+		font-family: 'M PLUS 1p', sans-serif;
+	}
+}
+
+.cards {
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 15px;
+
+		li {
+			width: 20%;
+
+			a {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				text-decoration: none;
+				color: $text_color;
+				font-size: 18px;
+				font-weight: 700;
+				height: 100px;
+				background: $bg_lignt_gray;
+				border: 1px solid $bg_gray;
+				border-radius: $radius_base;
+				transition: all 0.2s;
+
+				&:hover {
+					border: 1px solid $primary_color_dark;
+					background: $primary_color;
+					color: #fff;
+					transition: all 0.2s;
+
+				}
+
+				&:hover .ico01 {
+					background: url("../img/01_panel_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico02 {
+					background: url("../img/02_abst_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico03 {
+					background: url("../img/03_newgenepanel_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico04 {
+					background: url("../img/04_newgeneabst_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico05 {
+					background: url("../img/05_participation_ico_hover.svg") no-repeat center center;
+				}
+
+				.ico01 {
+					background: url("../img/01_panel_ico.svg") no-repeat center center;
+					width: 40px;
+					height: 40px;
+
+				}
+
+				.ico02 {
+					background: url("../img/02_abst_ico.svg") no-repeat center center;
+					width: 40px;
+					height: 40px;
+				}
+
+				.ico03 {
+					background: url("../img/03_newgenepanel_ico.svg") no-repeat center center;
+					width: 40px;
+					height: 40px;
+				}
+
+				.ico04 {
+					background: url("../img/04_newgeneabst_ico.svg") no-repeat center center;
+					width: 40px;
+					height: 40px;
+				}
+
+				.ico05 {
+					background: url("../img/05_participation_ico.svg") no-repeat center center;
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+	}
 }
