@@ -8,6 +8,7 @@
 // colors
 $primary_color:#be4682;
 $primary_color_dark:#993869;
+$primaty_hover_color:#fff7fb;
 $text_color: #444444;
 $btn_txt_color:#999891;
 $btn_bg_color:#F0EEE4;
@@ -15,8 +16,24 @@ $bg_lignt_gray: #F9F9F9;
 $border_gray_color: #e6e6e6;
 $footer_txt_color: #999999;
 
-$brakepint_pc: 1200px;
 $radius_base: 6px;
+
+$brakepint_pc: 1200px;
+$brakepint_tablet: 876px;
+$brakepint_sp: 480px;
+
+
+@mixin sp {
+	@media (max-width: ($brakepint_sp)) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: ($brakepint_tablet)) {
+		@content;
+	}
+}
 
 //-----------------------------------------------------------------------------------
 //--------------------------------  ベース  -----------------------------------------
@@ -27,6 +44,10 @@ body {
 	font-size: 16px;
 	line-height: 1.75;
 	color: $text_color;
+
+	@include sp {
+		padding-top: 60px;
+	}
 }
 
 h1,
@@ -37,6 +58,12 @@ h5,
 h6 {
 	font-family: 'M PLUS 1p', sans-serif;
 	line-height: 1.25;
+
+}
+
+h1 {
+	line-height: 0;
+	vertical-align: bottom;
 }
 
 h2 {
@@ -83,34 +110,69 @@ a {
 .inner {
 	max-width: $brakepint_pc;
 	margin: 0 auto;
+
+	@include tablet {
+		padding: 0 20px;
+	}
+
+	@include sp {
+		padding: 0 20px;
+	}
+
 }
 
 .header {
+	position: static;
 	width: 100%;
 	height: 100px;
-	position: fixed;
-	top: 0;
-	z-index: 999;
 	background: #fff;
+
+	@include sp {
+		height: 60px;
+		position: fixed;
+		top: 0;
+		z-index: 998;
+	}
 
 	.header_inner {
 		height: 100px;
 		max-width: $brakepint_pc;
 		margin: 0 auto;
-
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
 
+		@include tablet {
+			max-width: 100%;
+			padding: 0 20px;
+		}
+
+		@include sp {
+			padding: 0 20px;
+			height: 60px;
+		}
+
 		.logo {
 			width: 260px;
 			height: auto;
+
+			@include tablet {
+				width: 220px;
+			}
+
+			@include sp {
+				width: 200px;
+			}
 		}
 
 		.contact {
 			margin-left: auto;
 			margin-right: 25px;
+
+			@include sp {
+				display: none;
+			}
 
 			a {
 				font-size: 14px;
@@ -136,10 +198,15 @@ a {
 			border-radius: $radius_base;
 			transition: all 0.2s;
 
+			@include sp {
+				display: none;
+			}
+
 			&:hover {
 				background: $btn_txt_color;
 				color: #F0EEE4;
 				transition: all 0.2s;
+
 			}
 
 			i {
@@ -147,22 +214,182 @@ a {
 
 			}
 		}
+
+
+
+		.sp_nav_btn {
+			display: none;
+
+			@include sp {
+				display: block;
+
+				#menu-btn-check {
+					display: none;
+				}
+
+				#menu-btn-check:checked~.menu-btn span {
+					background-color: rgba(255, 255, 255, 0);
+					/*メニューオープン時は真ん中の線を透明にする*/
+				}
+
+				#menu-btn-check:checked~.menu-btn span::before {
+					bottom: 0;
+					transform: rotate(45deg);
+				}
+
+				#menu-btn-check:checked~.menu-btn span::after {
+					top: 0;
+					transform: rotate(-45deg);
+				}
+
+
+
+				.menu-btn {
+					position: fixed;
+					top: 0;
+					right: 0;
+					display: flex;
+					height: 60px;
+					width: 60px;
+					justify-content: center;
+					align-items: center;
+					z-index: 90;
+					background-color: transparent;
+
+					span {
+						content: '';
+						display: block;
+						height: 3px;
+						width: 25px;
+						background-color: $primary_color;
+						position: absolute;
+
+						&::before {
+							content: '';
+							display: block;
+							height: 3px;
+							width: 25px;
+							background-color: $primary_color;
+							position: absolute;
+						}
+
+						&::after {
+							content: '';
+							display: block;
+							height: 3px;
+							width: 25px;
+							background-color: $primary_color;
+							position: absolute;
+						}
+
+						&:before {
+							bottom: 8px;
+						}
+
+						&:after {
+							top: 8px;
+						}
+					}
+				}
+
+
+				.menu-content {
+					width: 100%;
+					height: 100%;
+					position: fixed;
+					top: -100%;
+					// top: 0;
+					left: 0;
+					z-index: 80;
+					background-color: #fff;
+					transition: all 0.5s;
+
+					ul {
+						margin: 0 20px;
+						display: flex;
+						flex-direction: column;
+
+						li {
+							list-style: none;
+							border-bottom: 1px solid $border_gray_color;
+
+							a {
+								height: 60px;
+								display: flex;
+								flex-direction: row;
+								align-items: center;
+								justify-content: space-between;
+								max-width: 100%;
+								font-size: 17px;
+								color: $text_color;
+								font-weight: 700;
+								text-decoration: none;
+								position: relative;
+								padding: 0 10px;
+
+
+								i {
+									color: $primary_color;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			#menu-btn-check:checked~.menu-content {
+				top: 0;
+			}
+
+			.translate_sp {
+				margin: 10px 20px 30px 20px;
+				max-width: 100%;
+
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				color: $btn_txt_color;
+				background: $btn_bg_color;
+				height: 44px;
+				text-decoration: none;
+				border-radius: $radius_base;
+				transition: all 0.2s;
+
+				&:hover {
+					background: $btn_txt_color;
+					color: #F0EEE4;
+					transition: all 0.2s;
+				}
+
+				i {
+					width: 22px;
+				}
+			}
+		}
 	}
 }
 
+
+
 .nav {
 	width: 100%;
-	position: fixed;
-	top: 100px;
-	left: 0;
 	background: #fff;
-	z-index: 999;
+
+	@include sp {
+		display: none;
+	}
 
 	.nav_inner {
 		max-width: $brakepint_pc;
 		margin: 0 auto;
 
+		@include tablet {
+			max-width: 100%;
+		}
+
 		.nav_pc {
+
 			.nav_list {
 				display: flex;
 				flex-direction: row;
@@ -176,6 +403,10 @@ a {
 					width: 150px;
 					height: 60px;
 
+					@include tablet {
+						width: auto;
+					}
+
 					a {
 						display: flex;
 						justify-content: center;
@@ -186,9 +417,18 @@ a {
 						font-family: 'Noto Sans JP', sans-serif;
 						font-weight: 700;
 						text-decoration: none;
+						transition: all 0.2s;
+						cursor: pointer;
+
+						@include tablet {
+							width: 100%;
+							padding: 0 10px;
+						}
 
 						&:hover {
 							color: $primary_color;
+							background: $primaty_hover_color;
+							transition: all 0.2s;
 						}
 
 						i {
@@ -204,11 +444,15 @@ a {
 }
 
 .dropdown_list {
+	overflow: hidden;
+	height: 0;
 	width: 100%;
-	position: fixed;
-	top: 100px;
+	position: absolute;
+	left: 0;
+	top: 160px;
 	background: $primary_color;
 	z-index: 998;
+	transition: all 0.2s;
 
 	.dropdown_list_inner {
 		max-width: $brakepint_pc;
@@ -233,11 +477,17 @@ a {
 				font-size: 16px;
 				font-weight: 700;
 				line-height: 1.4;
-				color: #fff;
+				color: #fff !important;
 				transition: all 0.2s;
 
+				@include tablet {
+					font-size: 15px;
+					width: 100%;
+					padding: 0 10px;
+				}
+
 				&:hover {
-					background: $primary_color_dark;
+					background: $primary_color_dark !important;
 					transition: all 0.2s;
 				}
 			}
@@ -245,9 +495,73 @@ a {
 	}
 }
 
+.dropdown_list2 {
+	overflow: hidden;
+	height: 0;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 160px;
+	background: $primary_color;
+	z-index: 998;
+	transition: all 0.2s;
+
+	.dropdown_list_inner2 {
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		li {
+			list-style: none;
+
+			a {
+				width: 160px;
+				height: 60px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				text-align: center;
+				text-decoration: none;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 1.4;
+				color: #fff !important;
+				transition: all 0.2s;
+
+				@include tablet {
+					font-size: 15px;
+					width: 100%;
+					padding: 0 10px;
+				}
+
+				&:hover {
+					background: $primary_color_dark !important;
+					transition: all 0.2s;
+				}
+			}
+		}
+	}
+}
+
+.active {
+	height: 60px;
+	transition: all 0.2s;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
 .mv {
 	background: $bg_lignt_gray;
-	margin: 160px 0 60px 0;
+	margin: 0 0 60px 0;
 	text-align: center;
 	height: 400px;
 	position: relative;
@@ -255,6 +569,10 @@ a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+
+	@include sp {
+		height: 200px;
+	}
 
 	.ttl {
 		position: absolute;
@@ -267,12 +585,32 @@ a {
 		.main_ttl {
 			font-size: 40px;
 			line-height: 1.25;
+
+			@include tablet {
+				font-size: 32px;
+				min-width: 500px;
+				max-width: 100%;
+				line-height: 1.4;
+			}
+
+			@include sp {
+				font-size: 26px;
+				min-width: 375px;
+				max-width: 100%;
+				line-height: 1.4;
+			}
 		}
 
 		.sub_ttl {
 			font-size: 22px;
+
+			@include sp {
+				font-size: 16px;
+			}
+
 			line-height: 1.36;
-			font-family: 'M PLUS 1p', sans-serif;
+			font-family: 'M PLUS 1p',
+			sans-serif;
 		}
 	}
 }
@@ -302,8 +640,20 @@ a {
 		justify-content: center;
 		gap: 15px;
 
+		@include tablet {
+			gap: 5px;
+		}
+
+		@include sp {
+			flex-direction: column;
+		}
+
 		li {
 			width: 20%;
+
+			@include sp {
+				width: 100%;
+			}
 
 			a {
 				display: flex;
@@ -320,6 +670,17 @@ a {
 				border: 1px solid $border_gray_color;
 				border-radius: $radius_base;
 				transition: all 0.2s;
+
+				@include tablet {
+					font-size: 14px;
+					line-height: 1.4;
+				}
+
+				@include sp {
+					flex-direction: row;
+					height: 60px;
+					justify-content: flex-start;
+				}
 
 				&:hover {
 					border: 1px solid $primary_color_dark;
@@ -357,6 +718,9 @@ a {
 					height: 42px;
 					margin: 0 0 2px 0;
 
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
 				}
 
 				.ico02 {
@@ -364,6 +728,10 @@ a {
 					width: 42px;
 					height: 42px;
 					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
 				}
 
 				.ico03 {
@@ -371,6 +739,10 @@ a {
 					width: 42px;
 					height: 42px;
 					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
 				}
 
 				.ico04 {
@@ -378,6 +750,10 @@ a {
 					width: 42px;
 					height: 42px;
 					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
 				}
 
 				.ico05 {
@@ -385,6 +761,10 @@ a {
 					width: 42px;
 					height: 42px;
 					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
 				}
 			}
 		}
@@ -395,10 +775,23 @@ a {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+
+	@include tablet {
+		gap: 30px;
+	}
+
+	@include sp {
+		flex-direction: column;
+	}
 }
 
 .notice {
 	width: 600px;
+
+	@include sp {
+		width: 100%;
+		margin: 0 0 60px 0;
+	}
 
 	.lists {
 		border-bottom: 1px solid $border_gray_color;
@@ -419,6 +812,21 @@ a {
 					flex-direction: row;
 					align-items: center;
 					transition: all 0.2s;
+					cursor: pointer;
+
+					@include tablet {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
+
+					@include sp {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
 
 					&:hover {
 						background: $bg_lignt_gray;
@@ -430,6 +838,13 @@ a {
 						margin: 0 10px 0 0;
 					}
 
+					.notice_ttl {
+						@include sp {
+							font-size: 16px;
+							line-height: 1.4;
+						}
+					}
+
 					p {
 						font-size: 17px;
 						font-weight: 700;
@@ -437,9 +852,14 @@ a {
 				}
 
 				.description {
+					display: none;
 					border-top: 1px solid $border_gray_color;
 					background: $bg_lignt_gray;
-					padding: 30px;
+
+					div {
+						padding: 30px;
+
+					}
 				}
 			}
 		}
@@ -449,11 +869,19 @@ a {
 .schedule {
 	width: 400px;
 
+	@include sp {
+		width: 100%;
+	}
+
 	.month_box {
 		border: 1px solid $border_gray_color;
 		padding: 30px;
 		margin: 0 0 25px 0;
 		border-radius: $radius_base;
+
+		@include sp {
+			margin: 0 0 15px 0;
+		}
 
 		.month_around {
 			font-size: 18px;
@@ -488,11 +916,25 @@ a {
 		flex-direction: row;
 		gap: 30px;
 
+		@include sp {
+			padding: 0 20px;
+			flex-direction: column;
+		}
+
 		.footer_box {
 			width: 33%;
 
+			@include sp {
+				width: 100%;
+			}
+
 			.footer_logo {
 				width: 270px;
+
+
+				@include sp {
+					margin: 0 auto;
+				}
 			}
 
 			.footer_ttl {
