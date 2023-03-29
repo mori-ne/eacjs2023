@@ -19,8 +19,8 @@ $footer_txt_color: #999999;
 $radius_base: 6px;
 
 $brakepint_pc: 1200px;
-$brakepint_tablet: 876px;
-$brakepint_sp: 480px;
+$brakepint_tablet: 960px;
+$brakepint_sp: 620px;
 
 
 @mixin sp {
@@ -110,13 +110,14 @@ a {
 .inner {
 	max-width: $brakepint_pc;
 	margin: 0 auto;
+	padding: 0 20px;
 
 	@include tablet {
 		padding: 0 20px;
 	}
 
 	@include sp {
-		padding: 0 20px;
+		padding: 0 10px;
 	}
 
 }
@@ -142,6 +143,7 @@ a {
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
+		padding: 0 20px;
 
 		@include tablet {
 			max-width: 100%;
@@ -674,6 +676,7 @@ a {
 				@include tablet {
 					font-size: 14px;
 					line-height: 1.4;
+					gap: 5px;
 				}
 
 				@include sp {
@@ -915,9 +918,15 @@ a {
 		display: flex;
 		flex-direction: row;
 		gap: 30px;
+		padding: 0 20px;
+
+		@include tablet {
+			gap: 30px;
+			padding: 0 20px;
+		}
 
 		@include sp {
-			padding: 0 20px;
+			padding: 0 10px;
 			flex-direction: column;
 		}
 
@@ -931,6 +940,13 @@ a {
 			.footer_logo {
 				width: 270px;
 
+				@include tablet {
+					max-width: 100%;
+
+					img {
+						max-width: 100%;
+					}
+				}
 
 				@include sp {
 					margin: 0 auto;
@@ -942,13 +958,23 @@ a {
 				color: #fff;
 				margin: 0 0 15px 0;
 				line-height: 1.5;
+
+				@include tablet {
+					font-size: 16px;
+					margin: 0 0 10px 0;
+				}
 			}
 
 			p {
 				font-size: 16px;
 				color: $footer_txt_color;
 				line-height: 1.875;
+
+				@include tablet {
+					font-size: 13px;
+				}
 			}
+
 		}
 	}
 }
