@@ -267,6 +267,14 @@ a:hover {
   margin: 0 auto;
 }
 
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: #fff;
+}
 .header .header_inner {
   height: 100px;
   max-width: 1200px;
@@ -313,23 +321,33 @@ a:hover {
 .header .header_inner .translate i {
   width: 22px;
 }
-.header .nav_inner {
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+}
+.nav .nav_inner {
   max-width: 1200px;
   margin: 0 auto;
 }
-.header .nav_inner .nav_pc .nav_list {
+.nav .nav_inner .nav_pc .nav_list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
+  position: relative;
 }
-.header .nav_inner .nav_pc .nav_list li {
+.nav .nav_inner .nav_pc .nav_list li {
+  position: relative;
   list-style: none;
   width: 150px;
   height: 60px;
-  position: relative;
 }
-.header .nav_inner .nav_pc .nav_list li a {
+.nav .nav_inner .nav_pc .nav_list li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -340,47 +358,87 @@ a:hover {
   font-weight: 700;
   text-decoration: none;
 }
-.header .nav_inner .nav_pc .nav_list li a:hover {
+.nav .nav_inner .nav_pc .nav_list li a:hover {
   color: #be4682;
 }
-.header .nav_inner .nav_pc .nav_list li a i {
+.nav .nav_inner .nav_pc .nav_list li a i {
   padding: 0 0 0 5px;
   font-size: 12px;
   color: #be4682;
 }
-.header .nav_inner .nav_pc .nav_list li .dropdown_list {
-  display: none;
-  position: absolute;
-  top: 60px;
-  left: 0;
+
+.dropdown_list {
+  width: 100%;
+  position: fixed;
+  top: 100px;
   background: #be4682;
-  z-index: 9999;
+  z-index: 998;
 }
-.header .nav_inner .nav_pc .nav_list li .dropdown_list li a {
+.dropdown_list .dropdown_list_inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.dropdown_list .dropdown_list_inner li {
+  list-style: none;
+}
+.dropdown_list .dropdown_list_inner li a {
+  width: 160px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size: 15px;
-  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
   color: #fff;
   transition: all 0.2s;
 }
-.header .nav_inner .nav_pc .nav_list li .dropdown_list li a:hover {
-  opacity: 0.8;
+.dropdown_list .dropdown_list_inner li a:hover {
+  background: #993869;
   transition: all 0.2s;
 }
 
 .mv {
   background: #F9F9F9;
-  margin: 0 0 60px 0;
+  margin: 160px 0 60px 0;
   text-align: center;
+  height: 400px;
+  position: relative;
+  background: url(../img/sample_03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .mv .ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.mv .ttl .main_ttl {
   font-size: 40px;
   line-height: 1.25;
 }
-.mv .sub_ttl {
+.mv .ttl .sub_ttl {
   font-size: 22px;
   line-height: 1.36;
   font-family: "M PLUS 1p", sans-serif;
+}
+
+.main {
+  margin: 0 0 30px 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .participation {
@@ -389,47 +447,6 @@ a:hover {
 
 .register {
   margin: 0 0 60px 0;
-}
-
-.column {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.notice {
-  width: 600px;
-}
-.notice .lists {
-  border-top: 1px solid #F0EEE4;
-}
-.notice .lists ul li {
-  list-style: none;
-  border-top: 1px solid #F0EEE4;
-}
-.notice .lists ul li .list_column {
-  text-decoration: none;
-  color: #444444;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.notice .lists ul li .list_column .date {
-  font-size: 13px;
-  margin: 0 10px 0 0;
-}
-.notice .lists ul li .list_column p {
-  font-size: 17px;
-  font-weight: 700;
-}
-.notice .lists ul li .description {
-  background: #F9F9F9;
-  padding: 30px;
-}
-
-.schedule {
-  width: 400px;
 }
 
 .cards ul {
@@ -463,7 +480,7 @@ a:hover {
   background: #be4682;
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 20px 50px 0px;
+  box-shadow: rgba(17, 12, 46, 0.25) 0px 20px 50px 0px;
   transition: all 0.2s;
 }
 .cards ul li a:hover .ico01 {
@@ -510,4 +527,103 @@ a:hover {
   width: 42px;
   height: 42px;
   margin: 0 0 2px 0;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.notice {
+  width: 600px;
+}
+.notice .lists {
+  border-bottom: 1px solid #e6e6e6;
+}
+.notice .lists ul li {
+  list-style: none;
+  border-top: 1px solid #e6e6e6;
+}
+.notice .lists ul li .list_column {
+  text-decoration: none;
+  color: #444444;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 0.2s;
+}
+.notice .lists ul li .list_column:hover {
+  background: #F9F9F9;
+  transition: all 0.2s;
+}
+.notice .lists ul li .list_column .date {
+  font-size: 13px;
+  margin: 0 10px 0 0;
+}
+.notice .lists ul li .list_column p {
+  font-size: 17px;
+  font-weight: 700;
+}
+.notice .lists ul li .description {
+  border-top: 1px solid #e6e6e6;
+  background: #F9F9F9;
+  padding: 30px;
+}
+
+.schedule {
+  width: 400px;
+}
+.schedule .month_box {
+  border: 1px solid #e6e6e6;
+  padding: 30px;
+  margin: 0 0 25px 0;
+  border-radius: 6px;
+}
+.schedule .month_box .month_around {
+  font-size: 18px;
+  font-weight: 700;
+  color: #be4682;
+  margin: 0 0 25px 0;
+}
+.schedule .month_box .month_ttl {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.schedule .month_box p {
+  margin: 25px 0 0 0;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.footer {
+  color: #F0EEE4;
+  background: #444444;
+  padding: 45px 0;
+}
+.footer .footer_inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.footer .footer_inner .footer_box {
+  width: 33%;
+}
+.footer .footer_inner .footer_box .footer_logo {
+  width: 270px;
+}
+.footer .footer_inner .footer_box .footer_ttl {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 15px 0;
+  line-height: 1.5;
+}
+.footer .footer_inner .footer_box p {
+  font-size: 16px;
+  color: #999999;
+  line-height: 1.875;
 }/*# sourceMappingURL=style.css.map */
