@@ -1098,6 +1098,7 @@ a:hover {
 @media (max-width: 620px) {
   .footer .footer_inner .footer_box {
     width: 100%;
+    text-align: center;
   }
 }
 .footer .footer_inner .footer_box .footer_logo {
