@@ -30,3 +30,17 @@ $(function () {
 		$(this).next('nav').slideToggle(300);
 	});
 });
+
+$(function () {
+	$('.onclicksp').click(function () {
+		$('.sp_nav_submenu').toggleClass('showsubmenu');
+		$(this).next('sp_nav_submenu').slideToggle(300);
+	});
+});
+
+$(function () {
+	$('.onclicksp2').click(function () {
+		$('.sp_nav_submenu2').toggleClass('showsubmenu2');
+		$(this).next('sp_nav_submenu2').slideToggle(300);
+	});
+});
