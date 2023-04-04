@@ -72,10 +72,18 @@ $brakepint_sp: 620px;
 
 .swiper-button-prev:after {
 	color: #fff;
+
+	@include sp {
+		font-size: 22px !important;
+	}
 }
 
 .swiper-button-next:after {
 	color: #fff;
+
+	@include sp {
+		font-size: 22px !important;
+	}
 }
 
 .ttl {

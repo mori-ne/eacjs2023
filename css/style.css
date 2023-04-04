@@ -252,9 +252,19 @@ progress {
 .swiper-button-prev:after {
   color: #fff;
 }
+@media (max-width: 620px) {
+  .swiper-button-prev:after {
+    font-size: 22px !important;
+  }
+}
 
 .swiper-button-next:after {
   color: #fff;
+}
+@media (max-width: 620px) {
+  .swiper-button-next:after {
+    font-size: 22px !important;
+  }
 }
 
 .ttl {
