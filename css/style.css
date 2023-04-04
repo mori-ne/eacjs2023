@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap");
 html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
@@ -210,6 +211,93 @@ progress {
 
 [aria-disabled=true] {
   cursor: default;
+}
+
+.swiper {
+  position: relative;
+  height: 400px;
+  margin: 0 0 60px 0;
+}
+@media (max-width: 620px) {
+  .swiper {
+    height: 200px;
+  }
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-slide {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  line-height: 300px;
+  overflow: hidden;
+}
+@media (max-width: 620px) {
+  .swiper-slide {
+    height: 200px;
+  }
+}
+
+/* 画像のサイズ調整 */
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-button-prev:after {
+  color: #fff;
+}
+
+.swiper-button-next:after {
+  color: #fff;
+}
+
+.ttl {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+  text-align: center;
+}
+.ttl .main_ttl {
+  font-size: 40px;
+  line-height: 1.25;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .ttl .main_ttl {
+    font-size: 32px;
+    min-width: 500px;
+    max-width: 100%;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 620px) {
+  .ttl .main_ttl {
+    font-size: 26px;
+    min-width: 375px;
+    max-width: 100%;
+    line-height: 1.4;
+  }
+}
+.ttl .main_ttl .sub_ttl {
+  font-size: 22px;
+  line-height: 1.36;
+  font-family: "M PLUS 1p", sans-serif;
+}
+@media (max-width: 620px) {
+  .ttl .main_ttl .sub_ttl {
+    font-size: 16px;
+  }
 }
 
 body {
@@ -738,61 +826,6 @@ a:hover {
   top: 0;
   left: 0;
   z-index: 999;
-}
-
-.mv {
-  background: #F9F9F9;
-  margin: 0 0 60px 0;
-  text-align: center;
-  height: 400px;
-  position: relative;
-  background: url(../img/sample_03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-@media (max-width: 620px) {
-  .mv {
-    height: 200px;
-  }
-}
-.mv .ttl {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-shadow: 0 0 5px rgb(0, 0, 0);
-}
-.mv .ttl .main_ttl {
-  font-size: 40px;
-  line-height: 1.25;
-}
-@media (max-width: 960px) {
-  .mv .ttl .main_ttl {
-    font-size: 32px;
-    min-width: 500px;
-    max-width: 100%;
-    line-height: 1.4;
-  }
-}
-@media (max-width: 620px) {
-  .mv .ttl .main_ttl {
-    font-size: 26px;
-    min-width: 375px;
-    max-width: 100%;
-    line-height: 1.4;
-  }
-}
-.mv .ttl .sub_ttl {
-  font-size: 22px;
-  line-height: 1.36;
-  font-family: "M PLUS 1p", sans-serif;
-}
-@media (max-width: 620px) {
-  .mv .ttl .sub_ttl {
-    font-size: 16px;
-  }
 }
 
 .main {

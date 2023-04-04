@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>東アジア日本研究者協議会 第7回国際学術大会</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/common.js"></script>
@@ -158,8 +159,7 @@
 
 		</nav>
 
-
-
+		<!-- 
 		<div class="mv">
 			<div class="ttl">
 				<h2 class="main_ttl">
@@ -171,7 +171,46 @@
 					場所：東京外国語大学
 				</p>
 			</div>
+		</div> -->
+
+
+
+		<div class="swiper">
+
+			<div class="ttl">
+				<h2 class="main_ttl">
+					東アジア日本研究者協議会<br>
+					第7回国際学術大会
+				</h2>
+				<p class="sub_ttl">
+					時間：2023年00月00日 - 00月00日<br>
+					場所：東京外国語大学
+				</p>
+			</div>
+
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/sample_05.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/sample_04.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/sample_03.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/sample_02.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/sample_01.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-scrollbar"></div>
 		</div>
+
 
 
 
@@ -447,6 +486,17 @@
 
 
 
+
+		<script src="js/swiper.min.js"></script>
+		<script type="text/javascript">
+			const swiper = new Swiper(".swiper", {
+				loop: true,
+				speed: 1000,
+				autoplay: {
+					delay: 3000, // 途切れなくループ
+				}
+			});
+		</script>
 	</div>
 </body>
 
