@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <?php
+// ヘッド
 require_once("head.php");
 ?>
 
@@ -9,6 +10,7 @@ require_once("head.php");
 	<div class="wrapper">
 
 		<?php
+		// ヘッダー
 		require_once("header.php");
 		?>
 
