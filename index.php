@@ -1,119 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>東アジア日本研究者協議会 第7回国際学術大会</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
-	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="js/common.js"></script>
-</head>
+<?php
+require_once("head.php");
+?>
 
 <body>
 	<div class="wrapper">
 
-
-
-		<header id="header" class="header">
-			<div class="header_inner">
-
-				<div class="logo">
-					<a href="index.html">
-						<h1>
-							<img src="img/logo.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
-						</h1>
-					</a>
-				</div>
-
-				<div class="contact">
-					<a href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
-				</div>
-
-				<a class="translate" href="#">
-					<i class="fa-solid fa-globe"></i>
-					<p>English</p>
-				</a>
-
-				<div class="sp_nav_btn">
-					<input type="checkbox" id="menu-btn-check">
-					<label for="menu-btn-check" class="menu-btn">
-						<span></span>
-					</label>
-
-					<div class="menu-content-cover">
-
-						<div class="menu-content">
-							<div class="header_inner">
-								<div class="logo">
-									<a href="index.html">
-										<h1>
-											<img src="img/logo.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
-										</h1>
-									</a>
-								</div>
-							</div>
-
-							<a class="translate_sp" href="#">
-								<i class="fa-solid fa-globe"></i>
-								<p>English</p>
-							</a>
-
-							<ul class="sp_nav_menu">
-								<li>
-									<a href="#">概要</a>
-								</li>
-								<li>
-									<a class="onclicksp">参加について<i class="fa-solid fa-chevron-down"></i></a>
-									<ul class="sp_nav_submenu">
-										<li>
-											<a href="#">パネル発表</a>
-											<a href="#">個人論文発表</a>
-											<a href="#">次世代パネル発表</a>
-											<a href="#">次世代論文発表</a>
-											<a href="#">一般参加</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a class="onclicksp2">お申込み<i class="fa-solid fa-chevron-down"></i></a>
-									<ul class="sp_nav_submenu2">
-										<li>
-											<a href="#">パネル発表</a>
-											<a href="#">個人論文発表</a>
-											<a href="#">次世代パネル発表</a>
-											<a href="#">次世代論文発表</a>
-											<a href="#">一般参加</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">お支払い</a>
-								</li>
-								<li>
-									<a href="#">アクセス情報</a>
-								</li>
-								<li>
-									<a href="#">よくあるご質問</a>
-								</li>
-							</ul>
-							<div class="sp_nav_lower_menu">
-								<ul>
-									<li>
-										<a href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</header>
-
+		<?php
+		require_once("header.php");
+		?>
 
 
 		<nav id="nav" class="nav">
@@ -159,19 +56,7 @@
 
 		</nav>
 
-		<!-- 
-		<div class="mv">
-			<div class="ttl">
-				<h2 class="main_ttl">
-					東アジア日本研究者協議会<br>
-					第7回国際学術大会
-				</h2>
-				<p class="sub_ttl">
-					時間：2023年00月00日 - 00月00日<br>
-					場所：東京外国語大学
-				</p>
-			</div>
-		</div> -->
+
 
 
 
@@ -335,7 +220,8 @@
 												①台北大会の終了と伴い、2020年3月31日を持ちまして、台北事務局のメールボックス（<a href="mailto:eacjs2019@ntu.edu.tw">eacjs2019@ntu.edu.tw</a>）は停止させていただきます。<br>
 												②本大会の論文集は出版する予定はございませんので、ぜひご発表の際にいただいたご示唆、ご指摘などを踏まえ、学術雑誌に投稿するようにお勧めいたします。<br>
 												<br>
-												なお、第5回の大会はソウルで開催することになりました。ソウル大会の開催情報は確認次第、台北大会のHP（<a href="http://cjs.ntu.edu.tw/eacjs/index.html">http://cjs.ntu.edu.tw/eacjs/index.html</a>）にリンクをアップロードします。お手数をおかけしますが、ご確認のほどよろしくお願いいたします。</p>
+												なお、第5回の大会はソウルで開催することになりました。ソウル大会の開催情報は確認次第、台北大会のHP（<a href="http://cjs.ntu.edu.tw/eacjs/index.html">http://cjs.ntu.edu.tw/eacjs/index.html</a>）にリンクをアップロードします。お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+											</p>
 										</div>
 									</nav>
 								</li>
@@ -359,7 +245,8 @@
 												①台北大会の終了と伴い、2020年3月31日を持ちまして、台北事務局のメールボックス（<a href="mailto:eacjs2019@ntu.edu.tw">eacjs2019@ntu.edu.tw</a>）は停止させていただきます。<br>
 												②本大会の論文集は出版する予定はございませんので、ぜひご発表の際にいただいたご示唆、ご指摘などを踏まえ、学術雑誌に投稿するようにお勧めいたします。<br>
 												<br>
-												なお、第5回の大会はソウルで開催することになりました。ソウル大会の開催情報は確認次第、台北大会のHP（<a href="http://cjs.ntu.edu.tw/eacjs/index.html">http://cjs.ntu.edu.tw/eacjs/index.html</a>）にリンクをアップロードします。お手数をおかけしますが、ご確認のほどよろしくお願いいたします。</p>
+												なお、第5回の大会はソウルで開催することになりました。ソウル大会の開催情報は確認次第、台北大会のHP（<a href="http://cjs.ntu.edu.tw/eacjs/index.html">http://cjs.ntu.edu.tw/eacjs/index.html</a>）にリンクをアップロードします。お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+											</p>
 										</div>
 									</nav>
 								</li>
@@ -383,7 +270,8 @@
 												①台北大会の終了と伴い、2020年3月31日を持ちまして、台北事務局のメールボックス（<a href="mailto:eacjs2019@ntu.edu.tw">eacjs2019@ntu.edu.tw</a>）は停止させていただきます。<br>
 												②本大会の論文集は出版する予定はございませんので、ぜひご発表の際にいただいたご示唆、ご指摘などを踏まえ、学術雑誌に投稿するようにお勧めいたします。<br>
 												<br>
-												なお、第5回の大会はソウルで開催することになりました。ソウル大会の開催情報は確認次第、台北大会のHP（<a href="http://cjs.ntu.edu.tw/eacjs/index.html">http://cjs.ntu.edu.tw/eacjs/index.html</a>）にリンクをアップロードします。お手数をおかけしますが、ご確認のほどよろしくお願いいたします。</p>
+												なお、第5回の大会はソウルで開催することになりました。ソウル大会の開催情報は確認次第、台北大会のHP（<a href="http://cjs.ntu.edu.tw/eacjs/index.html">http://cjs.ntu.edu.tw/eacjs/index.html</a>）にリンクをアップロードします。お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+											</p>
 										</div>
 									</nav>
 								</li>
