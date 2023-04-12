@@ -828,8 +828,8 @@ a {
 				border-top: 1px solid $border_gray_color;
 
 
-
 				.list_column {
+					position: relative;
 					text-decoration: none;
 					color: $text_color;
 
@@ -839,6 +839,20 @@ a {
 					align-items: center;
 					transition: all 0.2s;
 					cursor: pointer;
+
+					// 下向き矢印
+					&:before {
+						content: "";
+						position: absolute;
+						width: 10px;
+						height: 10px;
+						right: 20px;
+						top: 35%;
+						transform: rotate(45deg);
+						border-bottom: 1px solid $text_color;
+						border-right: 1px solid $text_color;
+						transition: all 0.2s;
+					}
 
 					@include tablet {
 						flex-direction: column;

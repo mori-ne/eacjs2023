@@ -1021,6 +1021,7 @@ a:hover {
   border-top: 1px solid #e6e6e6;
 }
 .notice .lists ul li .list_column {
+  position: relative;
   text-decoration: none;
   color: #444444;
   height: 60px;
@@ -1029,6 +1030,18 @@ a:hover {
   align-items: center;
   transition: all 0.2s;
   cursor: pointer;
+}
+.notice .lists ul li .list_column:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 20px;
+  top: 35%;
+  transform: rotate(45deg);
+  border-bottom: 1px solid #444444;
+  border-right: 1px solid #444444;
+  transition: all 0.2s;
 }
 @media (max-width: 960px) {
   .notice .lists ul li .list_column {
