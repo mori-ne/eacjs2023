@@ -3,7 +3,7 @@
 
 <?php
 // ヘッド
-require_once("head.php");
+require_once("common/head.php");
 ?>
 
 <body>
@@ -11,7 +11,7 @@ require_once("head.php");
 
 		<?php
 		// ヘッダー
-		require_once("header.php");
+		require_once("common/header.php");
 		?>
 
 
@@ -346,7 +346,7 @@ require_once("head.php");
 
 		<?php
 		// フッター
-		require_once("footer.php");
+		require_once("common/footer.php");
 		?>
 
 
