@@ -11,23 +11,27 @@
 			</a>
 		</div>
 
+
+
 		<div class="contact">
 			<a href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
 		</div>
+
+
 
 		<a class="translate" href="#">
 			<i class="fa-solid fa-globe"></i>
 			<p>English</p>
 		</a>
 
+
+
 		<div class="sp_nav_btn">
 			<input type="checkbox" id="menu-btn-check">
 			<label for="menu-btn-check" class="menu-btn">
 				<span></span>
 			</label>
-
 			<div class="menu-content-cover">
-
 				<div class="menu-content">
 					<div class="header_inner">
 						<div class="logo">
@@ -38,12 +42,10 @@
 							</a>
 						</div>
 					</div>
-
 					<a class="translate_sp" href="#">
 						<i class="fa-solid fa-globe"></i>
 						<p>English</p>
 					</a>
-
 					<ul class="sp_nav_menu">
 						<li>
 							<a href="about.php">概要</a>
@@ -92,6 +94,8 @@
 				</div>
 			</div>
 		</div>
+
+
 
 	</div>
 </header>

@@ -740,7 +740,6 @@ a:hover {
   top: 160px;
   background: #be4682;
   z-index: 998;
-  transition: all 0.2s;
 }
 .dropdown_list .dropdown_list_inner {
   max-width: 1200px;
@@ -775,7 +774,6 @@ a:hover {
 }
 .dropdown_list .dropdown_list_inner li a:hover {
   background: #993869 !important;
-  transition: all 0.2s;
 }
 
 .dropdown_list2 {
@@ -867,7 +865,7 @@ a:hover {
 
 .breadcrumb {
   padding: 20px 0;
-  font-size: 12px;
+  font-size: 11px;
 }
 .breadcrumb .arrow {
   margin: 0 3px;
@@ -878,6 +876,27 @@ a:hover {
   transform: rotate(-45deg);
   display: inline-block;
   padding: 3px;
+}
+
+.contents {
+  font-size: 16px;
+  line-height: 1.7;
+}
+@media (max-width: 620px) {
+  .contents {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+.contents h2 {
+  font-size: 24px;
+  margin: 0 0 15px 0;
+  color: #993869;
+}
+@media (max-width: 620px) {
+  .contents h2 {
+    font-size: 20px;
+  }
 }
 
 .column {

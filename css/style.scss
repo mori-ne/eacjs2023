@@ -531,7 +531,7 @@ a {
 	top: 160px;
 	background: $primary_color;
 	z-index: 998;
-	transition: all 0.2s;
+	// transition: all 0.2s;
 
 	.dropdown_list_inner {
 		max-width: $brakepint_pc;
@@ -567,7 +567,7 @@ a {
 
 				&:hover {
 					background: $primary_color_dark !important;
-					transition: all 0.2s;
+					// transition: all 0.2s;
 				}
 			}
 		}
@@ -671,7 +671,7 @@ a {
 
 .breadcrumb {
 	padding: 20px 0;
-	font-size: 12px;
+	font-size: 11px;
 
 	.arrow {
 		margin: 0 3px;
@@ -682,6 +682,27 @@ a {
 		transform: rotate(-45deg);
 		display: inline-block;
 		padding: 3px;
+	}
+}
+
+// 下層ページの共通クラス
+.contents {
+	font-size: 16px;
+	line-height: 1.7;
+
+	@include sp {
+		font-size: 15px;
+		line-height: 1.6;
+	}
+
+	h2 {
+		font-size: 24px;
+		margin: 0 0 15px 0;
+		color: $primary_color_dark;
+
+		@include sp {
+			font-size: 20px;
+		}
 	}
 }
 
