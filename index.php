@@ -81,33 +81,33 @@
 						<div class="cards">
 							<ul>
 								<li>
-									<a href="#">
+									<a href="participation_panel.php">
 										<div class="ico01"></div>
-										<p href="#">パネル発表</p>
+										<p>パネル発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico02"></div>
-										<p href="#">個人論文発表</p>
+										<p>個人論文発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico03"></div>
-										<p href="#">次世代パネル発表</p>
+										<p>次世代パネル発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico04"></div>
-										<p href="#">次世代論文発表</p>
+										<p>次世代論文発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico05"></div>
-										<p href="#">一般参加（参観のみ）</p>
+										<p>一般参加（参観のみ）</p>
 									</a>
 								</li>
 							</ul>
@@ -124,31 +124,31 @@
 								<li>
 									<a href="#">
 										<div class="ico01"></div>
-										<p href="#">パネル発表</p>
+										<p>パネル発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico02"></div>
-										<p href="#">個人論文発表</p>
+										<p>個人論文発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico03"></div>
-										<p href="#">次世代パネル発表</p>
+										<p>次世代パネル発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico04"></div>
-										<p href="#">次世代論文発表</p>
+										<p>次世代論文発表</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="ico05"></div>
-										<p href="#">一般参加（参観のみ）</p>
+										<p>一般参加（参観のみ）</p>
 									</a>
 								</li>
 							</ul>

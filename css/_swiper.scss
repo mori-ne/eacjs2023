@@ -36,6 +36,7 @@ $brakepint_sp: 620px;
 	position: relative;
 	height: 400px;
 	margin: 0 0 60px 0;
+	overflow: hidden;
 
 	@include sp {
 		height: 200px;

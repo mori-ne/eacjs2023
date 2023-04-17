@@ -90,6 +90,12 @@ a {
 	}
 }
 
+// 文字選択のカラー
+::selection {
+	color: #fff;
+	background: $primary_color;
+}
+
 .h3 {
 	margin: 0 0 30px 0;
 
@@ -119,7 +125,7 @@ a {
 	}
 
 	@include sp {
-		padding: 0 10px;
+		padding: 0 15px;
 	}
 
 }
@@ -650,6 +656,7 @@ a {
 	width: 100%;
 	height: 160px;
 	background-image: url("../img/sample_01.jpg");
+	background-size: cover;
 
 	&::before {
 		content: "";
@@ -660,23 +667,33 @@ a {
 		left: 0;
 		z-index: 1;
 		background: rgba(0, 0, 0, 0.4);
-
 	}
 
 	.sub_ttl {
 		color: #fff;
 		z-index: 2;
+
+		@include sp {
+			font-size: 26px;
+		}
 	}
 }
 
 .breadcrumb {
 	padding: 20px 0;
 	font-size: 11px;
+	margin: 0 0 30px 0;
+
+	@include sp {
+		font-size: 12px;
+		padding: 10px 0;
+		margin: 0 0 30px 0;
+	}
 
 	.arrow {
 		margin: 0 3px;
 		position: relative;
-		top: -2px;
+		top: 0;
 		border: solid #878787;
 		border-width: 0 1px 1px 0;
 		transform: rotate(-45deg);
@@ -689,21 +706,113 @@ a {
 .contents {
 	font-size: 16px;
 	line-height: 1.7;
+	text-align: justify;
 
 	@include sp {
 		font-size: 15px;
-		line-height: 1.6;
+		line-height: 1.8;
 	}
 
-	h2 {
+	h3 {
 		font-size: 24px;
 		margin: 0 0 15px 0;
-		color: $primary_color_dark;
+		color: $primary_color;
 
 		@include sp {
 			font-size: 20px;
 		}
 	}
+
+	h4 {
+		font-size: 20px;
+		margin: 0 0 15px 0;
+		color: $primary_color;
+
+		@include sp {
+			font-size: 18px;
+		}
+	}
+
+	p {
+		margin-bottom: 1em;
+	}
+
+	section {
+		margin: 0 0 60px 0;
+	}
+
+	ul {
+		li {
+			position: relative;
+			list-style-type: none;
+			padding: 0 0 0 1em;
+
+			&:before {
+				position: absolute;
+				top: 12px;
+				left: 0;
+				content: "";
+				width: 6px;
+				height: 6px;
+				border-radius: 1em;
+				background: $primary_color;
+			}
+		}
+	}
+}
+
+.theme {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		gap: 10px;
+		margin-right: -10px;
+		margin-bottom: 15px;
+
+		@include sp {
+			flex-direction: column;
+			gap: 7px;
+			margin-right: 0;
+		}
+
+		li {
+			width: calc(50% - 10px);
+			background: $bg_lignt_gray;
+			border: 1px solid $border_gray_color;
+			min-height: 55px;
+			padding: 15px 15px 15px 2.5em;
+			text-indent: -0.8em;
+			line-height: 1.4;
+
+			@include sp {
+				width: 100%;
+			}
+
+			span {
+
+				i {
+					color: $primary_color;
+					padding: 0 10px 0 0;
+				}
+			}
+
+			&:before {
+				content: none;
+			}
+		}
+	}
+
+}
+
+.ind1 {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.ind2 {
+	text-indent: -2em;
+	padding-left: 2em;
 }
 
 .column {

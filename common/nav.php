@@ -21,7 +21,7 @@
 
 	<div class="dropdown_list">
 		<ul class="dropdown_list_inner">
-			<li><a href="#">パネル発表</a></li>
+			<li><a href="participation_panel.php">パネル発表</a></li>
 			<li><a href="#">個人論文発表</a></li>
 			<li><a href="#">次世代パネル発表</a></li>
 			<li><a href="#">次世代論文発表</a></li>

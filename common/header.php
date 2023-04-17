@@ -54,7 +54,7 @@
 							<a class="onclicksp">参加について<i class="fa-solid fa-chevron-down"></i></a>
 							<ul class="sp_nav_submenu">
 								<li>
-									<a href="#">パネル発表</a>
+									<a href="participation_panel.php">パネル発表</a>
 									<a href="#">個人論文発表</a>
 									<a href="#">次世代パネル発表</a>
 									<a href="#">次世代論文発表</a>
