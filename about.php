@@ -3,7 +3,7 @@
 
 <?php
 // ページタイトル、パンくずリスト用の変数
-$pagettl = "概要";
+$main_pagettl = "概要";
 // title セパレータ
 $separetor = " | ";
 ?>
@@ -12,7 +12,7 @@ $separetor = " | ";
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php print($pagettl . $separetor); ?>東アジア日本研究者協議会 第7回国際学術大会</title>
+	<title><?php print($main_pagettl . $separetor); ?>東アジア日本研究者協議会 第7回国際学術大会</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -38,20 +38,25 @@ $separetor = " | ";
 		<!-- main -->
 		<main class="main">
 			<div class="sub_mv">
-				<h2 class="sub_ttl"><?php print($pagettl); ?></h2>
+				<h2 class="sub_ttl"><?php print($main_pagettl); ?></h2>
 			</div>
 
-			<div class="inner">
 
-				<!-- パンくずリスト -->
-				<div class="breadcrumb">
+
+			<!-- パンくずリスト -->
+			<div class="breadcrumb">
+				<div class="inner">
 					<span><a href="./"><i class="fa-solid fa-house"></i></a></span>
 					<span class="arrow"></span>
-					<span><?php print($pagettl); ?></span>
+					<span><?php print($main_pagettl); ?></span>
 				</div>
+			</div>
 
-				<!-- コンテンツの内容 -->
-				<div class="contents">
+
+
+			<!-- コンテンツの内容 -->
+			<div class="contents">
+				<div class="inner">
 
 
 
@@ -80,7 +85,6 @@ $separetor = " | ";
 
 		<!-- footer -->
 		<?php require_once("common/footer.php"); ?>
-
 
 
 

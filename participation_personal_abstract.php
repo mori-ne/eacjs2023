@@ -4,7 +4,7 @@
 <?php
 // ページタイトル、パンくずリスト用の変数
 $main_pagettl = "参加について";
-$sub_pagettl = "パネル発表";
+$sub_pagettl = "個人研究発表";
 // title セパレータ
 $separetor = " | ";
 ?>
@@ -63,15 +63,12 @@ $separetor = " | ";
 
 					<section>
 						<h3><?php print($sub_pagettl); ?></h3>
-						<p>
-							各パネルは基本的に司会・発表者・討論者で構成し、合計4～7名とします。
-						</p>
 						<ul>
 							<li>
-								パネルの持ち時間は１パネルにつき1時間30分です。
+								個人論文発表の場合、提出された発表要旨の内容を準備委員会が考慮し、テーマ別に配分します。一演題の持ち時間は1件につき30分（発表20分・質疑応答10分）とします。
 							</li>
 							<li>
-								パネルは参加団体・機関が自由にパネルを構成するものです。パネルの運営、経費（交通費・宿泊費・参加費・謝礼など）は自己負担とし、会議資料の作成もパネルですべて責任を持って行うものとします。
+								協議会に参加する際にかかる諸経費(交通費・宿泊費・参加費など) は自己負担とし、資料の作成も発表者がすべて責任をもって行うものとします。
 							</li>
 						</ul>
 					</section>
@@ -79,53 +76,27 @@ $separetor = " | ";
 					<section>
 						<h3>テーマについて</h3>
 						<div class="theme">
+
 							<ul>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける歴史認識問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>帝国日本の支配と植民地社会の変容</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける思想交流</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける諸宗教の交流</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける政治と国際関係</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける人・物の移動と変容</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける経済、資本と国家</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>「世界文学」のなかの日本文学</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアの高齢化問題・福祉問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける日本語研究の諸問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>AIと日本語教育</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける社会とジェンダー</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける社会運動</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>日本研究と文化表象</span>
-								</li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける歴史認識問題</span></li>
+								<li><span><i class="fa-solid fa-check"></i>帝国日本の支配と植民地社会の変容</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける思想交流</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける諸宗教の交流</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける政治と国際関係</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける人・物の移動と変容</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける経済、資本と国家</span></li>
+								<li><span><i class="fa-solid fa-check"></i>「世界文学」のなかの日本文学</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアの高齢化問題・福祉問題</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける日本語研究の諸問題</span></li>
+								<li><span><i class="fa-solid fa-check"></i>AIと日本語教育</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける社会とジェンダー</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける社会運動</span></li>
+								<li><span><i class="fa-solid fa-check"></i>日本研究と文化表象</span></li>
 							</ul>
 						</div>
+
 						<p class="ind2">
-							註：上記のテーマはあくまで例示であり、これ以外のテーマを排除するものではありません。参加者は上記のテーマを参考に、サブテーマを設定の上、パネル全体の発表要旨（1200字程度）を提出して下さい。
+							註：上記のテーマはあくまで例示であり、これ以外のテーマを排除するものではありません。参加者は上記のテーマを参考に、サブテーマを設定の上、発表要旨（800字程度）をそれぞれ提出して下さい。
 						</p>
 					</section>
 
@@ -150,7 +121,6 @@ $separetor = " | ";
 					<section>
 						<h3>参加費</h3>
 						<p>
-							免除
 						</p>
 					</section>
 				</div>

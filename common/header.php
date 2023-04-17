@@ -55,10 +55,10 @@
 							<ul class="sp_nav_submenu">
 								<li>
 									<a href="participation_panel.php">パネル発表</a>
-									<a href="#">個人論文発表</a>
-									<a href="#">次世代パネル発表</a>
-									<a href="#">次世代論文発表</a>
-									<a href="#">一般参加</a>
+									<a href="participation_personal_abstract.php">個人論文発表</a>
+									<a href="participation_nextgen_panel.php">次世代パネル発表</a>
+									<a href="participation_nextgen_personal_abstract.php">次世代論文発表</a>
+									<a href="participation_public.php">一般参加（参観のみ）</a>
 								</li>
 							</ul>
 						</li>
@@ -70,7 +70,7 @@
 									<a href="#">個人論文発表</a>
 									<a href="#">次世代パネル発表</a>
 									<a href="#">次世代論文発表</a>
-									<a href="#">一般参加</a>
+									<a href="#">一般参加（参観のみ）</a>
 								</li>
 							</ul>
 						</li>

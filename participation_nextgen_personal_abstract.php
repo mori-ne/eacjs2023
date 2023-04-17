@@ -4,7 +4,7 @@
 <?php
 // ページタイトル、パンくずリスト用の変数
 $main_pagettl = "参加について";
-$sub_pagettl = "パネル発表";
+$sub_pagettl = "次世代個人研究発表";
 // title セパレータ
 $separetor = " | ";
 ?>
@@ -39,7 +39,7 @@ $separetor = " | ";
 		<!-- main -->
 		<main class="main">
 			<div class="sub_mv">
-				<h2 class="sub_ttl"><?php print($main_pagettl); ?></h2>
+				<h2 class="sub_ttl"><?php print($main_pagettl) ?></h2>
 			</div>
 
 
@@ -63,16 +63,17 @@ $separetor = " | ";
 
 					<section>
 						<h3><?php print($sub_pagettl); ?></h3>
-						<p>
-							各パネルは基本的に司会・発表者・討論者で構成し、合計4～7名とします。
-						</p>
 						<ul>
 							<li>
-								パネルの持ち時間は１パネルにつき1時間30分です。
+								次世代研究者の育成を通して、東アジアでの日本研究の更なる発展と交流を期し、これまでの大会と同様、大学院博士後期課程院生や若手研究者の発表を積極的に支援します。
 							</li>
 							<li>
-								パネルは参加団体・機関が自由にパネルを構成するものです。パネルの運営、経費（交通費・宿泊費・参加費・謝礼など）は自己負担とし、会議資料の作成もパネルですべて責任を持って行うものとします。
+								＊<u>地域やテーマ等を配慮し、「次世代」枠の応募者から選考を経て採択された「次世代個人研究発表者」には参加費の免除及び旅費の一部補助（定額）を提供します。</u>
 							</li>
+							<li>
+								各発表者には20分の発表と10分の質疑応答（3分ほどのコメント時間が含まれます）、合計30分の発表時間があります。資料の作成も発表者がすべて責任をもって行うものとします。
+							</li>
+
 						</ul>
 					</section>
 
@@ -80,52 +81,26 @@ $separetor = " | ";
 						<h3>テーマについて</h3>
 						<div class="theme">
 							<ul>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける歴史認識問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>帝国日本の支配と植民地社会の変容</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける思想交流</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける諸宗教の交流</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける政治と国際関係</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける人・物の移動と変容</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける経済、資本と国家</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>「世界文学」のなかの日本文学</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアの高齢化問題・福祉問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける日本語研究の諸問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>AIと日本語教育</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける社会とジェンダー</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける社会運動</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>日本研究と文化表象</span>
-								</li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける歴史認識問題</span></li>
+								<li><span><i class="fa-solid fa-check"></i>帝国日本の支配と植民地社会の変容</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける思想交流</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける諸宗教の交流</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける政治と国際関係</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける人・物の移動と変容</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける経済、資本と国家</span></li>
+								<li><span><i class="fa-solid fa-check"></i>「世界文学」のなかの日本文学</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアの高齢化問題・福祉問題</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける日本語研究の諸問題</span></li>
+								<li><span><i class="fa-solid fa-check"></i>AIと日本語教育</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける社会とジェンダー</span></li>
+								<li><span><i class="fa-solid fa-check"></i>東アジアにおける社会運動</span></li>
+								<li><span><i class="fa-solid fa-check"></i>日本研究と文化表象</span></li>
 							</ul>
+
+
 						</div>
 						<p class="ind2">
-							註：上記のテーマはあくまで例示であり、これ以外のテーマを排除するものではありません。参加者は上記のテーマを参考に、サブテーマを設定の上、パネル全体の発表要旨（1200字程度）を提出して下さい。
+							註：上記のテーマはあくまで例示であり、これ以外のテーマを排除するものではありません。参加者は上記のテーマを参考に、サブテーマを設定の上、パネル全体の発表要旨（800字程度）を提出して下さい。
 						</p>
 					</section>
 
@@ -138,6 +113,9 @@ $separetor = " | ";
 
 					<section>
 						<h3>申込方法</h3>
+						<p>
+							＊推薦状不要
+						</p>
 					</section>
 
 					<section>

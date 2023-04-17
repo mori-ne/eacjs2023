@@ -22,10 +22,10 @@
 	<div class="dropdown_list">
 		<ul class="dropdown_list_inner">
 			<li><a href="participation_panel.php">パネル発表</a></li>
-			<li><a href="#">個人論文発表</a></li>
-			<li><a href="#">次世代パネル発表</a></li>
-			<li><a href="#">次世代論文発表</a></li>
-			<li><a href="#">一般参加<br>（参観のみ）</a></li>
+			<li><a href="participation_personal_abstract.php">個人論文発表</a></li>
+			<li><a href="participation_nextgen_panel.php">次世代パネル発表</a></li>
+			<li><a href="participation_nextgen_personal_abstract.php">次世代論文発表</a></li>
+			<li><a href="participation_public.php">一般参加<br>（参観のみ）</a></li>
 		</ul>
 	</div>
 

@@ -87,25 +87,25 @@
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="participation_personal_abstract.php">
 										<div class="ico02"></div>
 										<p>個人論文発表</p>
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="participation_nextgen_panel.php">
 										<div class="ico03"></div>
 										<p>次世代パネル発表</p>
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="participation_nextgen_personal_abstract.php">
 										<div class="ico04"></div>
 										<p>次世代論文発表</p>
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="participation_public.php">
 										<div class="ico05"></div>
 										<p>一般参加（参観のみ）</p>
 									</a>

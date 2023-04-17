@@ -884,6 +884,7 @@ a:hover {
   padding: 20px 0;
   font-size: 11px;
   margin: 0 0 30px 0;
+  border-bottom: 1px solid #e6e6e6;
 }
 @media (max-width: 620px) {
   .breadcrumb {
@@ -944,6 +945,7 @@ a:hover {
   position: relative;
   list-style-type: none;
   padding: 0 0 0 1em;
+  margin-bottom: 0.5em;
 }
 .contents ul li:before {
   position: absolute;
@@ -979,6 +981,7 @@ a:hover {
   padding: 15px 15px 15px 2.5em;
   text-indent: -0.8em;
   line-height: 1.4;
+  margin: 0;
 }
 @media (max-width: 620px) {
   .theme ul li {

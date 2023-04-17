@@ -683,6 +683,7 @@ a {
 	padding: 20px 0;
 	font-size: 11px;
 	margin: 0 0 30px 0;
+	border-bottom: 1px solid $border_gray_color;
 
 	@include sp {
 		font-size: 12px;
@@ -746,6 +747,7 @@ a {
 			position: relative;
 			list-style-type: none;
 			padding: 0 0 0 1em;
+			margin-bottom: 0.5em;
 
 			&:before {
 				position: absolute;
@@ -784,6 +786,7 @@ a {
 			padding: 15px 15px 15px 2.5em;
 			text-indent: -0.8em;
 			line-height: 1.4;
+			margin: 0;
 
 			@include sp {
 				width: 100%;
