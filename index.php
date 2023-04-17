@@ -1,67 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<?php
-// ヘッド
-require_once("common/head.php");
-?>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>東アジア日本研究者協議会 第7回国際学術大会</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
 
 <body>
 	<div class="wrapper">
 
-		<?php
-		// ヘッダー
-		require_once("common/header.php");
-		?>
 
 
-		<nav id="nav" class="nav">
-			<div class="nav_inner">
-
-				<div class="nav_pc">
-					<ul class="nav_list">
-						<li><a href="#">概要</a></li>
-						<li class="onhover">
-							<a>参加について<i class="fa-solid fa-chevron-down"></i></a>
-						</li>
-						<li class="onhover2">
-							<a>お申込み<i class="fa-solid fa-chevron-down"></i></a>
-
-						</li>
-						<li><a href="#">お支払い</a></li>
-						<li><a href="#">アクセス情報</a></li>
-						<li><a href="#">よくあるご質問</a></li>
-					</ul>
-				</div>
-
-			</div>
-
-			<div class="dropdown_list">
-				<ul class="dropdown_list_inner">
-					<li><a href="#">パネル発表</a></li>
-					<li><a href="#">個人論文発表</a></li>
-					<li><a href="#">次世代パネル発表</a></li>
-					<li><a href="#">次世代論文発表</a></li>
-					<li><a href="#">一般参加<br>（参観のみ）</a></li>
-				</ul>
-			</div>
-
-			<div class="dropdown_list2">
-				<ul class="dropdown_list_inner2">
-					<li><a href="#">パネル発表</a></li>
-					<li><a href="#">個人論文発表</a></li>
-					<li><a href="#">次世代パネル発表</a></li>
-					<li><a href="#">次世代論文発表</a></li>
-					<li><a href="#">一般参加<br>（参観のみ）</a></li>
-				</ul>
-			</div>
-
-		</nav>
+		<!-- header -->
+		<?php require_once("common/header.php"); ?>
 
 
 
+		<!-- global navigation -->
+		<?php require_once("common/nav.php"); ?>
 
 
+
+		<!-- mv -->
 		<div class="swiper">
 
 			<div class="ttl">
@@ -100,7 +67,7 @@ require_once("common/head.php");
 
 
 
-
+		<!-- main -->
 		<main class="main">
 			<div class="inner">
 
@@ -343,11 +310,8 @@ require_once("common/head.php");
 		</main>
 
 
-
-		<?php
-		// フッター
-		require_once("common/footer.php");
-		?>
+		<!-- footer -->
+		<?php require_once("common/footer.php"); ?>
 
 
 

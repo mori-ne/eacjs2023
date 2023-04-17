@@ -1,8 +1,10 @@
 <header id="header" class="header">
 	<div class="header_inner">
 
+
+
 		<div class="logo">
-			<a href="index.html">
+			<a href="./">
 				<h1>
 					<img src="img/logo.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
 				</h1>
@@ -29,7 +31,7 @@
 				<div class="menu-content">
 					<div class="header_inner">
 						<div class="logo">
-							<a href="index.html">
+							<a href="./">
 								<h1>
 									<img src="img/logo.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
 								</h1>
@@ -44,7 +46,7 @@
 
 					<ul class="sp_nav_menu">
 						<li>
-							<a href="#">概要</a>
+							<a href="about.php">概要</a>
 						</li>
 						<li>
 							<a class="onclicksp">参加について<i class="fa-solid fa-chevron-down"></i></a>
