@@ -381,6 +381,35 @@ a:hover {
   font-size: 14px;
 }
 
+.bf {
+  display: inline-block;
+  padding: 0 10px;
+  vertical-align: middle;
+  font-family: "M PLUS 1p", sans-serif;
+  color: #999891;
+  background: #F0EEE4;
+  font-size: 26px;
+}
+@media (max-width: 620px) {
+  .bf {
+    padding: 0 5px;
+  }
+}
+
+.tf {
+  display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 0 3px;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #444444;
+}
+@media (max-width: 620px) {
+  .tf {
+    padding: 0 2px;
+  }
+}
+
 .inner {
   max-width: 1200px;
   margin: 0 auto;

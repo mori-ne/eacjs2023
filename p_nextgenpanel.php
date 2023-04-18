@@ -125,7 +125,14 @@ $separetor = " | ";
 					<section>
 						<h3>申込期限</h3>
 						<p>
-							5月10日～7月10日（必着）
+							<span class="bf">5</span>
+							<span class="tf">月</span>
+							<span class="bf">10</span>
+							<span class="tf">日～</span>
+							<span class="bf">7</span>
+							<span class="tf">月</span>
+							<span class="bf">10</span>
+							<span class="tf">日（必着）</span>
 						</p>
 					</section>
 

@@ -81,31 +81,31 @@
 						<div class="cards">
 							<ul>
 								<li>
-									<a href="p_panel.php">
+									<a href="./p_panel.php">
 										<div class="ico01"></div>
 										<p>パネル発表</p>
 									</a>
 								</li>
 								<li>
-									<a href="p_abstract.php">
+									<a href="./p_abstract.php">
 										<div class="ico02"></div>
 										<p>個人論文発表</p>
 									</a>
 								</li>
 								<li>
-									<a href="p_nextgenpanel.php">
+									<a href="./p_nextgenpanel.php">
 										<div class="ico03"></div>
 										<p>次世代パネル発表</p>
 									</a>
 								</li>
 								<li>
-									<a href="p_nextgenabstract.php">
+									<a href="./p_nextgenabstract.php">
 										<div class="ico04"></div>
 										<p>次世代論文発表</p>
 									</a>
 								</li>
 								<li>
-									<a href="p_public.php">
+									<a href="./p_public.php">
 										<div class="ico05"></div>
 										<p>一般参加（参観のみ）</p>
 									</a>

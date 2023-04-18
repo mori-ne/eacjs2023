@@ -111,6 +111,33 @@ a {
 	}
 }
 
+.bf {
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: middle;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: $btn_txt_color;
+	background: $btn_bg_color;
+	font-size: 26px;
+
+	@include sp {
+		padding: 0 5px;
+	}
+}
+
+.tf {
+	display: inline-block;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 3px;
+	vertical-align: middle;
+	font-size: 18px;
+	color: $text_color;
+
+	@include sp {
+		padding: 0 2px;
+	}
+}
+
 //-----------------------------------------------------------------------------------
 //--------------------------------  レイアウト  --------------------------------------
 //-----------------------------------------------------------------------------------
@@ -679,6 +706,7 @@ a {
 	}
 }
 
+// パンくずリスト
 .breadcrumb {
 	padding: 20px 0;
 	font-size: 11px;
@@ -808,11 +836,13 @@ a {
 
 }
 
+// 1文字用インデント
 .ind1 {
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
+// 2文字用インデント
 .ind2 {
 	text-indent: -2em;
 	padding-left: 2em;
