@@ -2,7 +2,7 @@
 $(function () {
 	$(".onhover").hover(function () {
 		subHeight = $(".dropdown_list").height();
-		$(".onhover").removeClass("active");
+		// $(".onhover").removeClass("active");
 		if (subHeight <= 0) {
 			$(".dropdown_list").addClass("active");
 		} else {

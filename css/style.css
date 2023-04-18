@@ -731,7 +731,6 @@ a:hover {
   position: relative;
 }
 .nav .nav_inner .nav_pc .nav_list li {
-  position: relative;
   list-style: none;
   width: 150px;
   height: 60px;
@@ -774,12 +773,15 @@ a:hover {
 .dropdown_list {
   overflow: hidden;
   height: 0;
-  width: 100%;
+  width: 100vw;
+  margin: 0 calc(50% - 50vw);
   position: absolute;
+  top: 0;
   left: 0;
-  top: 160px;
+  top: 60px;
   background: #be4682;
   z-index: 998;
+  transition: all 0.2s;
 }
 .dropdown_list .dropdown_list_inner {
   max-width: 1200px;
@@ -819,10 +821,11 @@ a:hover {
 .dropdown_list2 {
   overflow: hidden;
   height: 0;
-  width: 100%;
+  width: 100vw;
+  margin: 0 calc(50% - 50vw);
   position: absolute;
   left: 0;
-  top: 160px;
+  top: 60px;
   background: #be4682;
   z-index: 998;
   transition: all 0.2s;
@@ -865,7 +868,6 @@ a:hover {
 
 .active {
   height: 60px;
-  transition: all 0.2s;
 }
 
 .fixed {
@@ -1098,6 +1100,7 @@ a:hover {
 }
 @media (max-width: 620px) {
   .cards ul li a {
+    font-size: 16px;
     flex-direction: row;
     height: 60px;
     justify-content: flex-start;
@@ -1110,6 +1113,18 @@ a:hover {
   transform: translateY(-3px);
   box-shadow: rgba(17, 12, 46, 0.25) 0px 20px 50px 0px;
   transition: all 0.2s;
+}
+@media (max-width: 960px) {
+  .cards ul li a:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+@media (max-width: 620px) {
+  .cards ul li a:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }
 .cards ul li a:hover .ico01 {
   background: url("../img/01_panel_ico_hover.svg") no-repeat center center;

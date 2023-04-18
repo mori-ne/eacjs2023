@@ -24,7 +24,6 @@ $brakepint_pc: 1200px;
 $brakepint_tablet: 960px;
 $brakepint_sp: 620px;
 
-
 @mixin sp {
 	@media (max-width: ($brakepint_sp)) {
 		@content;
@@ -111,6 +110,7 @@ a {
 	}
 }
 
+// 期日用　数字（ボールド）
 .bf {
 	display: inline-block;
 	padding: 0 10px;
@@ -125,6 +125,7 @@ a {
 	}
 }
 
+// 期日用　月日
 .tf {
 	display: inline-block;
 	font-family: 'Noto Sans JP', sans-serif;
@@ -154,7 +155,6 @@ a {
 	@include sp {
 		padding: 0 15px;
 	}
-
 }
 
 .header {
@@ -510,7 +510,7 @@ a {
 				position: relative;
 
 				li {
-					position: relative;
+					// position: relative;
 					list-style: none;
 					width: 150px;
 					height: 60px;
@@ -558,13 +558,15 @@ a {
 .dropdown_list {
 	overflow: hidden;
 	height: 0;
-	width: 100%;
+	width: 100vw;
+	margin: 0 calc(50% - 50vw);
 	position: absolute;
+	top: 0;
 	left: 0;
-	top: 160px;
+	top: 60px;
 	background: $primary_color;
 	z-index: 998;
-	// transition: all 0.2s;
+	transition: all 0.2s;
 
 	.dropdown_list_inner {
 		max-width: $brakepint_pc;
@@ -610,10 +612,11 @@ a {
 .dropdown_list2 {
 	overflow: hidden;
 	height: 0;
-	width: 100%;
+	width: 100vw;
+	margin: 0 calc(50% - 50vw);
 	position: absolute;
 	left: 0;
-	top: 160px;
+	top: 60px;
 	background: $primary_color;
 	z-index: 998;
 	transition: all 0.2s;
@@ -661,7 +664,7 @@ a {
 
 .active {
 	height: 60px;
-	transition: all 0.2s;
+	// transition: all 0.2s;
 }
 
 .fixed {
@@ -861,6 +864,7 @@ a {
 	margin: 0 0 60px 0;
 }
 
+// トップページのカード型ボタン
 .cards {
 	ul {
 		list-style: none;
@@ -907,6 +911,7 @@ a {
 				}
 
 				@include sp {
+					font-size: 16px;
 					flex-direction: row;
 					height: 60px;
 					justify-content: flex-start;
@@ -920,6 +925,16 @@ a {
 					transform: translateY(-3px);
 					box-shadow: rgba(17, 12, 46, 0.25) 0px 20px 50px 0px;
 					transition: all 0.2s;
+
+					@include tablet {
+						transform: none;
+						box-shadow: none;
+					}
+
+					@include sp {
+						transform: none;
+						box-shadow: none;
+					}
 				}
 
 				&:hover .ico01 {
