@@ -410,6 +410,30 @@ a:hover {
   }
 }
 
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 460px;
+  height: 50px;
+  margin: 0 auto;
+  background: #be4682;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 6px;
+}
+.btn:hover {
+  background: #993869;
+  color: #fff;
+  transition: all 0.2s;
+}
+@media (max-width: 620px) {
+  .btn {
+    width: 80%;
+  }
+}
+
 .inner {
   max-width: 1200px;
   margin: 0 auto;

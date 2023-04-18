@@ -69,6 +69,10 @@ $separetor = " | ";
 					</section>
 
 					<section>
+						<a class="btn btn_abstract" href="#" target="_blank">参加登録</a>
+					</section>
+
+					<section>
 						<h3>参加費</h3>
 						<p>
 							本大会の参加にあたり、参加費をお支払いお願いいたします。
@@ -87,8 +91,27 @@ $separetor = " | ";
 							※発表希望パネル・個人の応募につきまして、国際日本研究センター等の研究機関の研究者によって構成される審査委員会で採否を決定します。<br>
 							採択者は、2023 年 8 月 10 日（木）に第7回東アジア日本研究者協議会国際学術会議のホームページにて告知します。
 						</p>
-						<p style="margin-bottom: 0;">
-							＊参加申込締切：2023年8月31日
+
+						<p style="margin-bottom: 14px; margin-top:14px">
+							＊参加申込締切：
+							<span class="bf">
+								2023
+							</span>
+							<span class="tf">
+								年
+							</span>
+							<span class="bf">
+								8
+							</span>
+							<span class="tf">
+								月
+							</span>
+							<span class="bf">
+								31
+							</span>
+							<span class="tf">
+								日
+							</span>
 						</p>
 						<p class="ind1">
 							※ビザの手続きが必要な方については、参加申込締切日に関わらず、早めの申込みをお願いします。ビザ発行のための招待状はお送りさせていただきます。
