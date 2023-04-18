@@ -1024,7 +1024,7 @@ a:hover {
 @media (max-width: 620px) {
   .theme ul {
     flex-direction: column;
-    gap: 7px;
+    gap: 10px;
     margin-right: 0;
   }
 }
@@ -1083,11 +1083,12 @@ a:hover {
 }
 @media (max-width: 960px) {
   .cards ul {
-    gap: 5px;
+    gap: 10px;
   }
 }
 @media (max-width: 620px) {
   .cards ul {
+    gap: 12px;
     flex-direction: column;
   }
 }

@@ -829,7 +829,7 @@ a {
 
 		@include sp {
 			flex-direction: column;
-			gap: 7px;
+			gap: 10px;
 			margin-right: 0;
 		}
 
@@ -898,10 +898,11 @@ a {
 		gap: 15px;
 
 		@include tablet {
-			gap: 5px;
+			gap: 10px;
 		}
 
 		@include sp {
+			gap: 12px;
 			flex-direction: column;
 		}
 
