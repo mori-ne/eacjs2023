@@ -1263,7 +1263,19 @@ a {
 
 // トップへ戻る
 #page-top {
-	display: none;
+	display: block;
+	position: fixed;
+	right: 15px;
+	bottom: -50px;
+	z-index: 9999;
+	width: 100px;
+	height: 50px;
+	background: $primary_color;
+	color: #fff;
+	text-align: center;
+	transition: all 0.2s;
+	border-top-left-radius: $radius_base;
+	border-top-right-radius: $radius_base;
 
 	@include sp {
 		display: block;
@@ -1276,6 +1288,8 @@ a {
 		color: #fff;
 		z-index: 9999;
 		transition: all 0.2s;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
 
 		span {
 			position: absolute;
@@ -1286,6 +1300,17 @@ a {
 			font-weight: bold;
 			display: block;
 			text-align: center;
+
+			@include sp {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 18px;
+				font-weight: bold;
+				display: block;
+				text-align: center;
+			}
 		}
 	}
 }
