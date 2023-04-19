@@ -23,6 +23,8 @@ $(function () {
 	});
 });
 
+
+
 // お知らせのトグル
 $(function () {
 	$('.nav-open').click(function () {
@@ -42,5 +44,25 @@ $(function () {
 	$('.onclicksp2').click(function () {
 		$('.sp_nav_submenu2').toggleClass('showsubmenu2');
 		$(this).next('sp_nav_submenu2').slideToggle(300);
+	});
+});
+
+
+
+// TOPへ戻る（スマホ）
+$(function () {
+	var pagetop = $('#page-top');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 700) {
+			pagetop.addClass("js_active");
+		} else {
+			pagetop.removeClass("js_active");
+		}
+	});
+	pagetop.click(function () {
+		$('body, html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
 	});
 });

@@ -314,6 +314,10 @@
 		<?php require_once("common/footer.php"); ?>
 
 
+		<!-- to top -->
+		<div class="page-top" id="page-top">
+			<span>TOPへ</span>
+		</div>
 
 
 		<script src="js/swiper.min.js"></script>

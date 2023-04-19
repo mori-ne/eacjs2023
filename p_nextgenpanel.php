@@ -151,6 +151,12 @@ $separetor = " | ";
 
 
 
+		<!-- to top -->
+		<div class="page-top" id="page-top">
+			<span>TOPへ</span>
+		</div>
+
+
 
 		<script src="js/swiper.min.js"></script>
 		<script type="text/javascript">
