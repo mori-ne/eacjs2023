@@ -37,7 +37,7 @@
 					第7回国際学術大会
 				</h2>
 				<p class="sub_ttl">
-					時間：2023年00月00日 - 00月00日<br>
+					時間：2023年11月3日 - 11月5日<br>
 					場所：東京外国語大学
 				</p>
 			</div>
@@ -70,9 +70,10 @@
 		<!-- main -->
 		<main class="main">
 			<div class="inner">
-
 				<div class="column">
 
+
+					<!-- 参加について -->
 					<div class="participation">
 						<div class="h3">
 							<h3>参加について</h3>
@@ -89,7 +90,7 @@
 								<li>
 									<a href="./p_abstract.php">
 										<div class="ico02"></div>
-										<p>個人論文発表</p>
+										<p>個人研究発表</p>
 									</a>
 								</li>
 								<li>
@@ -101,7 +102,7 @@
 								<li>
 									<a href="./p_nextgenabstract.php">
 										<div class="ico04"></div>
-										<p>次世代論文発表</p>
+										<p>次世代研究発表</p>
 									</a>
 								</li>
 								<li>
@@ -114,6 +115,9 @@
 						</div>
 					</div>
 
+
+
+					<!-- お申込み -->
 					<div class="register">
 						<div class="h3">
 							<h3>お申込み</h3>
@@ -130,7 +134,7 @@
 								<li>
 									<a href="#">
 										<div class="ico02"></div>
-										<p>個人論文発表</p>
+										<p>個人研究発表</p>
 									</a>
 								</li>
 								<li>
@@ -142,7 +146,7 @@
 								<li>
 									<a href="#">
 										<div class="ico04"></div>
-										<p>次世代論文発表</p>
+										<p>次世代研究発表</p>
 									</a>
 								</li>
 								<li>
@@ -155,12 +159,26 @@
 						</div>
 					</div>
 
+
+
+					<!-- ニュース -->
+					<div class="news">
+						<p class="ind1" style="margin: 0 0 15px 0;">
+							※発表希望パネル・個人の応募につきまして、国際日本研究センター等の研究機関の研究者によって構成される審査委員会で採否を決定します。<br>
+							採択者は、2023年8月10日（木）に第7回東アジア日本研究者協議会国際学術会議のホームページにて告知します。
+						</p>
+
+						<p>
+							<span>＊参加申込締切：</span>
+							<span class="mf">2023年8月31日</span>
+						</p>
+					</div>
 				</div>
-
-
-
 				<div class="rows">
 
+
+
+					<!-- お知らせ -->
 					<div class="notice">
 						<div class="h3">
 							<h3>お知らせ</h3>
@@ -253,6 +271,9 @@
 
 					</div>
 
+
+
+					<!-- スケジュール -->
 					<div class="schedule">
 						<div class="h3">
 							<h3>スケジュール</h3>
@@ -281,10 +302,9 @@
 
 					</div>
 
+
+
 				</div>
-
-
-
 			</div>
 		</main>
 

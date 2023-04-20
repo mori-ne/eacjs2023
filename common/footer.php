@@ -10,9 +10,9 @@
 		<div class="footer_box">
 			<h5 class="footer_ttl">連絡先</h5>
 			<p>
-				第7回国際学術大会委員長　○○○○<br>
-				○○○○○○○○○○○長：○○○○<br>
-				Tel: 000-000-0000 Fax: 000-000-0000<br>
+				委員長：友常 勉<br>
+				国際日本研究センター<br>
+				Tel: 042-330-5794<br>
 				E-mail: info@eacjs2023.jp
 			</p>
 		</div>
@@ -20,8 +20,7 @@
 		<div class="footer_box">
 			<h5 class="footer_ttl">東京外国語大学</h5>
 			<p>
-				〒183-0003 東京都府中市朝日町3-11-1<br>
-				Tel: 042-330-5111
+				〒183-8534 東京都府中市朝日町3-11-1
 			</p>
 		</div>
 

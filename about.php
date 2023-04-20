@@ -38,7 +38,7 @@ $separetor = " | ";
 		<!-- main -->
 		<main class="main">
 			<div class="sub_mv">
-				<h2 class="sub_ttl"><?php print($main_pagettl); ?></h2>
+				<h2 class="sub_mv_ttl"><?php print($main_pagettl); ?></h2>
 			</div>
 
 

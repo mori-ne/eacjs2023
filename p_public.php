@@ -39,7 +39,7 @@ $separetor = " | ";
 		<!-- main -->
 		<main class="main">
 			<div class="sub_mv">
-				<h2 class="sub_ttl">参加について</h2>
+				<h2 class="sub_mv_ttl">参加について</h2>
 			</div>
 
 
@@ -83,36 +83,24 @@ $separetor = " | ";
 						<p class="ind1" style="margin-bottom: 0;">
 							※懇親会に参加されたい方は、10月10日までにお申し込みください。なお、懇親会費は別途請求いたしますので、ご注意ください。
 						</p>
-						<p class="ind1">
+						<p class="ind1" style="margin-bottom:0;">
 							※当日会場でのお申込みは受付不可となります。ただし、事前「参観のみ」を申し込んだ方には当日会場でのお支払いは可能です（現金のみ）。
 						</p>
 
-						<p class="ind1" style="margin-bottom: 0;">
+						<!-- <p class="ind1" style="margin-bottom: 0;">
 							※発表希望パネル・個人の応募につきまして、国際日本研究センター等の研究機関の研究者によって構成される審査委員会で採否を決定します。<br>
 							採択者は、2023 年 8 月 10 日（木）に第7回東アジア日本研究者協議会国際学術会議のホームページにて告知します。
 						</p>
 
 						<p style="margin-bottom: 14px; margin-top:14px">
 							＊参加申込締切：
-							<span class="bf">
-								2023
-							</span>
-							<span class="tf">
-								年
-							</span>
-							<span class="bf">
-								8
-							</span>
-							<span class="tf">
-								月
-							</span>
-							<span class="bf">
-								31
-							</span>
-							<span class="tf">
-								日
-							</span>
-						</p>
+							<span class="bf">2023</span>
+							<span class="tf">年</span>
+							<span class="bf">8</span>
+							<span class="tf">月</span>
+							<span class="bf">31</span>
+							<span class="tf">日</span>
+						</p> -->
 						<p class="ind1">
 							※ビザの手続きが必要な方については、参加申込締切日に関わらず、早めの申込みをお願いします。ビザ発行のための招待状はお送りさせていただきます。
 						</p>

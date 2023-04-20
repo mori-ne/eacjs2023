@@ -55,9 +55,9 @@
 							<ul class="sp_nav_submenu">
 								<li>
 									<a href="./p_panel.php">パネル発表</a>
-									<a href="./p_abstract.php">個人論文発表</a>
+									<a href="./p_abstract.php">個人研究発表</a>
 									<a href="./p_nextgenpanel.php">次世代パネル発表</a>
-									<a href="./p_nextgenabstract.php">次世代論文発表</a>
+									<a href="./p_nextgenabstract.php">次世代研究発表</a>
 									<a href="./p_public.php">一般参加（参観のみ）</a>
 								</li>
 							</ul>
@@ -67,9 +67,9 @@
 							<ul class="sp_nav_submenu2">
 								<li>
 									<a href="#">パネル発表</a>
-									<a href="#">個人論文発表</a>
+									<a href="#">個人研究発表</a>
 									<a href="#">次世代パネル発表</a>
-									<a href="#">次世代論文発表</a>
+									<a href="#">次世代研究発表</a>
 									<a href="#">一般参加（参観のみ）</a>
 								</li>
 							</ul>

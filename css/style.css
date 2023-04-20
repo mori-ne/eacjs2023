@@ -396,6 +396,14 @@ a:hover {
   }
 }
 
+.mf {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "M PLUS 1p", sans-serif;
+  color: #999891;
+  font-size: 24px;
+}
+
 .tf {
   display: inline-block;
   font-family: "Noto Sans JP", sans-serif;
@@ -925,12 +933,12 @@ a:hover {
   z-index: 1;
   background: rgba(0, 0, 0, 0.4);
 }
-.sub_mv .sub_ttl {
+.sub_mv .sub_mv_ttl {
   color: #fff;
   z-index: 2;
 }
 @media (max-width: 620px) {
-  .sub_mv .sub_ttl {
+  .sub_mv .sub_mv_ttl {
     font-size: 26px;
   }
 }
@@ -1064,6 +1072,13 @@ a:hover {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.news {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 30px 0;
+  margin: 0 0 60px 0;
 }
 
 .participation {
@@ -1361,6 +1376,11 @@ a:hover {
   background: #444444;
   padding: 45px 0;
 }
+@media (max-width: 620px) {
+  .footer {
+    padding: 45px 0 90px 0;
+  }
+}
 .footer .footer_inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -1409,27 +1429,32 @@ a:hover {
 .footer .footer_inner .footer_box .footer_ttl {
   font-size: 20px;
   color: #fff;
-  margin: 0 0 15px 0;
+  margin: -5px 0 15px 0;
   line-height: 1.5;
 }
 @media (max-width: 960px) {
   .footer .footer_inner .footer_box .footer_ttl {
     font-size: 16px;
-    margin: 0 0 10px 0;
+    margin: -5px 0 10px 0;
   }
 }
 .footer .footer_inner .footer_box p {
   font-size: 16px;
   color: #999999;
-  line-height: 1.875;
+  line-height: 1.8;
 }
 @media (max-width: 960px) {
   .footer .footer_inner .footer_box p {
-    font-size: 13px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 620px) {
+  .footer .footer_inner .footer_box p {
+    font-size: 16px;
   }
 }
 
-#page-top {
+.page-top {
   display: block;
   position: fixed;
   right: 15px;
@@ -1445,7 +1470,7 @@ a:hover {
   border-top-right-radius: 6px;
 }
 @media (max-width: 620px) {
-  #page-top {
+  .page-top {
     display: block;
     position: fixed;
     bottom: -50px;
@@ -1459,7 +1484,7 @@ a:hover {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
   }
-  #page-top span {
+  .page-top span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1471,14 +1496,14 @@ a:hover {
   }
 }
 @media (max-width: 620px) and (max-width: 620px) {
-  #page-top span {
+  .page-top span {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
     font-weight: bold;
-    display: block;
     text-align: center;
   }
 }

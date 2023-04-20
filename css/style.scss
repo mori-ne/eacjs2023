@@ -110,7 +110,7 @@ a {
 	}
 }
 
-// 期日用　数字（ボールド）
+// 期日用　数字（ボールド　bg有り）
 .bf {
 	display: inline-block;
 	padding: 0 10px;
@@ -123,6 +123,15 @@ a {
 	@include sp {
 		padding: 0 5px;
 	}
+}
+
+// 期日用　数字（ボールド　bg無し）
+.mf {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: $btn_txt_color;
+	font-size: 24px;
 }
 
 // 期日用　月日
@@ -723,7 +732,7 @@ a {
 		background: rgba(0, 0, 0, 0.4);
 	}
 
-	.sub_ttl {
+	.sub_mv_ttl {
 		color: #fff;
 		z-index: 2;
 
@@ -878,6 +887,13 @@ a {
 .column {
 	display: flex;
 	flex-direction: column;
+}
+
+.news {
+	border-top: 1px solid $border_gray_color;
+	border-bottom: 1px solid $border_gray_color;
+	padding: 30px 0;
+	margin: 0 0 60px 0;
 }
 
 .participation {
@@ -1193,6 +1209,10 @@ a {
 	background: $text_color;
 	padding: 45px 0;
 
+	@include sp {
+		padding: 45px 0 90px 0;
+	}
+
 	.footer_inner {
 		max-width: $brakepint_pc;
 		margin: 0 auto;
@@ -1238,22 +1258,26 @@ a {
 			.footer_ttl {
 				font-size: 20px;
 				color: #fff;
-				margin: 0 0 15px 0;
+				margin: -5px 0 15px 0;
 				line-height: 1.5;
 
 				@include tablet {
 					font-size: 16px;
-					margin: 0 0 10px 0;
+					margin: -5px 0 10px 0;
 				}
 			}
 
 			p {
 				font-size: 16px;
 				color: $footer_txt_color;
-				line-height: 1.875;
+				line-height: 1.8;
 
 				@include tablet {
-					font-size: 13px;
+					font-size: 14px;
+				}
+
+				@include sp {
+					font-size: 16px;
 				}
 			}
 
@@ -1262,7 +1286,7 @@ a {
 }
 
 // トップへ戻る
-#page-top {
+.page-top {
 	display: block;
 	position: fixed;
 	right: 15px;
@@ -1302,13 +1326,13 @@ a {
 			text-align: center;
 
 			@include sp {
+				display: block;
 				position: absolute;
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -50%);
 				font-size: 18px;
 				font-weight: bold;
-				display: block;
 				text-align: center;
 			}
 		}
