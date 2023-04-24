@@ -23,6 +23,18 @@
 			y.parentNode.insertBefore(t, y);
 		})(window, document, "clarity", "script", "gtfp0qy4ke");
 	</script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4H16FQ0R"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-8S4H16FQ0R');
+	</script>
 </head>
 
 <body>
