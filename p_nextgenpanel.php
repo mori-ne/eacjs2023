@@ -140,9 +140,9 @@ $separetor = " | ";
 
 					<section>
 						<h3>申込方法</h3>
-						<p>
+						<!-- <p>
 							＊指導教員の推薦状は不要
-						</p>
+						</p> -->
 					</section>
 
 					<section>

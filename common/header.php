@@ -66,11 +66,11 @@
 							<a class="onclicksp2">お申込み<i class="fa-solid fa-chevron-down"></i></a>
 							<ul class="sp_nav_submenu2">
 								<li>
-									<a href="#">パネル発表</a>
-									<a href="#">個人研究発表</a>
-									<a href="#">次世代パネル発表</a>
-									<a href="#">次世代研究発表</a>
-									<a href="#">一般参加（参観のみ）</a>
+									<a href="./r_panel.php">パネル発表</a>
+									<a href="./r_abstract.php">個人研究発表</a>
+									<a href="./r_nextgenpanel.php">次世代パネル発表</a>
+									<a href="./r_nextgenabstract.php">次世代研究発表</a>
+									<a href="./r_public.php">一般参加（参観のみ）</a>
 								</li>
 							</ul>
 						</li>

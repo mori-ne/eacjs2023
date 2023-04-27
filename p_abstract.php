@@ -152,6 +152,7 @@ $separetor = " | ";
 					<section>
 						<h3>参加費</h3>
 						<p>
+							8,000円
 						</p>
 					</section>
 				</div>

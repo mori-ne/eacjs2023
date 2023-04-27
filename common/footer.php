@@ -10,7 +10,7 @@
 		<div class="footer_box">
 			<h5 class="footer_ttl">連絡先</h5>
 			<p>
-				委員長：友常 勉<br>
+				第7回国際学術大会委員長：友常 勉<br>
 				国際日本研究センター<br>
 				Tel: 042-330-5794<br>
 				E-mail: info@eacjs2023.jp

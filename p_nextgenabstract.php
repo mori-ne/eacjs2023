@@ -4,7 +4,7 @@
 <?php
 // ページタイトル、パンくずリスト用の変数
 $main_pagettl = "参加について";
-$sub_pagettl = "次世代個人研究発表";
+$sub_pagettl = "次世代研究発表";
 // title セパレータ
 $separetor = " | ";
 ?>
@@ -137,9 +137,9 @@ $separetor = " | ";
 
 					<section>
 						<h3>申込方法</h3>
-						<p>
+						<!-- <p>
 							※推薦状不要
-						</p>
+						</p> -->
 					</section>
 
 					<section>
