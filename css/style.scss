@@ -172,6 +172,21 @@ a {
 	}
 }
 
+.btn-disable {
+	background: #cccccc;
+	border: 1px solid #bbbbbb;
+	color: #fff;
+	transition: none;
+	pointer-events: none;
+
+	&:hover {
+		background: #cccccc;
+		border: 1px solid #bbbbbb;
+		color: #fff;
+		transition: none;
+	}
+}
+
 //-----------------------------------------------------------------------------------
 //--------------------------------  レイアウト  --------------------------------------
 //-----------------------------------------------------------------------------------

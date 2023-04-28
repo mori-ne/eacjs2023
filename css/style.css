@@ -442,6 +442,20 @@ a:hover {
   }
 }
 
+.btn-disable {
+  background: #cccccc;
+  border: 1px solid #bbbbbb;
+  color: #fff;
+  transition: none;
+  pointer-events: none;
+}
+.btn-disable:hover {
+  background: #cccccc;
+  border: 1px solid #bbbbbb;
+  color: #fff;
+  transition: none;
+}
+
 .inner {
   max-width: 1200px;
   margin: 0 auto;

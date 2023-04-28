@@ -93,7 +93,7 @@ $separetor = " | ";
 					</section>
 
 					<section>
-						<a class="btn btn_abstract" href="#" target="_blank">参加登録</a>
+						<a class="btn btn-disable" href="#" target="_blank">参加登録</a>
 					</section>
 
 					<section>
