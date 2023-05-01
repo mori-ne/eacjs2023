@@ -93,10 +93,6 @@ a {
 	}
 }
 
-img {
-	max-width: 100%;
-}
-
 // 文字選択のカラー
 ::selection {
 	color: #fff;
@@ -159,20 +155,40 @@ img {
 .mw-500 {
 	max-width: 500px;
 	margin: 0 0 15px 0;
+	overflow: hidden;
+
+	img {
+		max-width: 100%;
+	}
 
 	@include sp {
 		max-width: 100%;
+		overflow-x: scroll;
 		margin: 0 auto 15px auto;
+
+		img {
+			max-width: none;
+		}
 	}
 }
 
 .mw-600 {
 	max-width: 600px;
 	margin: 0 0 15px 0;
+	overflow: hidden;
+
+	img {
+		max-width: 100%;
+	}
 
 	@include sp {
 		max-width: 100%;
+		overflow-x: scroll;
 		margin: 0 auto 15px auto;
+
+		img {
+			max-width: none;
+		}
 	}
 }
 
@@ -182,6 +198,8 @@ img {
 
 	@include sp {
 		max-width: 100%;
+		// width: 100%;
+		overflow-x: scroll;
 		margin: 0 auto 15px auto;
 	}
 }
@@ -192,6 +210,8 @@ img {
 
 	@include sp {
 		max-width: 100%;
+		// width: 100%;
+		overflow-x: scroll;
 		margin: 0 auto 15px auto;
 	}
 }
@@ -199,10 +219,30 @@ img {
 .mw-900 {
 	max-width: 900px;
 	margin: 0 0 15px 0;
+	overflow: hidden;
+
+	img {
+		max-width: 100%;
+	}
+
 
 	@include sp {
 		max-width: 100%;
+		overflow-x: scroll;
 		margin: 0 auto 15px auto;
+
+		img {
+			max-width: 700px;
+			// max-width: none;
+		}
+	}
+}
+
+.sp-img-mw100 {
+	@include sp {
+		img {
+			max-width: 100%;
+		}
 	}
 }
 

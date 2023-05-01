@@ -183,9 +183,11 @@ $separetor = " | ";
 						<h5>キャンパスマップ</h5>
 						<div style="margin-bottom: 60px;">
 							<div class="column">
+								<div class="mw-600 sp-img-mw100">
+									<img src="img/campusmap202202.jpg" alt="キャンパスマップ">
+								</div>
 								<div class="mw-600">
 									<a style="display:block; text-align:center; text-decoration: none; margin: 10px 0 0 0" href="http://www.tufs.ac.jp/abouttufs/contactus/campusmap.html" target="_blank">
-										<img src="img/campusmap202202.jpg" alt="キャンパスマップ">
 										詳細はこちらをクリック<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
 								</div>
 								<div>

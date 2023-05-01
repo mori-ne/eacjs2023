@@ -362,10 +362,6 @@ a:hover {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-}
-
 ::-moz-selection {
   color: #fff;
   background: #be4682;
@@ -429,22 +425,38 @@ img {
 .mw-500 {
   max-width: 500px;
   margin: 0 0 15px 0;
+  overflow: hidden;
+}
+.mw-500 img {
+  max-width: 100%;
 }
 @media (max-width: 620px) {
   .mw-500 {
     max-width: 100%;
+    overflow-x: scroll;
     margin: 0 auto 15px auto;
+  }
+  .mw-500 img {
+    max-width: none;
   }
 }
 
 .mw-600 {
   max-width: 600px;
   margin: 0 0 15px 0;
+  overflow: hidden;
+}
+.mw-600 img {
+  max-width: 100%;
 }
 @media (max-width: 620px) {
   .mw-600 {
     max-width: 100%;
+    overflow-x: scroll;
     margin: 0 auto 15px auto;
+  }
+  .mw-600 img {
+    max-width: none;
   }
 }
 
@@ -455,6 +467,7 @@ img {
 @media (max-width: 620px) {
   .mw-700 {
     max-width: 100%;
+    overflow-x: scroll;
     margin: 0 auto 15px auto;
   }
 }
@@ -466,6 +479,7 @@ img {
 @media (max-width: 620px) {
   .mw-800 {
     max-width: 100%;
+    overflow-x: scroll;
     margin: 0 auto 15px auto;
   }
 }
@@ -473,11 +487,25 @@ img {
 .mw-900 {
   max-width: 900px;
   margin: 0 0 15px 0;
+  overflow: hidden;
+}
+.mw-900 img {
+  max-width: 100%;
 }
 @media (max-width: 620px) {
   .mw-900 {
     max-width: 100%;
+    overflow-x: scroll;
     margin: 0 auto 15px auto;
+  }
+  .mw-900 img {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 620px) {
+  .sp-img-mw100 img {
+    max-width: 100%;
   }
 }
 
