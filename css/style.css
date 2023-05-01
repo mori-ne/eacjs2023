@@ -349,6 +349,10 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+  font-size: 20px;
+}
+
 a {
   color: #be4682;
   text-decoration: underline;
@@ -356,6 +360,10 @@ a {
 a:hover {
   color: #993869;
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 ::-moz-selection {
@@ -418,6 +426,61 @@ a:hover {
   }
 }
 
+.mw-500 {
+  max-width: 500px;
+  margin: 0 0 15px 0;
+}
+@media (max-width: 620px) {
+  .mw-500 {
+    max-width: 100%;
+    margin: 0 auto 15px auto;
+  }
+}
+
+.mw-600 {
+  max-width: 600px;
+  margin: 0 0 15px 0;
+}
+@media (max-width: 620px) {
+  .mw-600 {
+    max-width: 100%;
+    margin: 0 auto 15px auto;
+  }
+}
+
+.mw-700 {
+  max-width: 700px;
+  margin: 0 0 15px 0;
+}
+@media (max-width: 620px) {
+  .mw-700 {
+    max-width: 100%;
+    margin: 0 auto 15px auto;
+  }
+}
+
+.mw-800 {
+  max-width: 800px;
+  margin: 0 0 15px 0;
+}
+@media (max-width: 620px) {
+  .mw-800 {
+    max-width: 100%;
+    margin: 0 auto 15px auto;
+  }
+}
+
+.mw-900 {
+  max-width: 900px;
+  margin: 0 0 15px 0;
+}
+@media (max-width: 620px) {
+  .mw-900 {
+    max-width: 100%;
+    margin: 0 auto 15px auto;
+  }
+}
+
 .btn {
   display: flex;
   align-items: center;
@@ -454,6 +517,29 @@ a:hover {
   border: 1px solid #bbbbbb;
   color: #fff;
   transition: none;
+}
+
+.btn-info {
+  display: flex;
+  max-width: 300px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #444444;
+  background: #fff;
+  border: 1px solid #444444;
+  transition: all 0.2s;
+  margin: 30px 0;
+}
+.btn-info:hover {
+  color: #be4682;
+  border: 1px solid #be4682;
+}
+@media (max-width: 620px) {
+  .btn-info {
+    margin: 30px auto;
+  }
 }
 
 .inner {
@@ -960,7 +1046,7 @@ a:hover {
 .breadcrumb {
   padding: 20px 0;
   font-size: 11px;
-  margin: 0 0 30px 0;
+  margin: 0 0 35px 0;
   border-bottom: 1px solid #e6e6e6;
 }
 @media (max-width: 620px) {
@@ -994,7 +1080,7 @@ a:hover {
 }
 .contents h3 {
   font-size: 24px;
-  margin: 0 0 15px 0;
+  margin: 30px 0 15px 0;
   color: #be4682;
 }
 @media (max-width: 620px) {
@@ -1004,16 +1090,25 @@ a:hover {
 }
 .contents h4 {
   font-size: 20px;
-  margin: 0 0 15px 0;
-  color: #be4682;
+  margin: 0 0 30px 0;
+  color: #444444;
+  background: #e6e6e6;
+  padding: 14px 16px;
 }
 @media (max-width: 620px) {
   .contents h4 {
     font-size: 18px;
   }
 }
+.contents h5 {
+  margin: 60px 0 15px 0;
+  color: #be4682;
+}
 .contents p {
   margin-bottom: 1em;
+}
+.contents hr {
+  border: 1px solid #e6e6e6;
 }
 .contents section {
   margin: 0 0 60px 0;
@@ -1262,6 +1357,27 @@ a:hover {
 @media (max-width: 620px) {
   .rows {
     flex-direction: column;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+@media (max-width: 620px) {
+  .row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.row-50 {
+  max-width: 50%;
+}
+@media (max-width: 620px) {
+  .row-50 {
+    max-width: 100%;
   }
 }
 

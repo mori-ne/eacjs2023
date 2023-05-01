@@ -79,6 +79,10 @@ h4 {
 	font-size: 20px;
 }
 
+h5 {
+	font-size: 20px;
+}
+
 a {
 	color: $primary_color;
 	text-decoration: underline;
@@ -87,6 +91,10 @@ a {
 		color: #993869;
 		text-decoration: none;
 	}
+}
+
+img {
+	max-width: 100%;
 }
 
 // 文字選択のカラー
@@ -148,6 +156,56 @@ a {
 	}
 }
 
+.mw-500 {
+	max-width: 500px;
+	margin: 0 0 15px 0;
+
+	@include sp {
+		max-width: 100%;
+		margin: 0 auto 15px auto;
+	}
+}
+
+.mw-600 {
+	max-width: 600px;
+	margin: 0 0 15px 0;
+
+	@include sp {
+		max-width: 100%;
+		margin: 0 auto 15px auto;
+	}
+}
+
+.mw-700 {
+	max-width: 700px;
+	margin: 0 0 15px 0;
+
+	@include sp {
+		max-width: 100%;
+		margin: 0 auto 15px auto;
+	}
+}
+
+.mw-800 {
+	max-width: 800px;
+	margin: 0 0 15px 0;
+
+	@include sp {
+		max-width: 100%;
+		margin: 0 auto 15px auto;
+	}
+}
+
+.mw-900 {
+	max-width: 900px;
+	margin: 0 0 15px 0;
+
+	@include sp {
+		max-width: 100%;
+		margin: 0 auto 15px auto;
+	}
+}
+
 .btn {
 	display: flex;
 	align-items: center;
@@ -185,6 +243,30 @@ a {
 		color: #fff;
 		transition: none;
 	}
+}
+
+.btn-info {
+	display: flex;
+	max-width: 300px;
+	height: 44px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: $text_color;
+	background: #fff;
+	border: 1px solid $text_color;
+	transition: all 0.2s;
+	margin: 30px 0;
+
+	&:hover {
+		color: $primary_color;
+		border: 1px solid $primary_color;
+	}
+
+	@include sp {
+		margin: 30px auto;
+	}
+
 }
 
 //-----------------------------------------------------------------------------------
@@ -761,7 +843,7 @@ a {
 .breadcrumb {
 	padding: 20px 0;
 	font-size: 11px;
-	margin: 0 0 30px 0;
+	margin: 0 0 35px 0;
 	border-bottom: 1px solid $border_gray_color;
 
 	@include sp {
@@ -795,7 +877,7 @@ a {
 
 	h3 {
 		font-size: 24px;
-		margin: 0 0 15px 0;
+		margin: 30px 0 15px 0;
 		color: $primary_color;
 
 		@include sp {
@@ -805,16 +887,27 @@ a {
 
 	h4 {
 		font-size: 20px;
-		margin: 0 0 15px 0;
-		color: $primary_color;
+		margin: 0 0 30px 0;
+		color: $text_color;
+		background: $border_gray_color;
+		padding: 14px 16px;
 
 		@include sp {
 			font-size: 18px;
 		}
 	}
 
+	h5 {
+		margin: 60px 0 15px 0;
+		color: $primary_color;
+	}
+
 	p {
 		margin-bottom: 1em;
+	}
+
+	hr {
+		border: 1px solid $border_gray_color;
 	}
 
 	section {
@@ -1083,6 +1176,25 @@ a {
 
 	@include sp {
 		flex-direction: column;
+	}
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+
+	@include sp {
+		flex-direction: column;
+		gap: 0;
+	}
+}
+
+.row-50 {
+	max-width: 50%;
+
+	@include sp {
+		max-width: 100%;
 	}
 }
 

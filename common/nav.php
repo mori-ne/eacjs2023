@@ -33,7 +33,7 @@
 
 				</li>
 				<li><a href="#">お支払い</a></li>
-				<li><a href="#">アクセス情報</a></li>
+				<li><a href="./access.php">アクセス情報</a></li>
 				<li><a href="#">よくあるご質問</a></li>
 			</ul>
 		</div>
