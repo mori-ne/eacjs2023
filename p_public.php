@@ -93,7 +93,8 @@ $separetor = " | ";
 					</section>
 
 					<section>
-						<a class="btn btn-disable" href="#" target="_blank">参加登録</a>
+						<!-- class btn-disableで無効化 -->
+						<a class="btn" href="https://form.jotform.com/231201101974442" target="_blank">参加登録</a>
 					</section>
 
 					<section>
