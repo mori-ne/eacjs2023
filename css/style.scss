@@ -575,7 +575,7 @@ a {
 
 								.sp_nav_submenu2 {
 									display: none;
-									background: $primary_color;
+									background: #dd7a2a;
 									margin: 0 -20px;
 									padding: 0 20px;
 									box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
@@ -789,7 +789,7 @@ a {
 	position: absolute;
 	left: 0;
 	top: 60px;
-	background: $primary_color;
+	background: #dd7a2a;
 	z-index: 998;
 	transition: all 0.2s;
 
@@ -826,7 +826,7 @@ a {
 				}
 
 				&:hover {
-					background: $primary_color_dark !important;
+					background: #b96622 !important;
 					transition: all 0.2s;
 				}
 			}

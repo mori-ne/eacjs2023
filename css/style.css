@@ -807,7 +807,7 @@ a:hover {
   }
   .header .header_inner .sp_nav_btn .menu-content-cover .menu-content .sp_nav_menu li .sp_nav_submenu2 {
     display: none;
-    background: #be4682;
+    background: #dd7a2a;
     margin: 0 -20px;
     padding: 0 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
@@ -986,7 +986,7 @@ a:hover {
   position: absolute;
   left: 0;
   top: 60px;
-  background: #be4682;
+  background: #dd7a2a;
   z-index: 998;
   transition: all 0.2s;
 }
@@ -1022,7 +1022,7 @@ a:hover {
   }
 }
 .dropdown_list2 .dropdown_list_inner2 li a:hover {
-  background: #993869 !important;
+  background: #b96622 !important;
   transition: all 0.2s;
 }
 
