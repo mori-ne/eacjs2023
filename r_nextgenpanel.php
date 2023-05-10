@@ -85,6 +85,7 @@ $separetor = " | ";
 			<div class="contents">
 				<div class="inner">
 					<section>
+						<h3><?php print($sub_pagettl); ?></h3>
 
 
 

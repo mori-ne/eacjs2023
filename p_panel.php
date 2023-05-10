@@ -184,6 +184,10 @@ $separetor = " | ";
 							8,000円
 						</p>
 					</section>
+
+					<section>
+						<a class="btn" href="r_panel.php">お申込みはこちら</a>
+					</section>
 				</div>
 			</div>
 		</main>

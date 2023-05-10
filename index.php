@@ -94,6 +94,9 @@
 		<!-- main -->
 		<main class="main">
 			<div class="inner">
+
+
+
 				<div class="column">
 
 
@@ -198,39 +201,46 @@
 						</p>
 					</div> -->
 				</div>
+
+
+
 				<div class="rows">
 
 
 
-					<!-- お知らせ -->
-					<div class="notice">
-						<div class="h3">
-							<h3>お知らせ</h3>
-							<p>Notice</p>
-						</div>
+					<div class="column">
 
-						<div class="lists">
-							<ul>
-								<li>
-									<a class="list_column nav-open">
-										<span class="date">
-											2023.05.01
-										</span>
-										<p class="notice_ttl">
-											参加者募集の日時について
-										</p>
-									</a>
-									<nav class="description">
-										<div>
-											<p>
-												<b>募集開始：</b>2023年5月10日－2023年7月10日（必着）<br>
-												<b>問い合わせ先：</b>
-												<a href="mailto:info@eacjs2023.jp">info@eacjs2023.jp</a>
+
+
+						<!-- お知らせ -->
+						<div class="notice">
+							<div class="h3">
+								<h3>お知らせ</h3>
+								<p>Notice</p>
+							</div>
+
+							<div class="lists">
+								<ul>
+									<li>
+										<a class="list_column nav-open">
+											<span class="date">
+												2023.05.01
+											</span>
+											<p class="notice_ttl">
+												参加者募集の日時について
 											</p>
-										</div>
-									</nav>
-								</li>
-								<!-- <li>
+										</a>
+										<nav class="description">
+											<div>
+												<p>
+													<b>募集開始：</b>2023年5月10日－2023年7月10日（必着）<br>
+													<b>問い合わせ先：</b>
+													<a href="mailto:info@eacjs2023.jp">info@eacjs2023.jp</a>
+												</p>
+											</div>
+										</nav>
+									</li>
+									<!-- <li>
 									<a class="list_column nav-open">
 										<span class="date">
 											2023.00.00
@@ -255,9 +265,50 @@
 										</div>
 									</nav>
 								</li> -->
-							</ul>
+								</ul>
+							</div>
+
 						</div>
 
+
+
+						<!-- 特別講演・鼎談情報 -->
+						<div class="speciallecture">
+
+							<div class="h4">
+								<h4>特別講演・鼎談</h4>
+							</div>
+
+							<div class="speciallecture_box">
+								<p class="speciallecture_date">
+									11月3日　14時
+								</p>
+								<p class="speciallecture_ttl">
+									「〈日本語文学〉の異他なる経験」
+								</p>
+								<p class="ind3">
+									<b>講演：</b>エレナ・ヤヌリス<br class="sp_br">（ベルリン自由大学）<br>
+									mages detached from space and time - Heterotopias and non-places in contemporary Japanese literature
+								</p>
+								<p class="ind3">
+									<b>鼎談：</b>多和田葉子（作家）、<br class="sp_br">李琴峰（作家）、<br class="sp_br">邵丹（東京外国語大学）
+								</p>
+								<p class="ind3">
+									<b>司会：</b>山口裕之<br class="sp_br">（東京外国語大学）
+								</p>
+							</div>
+
+							<div class="speciallecture_box">
+
+								<p class="speciallecture_date">
+									11月5日
+								</p>
+								<p class="ind3">
+									調整中
+								</p>
+							</div>
+
+						</div>
 					</div>
 
 
