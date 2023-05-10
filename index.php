@@ -68,19 +68,19 @@
 
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<img src="img/sample_03.jpg" alt="">
+					<img src="img/sample_03.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_04.jpg" alt="">
+					<img src="img/sample_04.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_05.jpg" alt="">
+					<img src="img/sample_05.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_01.jpg" alt="">
+					<img src="img/sample_01.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_02.jpg" alt="">
+					<img src="img/sample_02.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
