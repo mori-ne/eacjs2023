@@ -61,7 +61,7 @@ $separetor = " | ";
 
 		<!-- main -->
 		<main class="main">
-			<div class="sub_mv">
+			<div class="sub_mv3">
 				<h2 class="sub_mv_ttl"><?php print($main_pagettl); ?></h2>
 			</div>
 
