@@ -14,12 +14,12 @@
 
 
 		<div class="contact">
-			<a href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
+			<a class="disable" href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
 		</div>
 
 
 
-		<a class="translate" href="#">
+		<a class="translate disable_english" href="#">
 			<i class="fa-solid fa-globe"></i>
 			<p>English</p>
 		</a>
@@ -42,7 +42,7 @@
 							</a>
 						</div>
 					</div>
-					<a class="translate_sp" href="#">
+					<a class="translate_sp disable_english" href="#">
 						<i class="fa-solid fa-globe"></i>
 						<p>English</p>
 					</a>
@@ -75,19 +75,19 @@
 							</ul>
 						</li>
 						<li>
-							<a href="#">お支払い</a>
+							<a class="disable" href="#">お支払い</a>
 						</li>
 						<li>
 							<a href="./access.php">アクセス情報</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="#">よくあるご質問</a>
-						</li>
+						</li> -->
 					</ul>
 					<div class="sp_nav_lower_menu">
 						<ul>
 							<li>
-								<a href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
+								<a class="disable" href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
 							</li>
 						</ul>
 					</div>

@@ -68,19 +68,22 @@
 
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<img src="img/sample_03.jpg" alt="東京外国語大学メインイメージ">
+					<img src="img/main_image_01.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_04.jpg" alt="東京外国語大学メインイメージ">
+					<img src="img/main_image_02.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_05.jpg" alt="東京外国語大学メインイメージ">
+					<img src="img/main_image_03.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_01.jpg" alt="東京外国語大学メインイメージ">
+					<img src="img/main_image_04.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 				<div class="swiper-slide">
-					<img src="img/sample_02.jpg" alt="東京外国語大学メインイメージ">
+					<img src="img/main_image_05.jpg" alt="東京外国語大学メインイメージ">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/main_image_06.jpg" alt="東京外国語大学メインイメージ">
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
@@ -98,8 +101,6 @@
 
 
 				<div class="column">
-
-
 					<!-- 参加について -->
 					<div class="participation">
 						<div class="h3">
@@ -141,8 +142,6 @@
 							</ul>
 						</div>
 					</div>
-
-
 
 					<!-- お申込み -->
 					<div class="register">
@@ -186,8 +185,6 @@
 						</div>
 					</div>
 
-
-
 					<!-- ニュース -->
 					<!-- <div class="news">
 						<p class="ind1" style="margin: 0 0 15px 0;">
@@ -206,12 +203,7 @@
 
 				<div class="rows">
 
-
-
 					<div class="column">
-
-
-
 						<!-- お知らせ -->
 						<div class="notice">
 							<div class="h3">
@@ -270,8 +262,6 @@
 
 						</div>
 
-
-
 						<!-- 特別講演・鼎談情報 -->
 						<div class="speciallecture">
 
@@ -309,9 +299,16 @@
 							</div>
 
 						</div>
+
+						<!-- よくあるご質問 -->
+						<div class="question">
+
+							<div class="h4">
+								<h4>よくあるご質問</h4>
+							</div>
+							<div class="question_box"> </div>
+						</div>
 					</div>
-
-
 
 					<!-- スケジュール -->
 					<div class="schedule">
@@ -363,10 +360,10 @@
 
 
 					</div>
-
-
-
 				</div>
+
+
+
 			</div>
 		</main>
 

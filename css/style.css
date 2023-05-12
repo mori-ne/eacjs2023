@@ -275,7 +275,7 @@ progress {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  text-shadow: 0 0 5px rgb(0, 0, 0);
+  text-shadow: 0 0 7px rgb(0, 0, 0);
   text-align: center;
 }
 .ttl .main_ttl {
@@ -407,10 +407,11 @@ a:hover {
 
 .mf {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: baseline;
   font-family: "M PLUS 1p", sans-serif;
-  color: #999891;
-  font-size: 24px;
+  color: #666;
+  text-indent: 0;
+  font-size: 16px;
 }
 
 .tf {
@@ -1053,7 +1054,8 @@ a:hover {
   justify-content: center;
   width: 100%;
   height: 160px;
-  background-image: url("../img/sample_01.jpg");
+  background-image: url("../img/sub_mv_p.jpg");
+  background-position: center center;
   background-size: cover;
 }
 .sub_mv::before {
@@ -1066,12 +1068,35 @@ a:hover {
   z-index: 1;
   background: rgba(0, 0, 0, 0.4);
 }
-.sub_mv .sub_mv_ttl {
+
+.sub_mv2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 160px;
+  background-image: url("../img/sub_mv_r.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.sub_mv2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.sub_mv_ttl {
   color: #fff;
   z-index: 2;
 }
 @media (max-width: 620px) {
-  .sub_mv .sub_mv_ttl {
+  .sub_mv_ttl {
     font-size: 26px;
   }
 }
@@ -1204,6 +1229,13 @@ a:hover {
 .ind1 {
   text-indent: -1em;
   padding-left: 1em;
+}
+
+.ind1-1 {
+  display: inline-block;
+  margin: 0;
+  text-indent: -1em;
+  margin-left: 1em;
 }
 
 .ind2 {
@@ -1421,7 +1453,7 @@ a:hover {
 
 .notice {
   max-width: 600px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 @media (max-width: 620px) {
   .notice {
@@ -1504,7 +1536,7 @@ a:hover {
 
 .speciallecture {
   max-width: 600px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
   border: 1px solid #e6e6e6;
   border-radius: 6px;
   padding: 25px;
@@ -1536,6 +1568,20 @@ a:hover {
 .speciallecture .speciallecture_box p {
   line-height: 1.5;
   margin: 0 0 7px 0;
+}
+
+.question {
+  max-width: 600px;
+  margin: 0 0 40px 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  padding: 25px;
+}
+@media (max-width: 620px) {
+  .question {
+    width: 100%;
+    margin: 0 0 60px 0;
+  }
 }
 
 .schedule {
@@ -1737,4 +1783,36 @@ a:hover {
   .sp_tb {
     display: none;
   }
+}
+
+.disable {
+  color: #aaa !important;
+  pointer-events: none !important;
+  transition: none !important;
+}
+.disable:hover {
+  color: #aaa !important;
+  pointer-events: none !important;
+}
+
+.disable_english {
+  background-color: #eee !important;
+  color: #ccc !important;
+  pointer-events: none !important;
+  transition: none !important;
+}
+.disable_english:hover {
+  pointer-events: none !important;
+}
+
+iframe {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+}
+
+.form_all {
+  min-height: 100% !important;
+  max-height: 100% !important;
 }/*# sourceMappingURL=style.css.map */
