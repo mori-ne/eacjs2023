@@ -139,22 +139,15 @@ $separetor = " | ";
 					</section>
 
 					<section>
-						<h3>申込方法</h3>
-						<!-- <p>
-							＊指導教員の推薦状は不要
-						</p> -->
-					</section>
-
-					<section>
 						<h3>申込期限</h3>
 						<p>
 							<span class="bf">5</span>
 							<span class="tf">月</span>
-							<span class="bf">10</span>
+							<span class="bf">19</span>
 							<span class="tf">日～</span>
 							<span class="bf">7</span>
 							<span class="tf">月</span>
-							<span class="bf">10</span>
+							<span class="bf">16</span>
 							<span class="tf">日（必着）</span>
 						</p>
 					</section>

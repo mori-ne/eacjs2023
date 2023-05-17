@@ -225,7 +225,7 @@
 										<nav class="description">
 											<div>
 												<p>
-													<b>募集開始：</b>2023年5月10日－2023年7月10日（必着）<br>
+													<b>募集開始：</b>2023年5月19日－2023年7月16日（必着）<br>
 													<b>問い合わせ先：</b>
 													<a href="mailto:info@eacjs2023.jp">info@eacjs2023.jp</a>
 												</p>
@@ -319,7 +319,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年5月10日
+								2023年5月19日
 							</h4>
 							<p class="month_ttl">
 								参加者募集開始
@@ -329,7 +329,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年7月10日
+								2023年7月16日
 							</h4>
 							<p class="month_ttl">
 								参加募集締め切り
