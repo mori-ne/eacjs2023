@@ -898,7 +898,7 @@ a:hover {
 }
 .nav .nav_inner .nav_pc .nav_list li {
   list-style: none;
-  width: 150px;
+  width: 180px;
   height: 60px;
 }
 @media (max-width: 960px) {
@@ -910,7 +910,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 180px;
   height: 60px;
   color: #444444;
   font-family: "Noto Sans JP", sans-serif;
@@ -922,7 +922,7 @@ a:hover {
 @media (max-width: 960px) {
   .nav .nav_inner .nav_pc .nav_list li a {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 30px;
   }
 }
 .nav .nav_inner .nav_pc .nav_list li a:hover {

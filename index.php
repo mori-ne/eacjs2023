@@ -301,13 +301,13 @@
 						</div>
 
 						<!-- よくあるご質問 -->
-						<div class="question">
-
+						<!-- <div class="question">
 							<div class="h4">
 								<h4>よくあるご質問</h4>
 							</div>
 							<div class="question_box"> </div>
-						</div>
+						</div> -->
+
 					</div>
 
 					<!-- スケジュール -->
