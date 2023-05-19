@@ -278,7 +278,7 @@
 								</p>
 								<p class="ind3">
 									<b>講演：</b>エレナ・ヤヌリス<br class="sp_br">（ベルリン自由大学）<br>
-									mages detached from space and time - Heterotopias and non-places in contemporary Japanese literature
+									Images detached from space and time - Heterotopias and non-places in contemporary Japanese literature
 								</p>
 								<p class="ind3">
 									<b>鼎談：</b>多和田葉子（作家）、<br class="sp_br">李琴峰（作家）、<br class="sp_br">邵丹（東京外国語大学）
