@@ -9,12 +9,15 @@ html {
   word-break: normal;
 }
 
-*, :after, :before {
+*,
+:after,
+:before {
   background-repeat: no-repeat;
   box-sizing: inherit;
 }
 
-:after, :before {
+:after,
+:before {
   text-decoration: inherit;
   vertical-align: inherit;
 }
@@ -30,7 +33,8 @@ hr {
   overflow: visible;
 }
 
-details, main {
+details,
+main {
   display: block;
 }
 
@@ -57,11 +61,15 @@ a {
   background-color: transparent;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline-width: 0;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, monospace;
 }
 
@@ -69,11 +77,13 @@ pre {
   font-size: 1em;
 }
 
-b, strong {
+b,
+strong {
   font-weight: bolder;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -101,7 +111,8 @@ input {
   border-radius: 0;
 }
 
-[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -119,7 +130,11 @@ textarea {
   resize: vertical;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font: inherit;
 }
 
@@ -131,33 +146,54 @@ button {
   overflow: visible;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
 }
 
-[role=button], [type=button], [type=reset], [type=submit], button {
+[role=button],
+[type=button],
+[type=reset],
+[type=submit],
+button {
   cursor: pointer;
 }
 
-[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
-[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button:-moz-focusring {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
-[type=reset], [type=submit], button, html [type=button] {
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
   -webkit-appearance: button;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   background-color: transparent;
   border-style: none;
 }
 
-a:focus, button:focus, input:focus, select:focus, textarea:focus {
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
   outline-width: 0;
 }
 
@@ -1547,6 +1583,50 @@ a:hover {
   font-size: 17px;
   font-weight: 700;
 }
+.notice .lists ul li .list_column_closed {
+  position: relative;
+  text-decoration: none;
+  color: #444444;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 0.2s;
+}
+@media (max-width: 960px) {
+  .notice .lists ul li .list_column_closed {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 620px) {
+  .notice .lists ul li .list_column_closed {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 10px;
+  }
+}
+.notice .lists ul li .list_column_closed:hover {
+  background: #F9F9F9;
+  transition: all 0.2s;
+}
+.notice .lists ul li .list_column_closed .date {
+  font-size: 13px;
+  margin: 0 10px 0 0;
+}
+@media (max-width: 620px) {
+  .notice .lists ul li .list_column_closed .notice_ttl {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+.notice .lists ul li .list_column_closed p {
+  font-size: 17px;
+  font-weight: 700;
+}
 .notice .lists ul li .description {
   display: none;
   border-top: 1px solid #e6e6e6;
@@ -1739,6 +1819,7 @@ a:hover {
   transition: all 0.2s;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
+  cursor: pointer;
 }
 @media (max-width: 620px) {
   .page-top {
@@ -1755,18 +1836,18 @@ a:hover {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
   }
-  .page-top span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-  }
 }
-@media (max-width: 620px) and (max-width: 620px) {
+.page-top span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 620px) {
   .page-top span {
     display: block;
     position: absolute;

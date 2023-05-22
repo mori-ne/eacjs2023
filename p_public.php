@@ -99,7 +99,7 @@ $separetor = " | ";
 
 					<section>
 						<!-- class btn-disableで無効化 -->
-						<a class="btn" href="r_public.php">参加登録</a>
+						<a class="btn btn-disable" href="r_public.php">参加登録</a>
 					</section>
 
 
@@ -111,6 +111,10 @@ $separetor = " | ";
 							参加費　8,000円<br>
 							<span class="ind1-1">
 								※参加費には、大会資料、バッグなどが含まれております。
+							</span>
+							<br>
+							<span class="ind1-1">
+								※懇親会（11月4日）に参加されたい方は、10月10日までにお申し込みください。
 							</span>
 							<br>
 							<span class="ind1-1">

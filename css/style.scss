@@ -1331,7 +1331,7 @@ a {
 				list-style: none;
 				border-top: 1px solid $border_gray_color;
 
-
+				// オープンあり
 				.list_column {
 					position: relative;
 					text-decoration: none;
@@ -1357,6 +1357,56 @@ a {
 						border-right: 1px solid $text_color;
 						transition: all 0.2s;
 					}
+
+					@include tablet {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
+
+					@include sp {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
+
+					&:hover {
+						background: $bg_lignt_gray;
+						transition: all 0.2s;
+					}
+
+					.date {
+						font-size: 13px;
+						margin: 0 10px 0 0;
+					}
+
+					.notice_ttl {
+						@include sp {
+							font-size: 16px;
+							line-height: 1.4;
+						}
+					}
+
+					p {
+						font-size: 17px;
+						font-weight: 700;
+					}
+				}
+
+				.list_column_closed {
+					position: relative;
+					text-decoration: none;
+					color: $text_color;
+
+					height: 60px;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					transition: all 0.2s;
+					// cursor: pointer;
+
 
 					@include tablet {
 						flex-direction: column;
@@ -1598,6 +1648,7 @@ a {
 	transition: all 0.2s;
 	border-top-left-radius: $radius_base;
 	border-top-right-radius: $radius_base;
+	cursor: pointer;
 
 	@include sp {
 		display: block;
@@ -1612,27 +1663,27 @@ a {
 		transition: all 0.2s;
 		border-top-left-radius: 0px;
 		border-top-right-radius: 0px;
+	}
 
-		span {
+	span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 16px;
+		font-weight: bold;
+		display: block;
+		text-align: center;
+
+		@include sp {
+			display: block;
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 			font-size: 18px;
 			font-weight: bold;
-			display: block;
 			text-align: center;
-
-			@include sp {
-				display: block;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				font-size: 18px;
-				font-weight: bold;
-				text-align: center;
-			}
 		}
 	}
 }

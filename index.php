@@ -204,62 +204,15 @@
 				<div class="rows">
 
 					<div class="column">
+
+
 						<!-- お知らせ -->
 						<div class="notice">
 							<div class="h3">
 								<h3>お知らせ</h3>
 								<p>Notice</p>
 							</div>
-
-							<div class="lists">
-								<ul>
-									<li>
-										<a class="list_column nav-open">
-											<span class="date">
-												2023.05.01
-											</span>
-											<p class="notice_ttl">
-												参加者募集の日時について
-											</p>
-										</a>
-										<nav class="description">
-											<div>
-												<p>
-													<b>募集開始：</b>2023年5月19日－2023年7月16日（必着）<br>
-													<b>問い合わせ先：</b>
-													<a href="mailto:info@eacjs2023.jp">info@eacjs2023.jp</a>
-												</p>
-											</div>
-										</nav>
-									</li>
-									<!-- <li>
-									<a class="list_column nav-open">
-										<span class="date">
-											2023.00.00
-										</span>
-										<p class="notice_ttl">
-											お知らせのタイトルが入ります
-										</p>
-									</a>
-									<nav class="description">
-										<div>
-											<p>
-												参加者の皆様<br>
-												<br>
-												第4回の台北大会は皆様のお陰で、予定通り順調に終了いたしました。改めてご参加・ご協力に感謝の意を申し上げます。<br>
-												つきまして、台北大会について2点ほどの連絡事項を申し上げます。<br>
-												<br>
-												①台北大会の終了と伴い、2020年3月31日を持ちまして、台北事務局のメールボックス（<a href="mailto:eacjs2019@ntu.edu.tw">eacjs2019@ntu.edu.tw</a>）は停止させていただきます。<br>
-												②本大会の論文集は出版する予定はございませんので、ぜひご発表の際にいただいたご示唆、ご指摘などを踏まえ、学術雑誌に投稿するようにお勧めいたします。<br>
-												<br>
-												なお、第5回の大会はソウルで開催することになりました。ソウル大会の開催情報は確認次第、台北大会のHP（<a href="http://cjs.ntu.edu.tw/eacjs/index.html">http://cjs.ntu.edu.tw/eacjs/index.html</a>）にリンクをアップロードします。お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
-											</p>
-										</div>
-									</nav>
-								</li> -->
-								</ul>
-							</div>
-
+							<?php require_once("common/notice.php"); ?>
 						</div>
 
 						<!-- 特別講演・鼎談情報 -->
