@@ -11,6 +11,18 @@
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/common.js"></script>
+	<!-- Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SF59TF0W0S"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-SF59TF0W0S');
+	</script>
 	<script type="text/javascript">
 		(function(c, l, a, r, i, t, y) {
 			c[a] = c[a] || function() {
@@ -21,19 +33,7 @@
 			t.src = "https://www.clarity.ms/tag/" + i;
 			y = l.getElementsByTagName(r)[0];
 			y.parentNode.insertBefore(t, y);
-		})(window, document, "clarity", "script", "gtfp0qy4ke");
-	</script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4H16FQ0R"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-
-		gtag('config', 'G-8S4H16FQ0R');
+		})(window, document, "clarity", "script", "h87hiccfgu");
 	</script>
 </head>
 
@@ -61,7 +61,7 @@
 					第7回国際学術大会
 				</h2>
 				<p class="sub_ttl">
-					時間：2023年11月3日 - 11月5日<br>
+					時間：2023年11月3日 ～ 11月5日<br>
 					場所：東京外国語大学
 				</p>
 			</div>
@@ -272,7 +272,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年5月19日
+								2023年5月23日（火）
 							</h4>
 							<p class="month_ttl">
 								参加者募集開始
@@ -282,7 +282,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年7月16日
+								2023年7月19日（水、必着）
 							</h4>
 							<p class="month_ttl">
 								参加募集締め切り

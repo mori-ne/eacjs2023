@@ -117,15 +117,17 @@ $brakepint_sp: 620px;
 			line-height: 1.4;
 		}
 
-		.sub_ttl {
-			font-size: 22px;
-			line-height: 1.36;
-			font-family: 'M PLUS 1p', sans-serif;
+	}
 
-			@include sp {
-				font-size: 16px;
-			}
+	.sub_ttl {
+		font-size: 16px;
+		line-height: 1.7;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 400;
 
+		@include sp {
+			font-size: 16px;
 		}
+
 	}
 }

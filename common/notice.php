@@ -30,7 +30,7 @@
 			<nav class="description">
 				<div>
 					<p>
-						<b>募集開始：</b>2023年5月19日－2023年7月16日（必着）<br>
+						<b>募集開始：</b>2023年5月23日（火）～ 2023年7月19日（水、必着）<br>
 						<b>問い合わせ先：</b>
 						<a href="mailto:info@eacjs2023.jp">info@eacjs2023.jp</a>
 					</p>

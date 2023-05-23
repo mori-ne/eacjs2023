@@ -19,6 +19,18 @@ $separetor = " | ";
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/common.js"></script>
+	<!-- Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SF59TF0W0S"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-SF59TF0W0S');
+	</script>
 	<script type="text/javascript">
 		(function(c, l, a, r, i, t, y) {
 			c[a] = c[a] || function() {
@@ -29,19 +41,7 @@ $separetor = " | ";
 			t.src = "https://www.clarity.ms/tag/" + i;
 			y = l.getElementsByTagName(r)[0];
 			y.parentNode.insertBefore(t, y);
-		})(window, document, "clarity", "script", "gtfp0qy4ke");
-	</script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4H16FQ0R"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-
-		gtag('config', 'G-8S4H16FQ0R');
+		})(window, document, "clarity", "script", "h87hiccfgu");
 	</script>
 </head>
 
@@ -167,12 +167,12 @@ $separetor = " | ";
 						<p>
 							<span class="bf">5</span>
 							<span class="tf">月</span>
-							<span class="bf">19</span>
-							<span class="tf">日～</span>
+							<span class="bf">23</span>
+							<span class="tf">日（火）～</span>
 							<span class="bf">7</span>
 							<span class="tf">月</span>
-							<span class="bf">16</span>
-							<span class="tf">日（必着）</span>
+							<span class="bf">19</span>
+							<span class="tf">日（水、必着）</span>
 						</p>
 					</section>
 
