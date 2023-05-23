@@ -1107,6 +1107,18 @@ a {
 	padding-left: 3em;
 }
 
+// 4文字用インデント
+.ind4 {
+	text-indent: -4em;
+	padding-left: 4em;
+}
+
+// 5文字用インデント
+.ind5 {
+	text-indent: -5em;
+	padding-left: 5em;
+}
+
 .column {
 	display: flex;
 	flex-direction: column;
@@ -1581,6 +1593,24 @@ a {
 
 		.footer_box {
 			width: 33%;
+
+			&:first-child {
+				width: 25%;
+
+				@include sp {
+					width: 100%;
+					text-align: center;
+				}
+			}
+
+			&:nth-child(2) {
+				width: 42%;
+
+				@include sp {
+					width: 100%;
+					text-align: center;
+				}
+			}
 
 			@include sp {
 				width: 100%;

@@ -1307,6 +1307,16 @@ a:hover {
   padding-left: 3em;
 }
 
+.ind4 {
+  text-indent: -4em;
+  padding-left: 4em;
+}
+
+.ind5 {
+  text-indent: -5em;
+  padding-left: 5em;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -1755,6 +1765,24 @@ a:hover {
 }
 .footer .footer_inner .footer_box {
   width: 33%;
+}
+.footer .footer_inner .footer_box:first-child {
+  width: 25%;
+}
+@media (max-width: 620px) {
+  .footer .footer_inner .footer_box:first-child {
+    width: 100%;
+    text-align: center;
+  }
+}
+.footer .footer_inner .footer_box:nth-child(2) {
+  width: 42%;
+}
+@media (max-width: 620px) {
+  .footer .footer_inner .footer_box:nth-child(2) {
+    width: 100%;
+    text-align: center;
+  }
 }
 @media (max-width: 620px) {
   .footer .footer_inner .footer_box {

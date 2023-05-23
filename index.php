@@ -279,7 +279,7 @@
 								2023年5月23日（火）
 							</h4>
 							<p class="month_ttl">
-								参加者募集期間
+								参加者募集開始
 							</p>
 							<!-- <p>description</p> -->
 						</div>

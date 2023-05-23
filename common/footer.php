@@ -17,8 +17,14 @@
 			<p class="ind3">
 				共催：独立行政法人 国際交流基金
 			</p>
-			<p class="ind3">
-				後援団体：財団法人 東芝国際交流財団
+			<p class="">
+				後援団体：<br>財団法人 東芝国際交流財団<br>
+				<span style="line-height:1.4; display:inline-block;">
+					公益財団法人 渥美国際交流財団 関口グローバル研究会<br>
+					<span style="font-size:12px;">
+						(Atsumi International Foundation Sekiguchi Global Research Association)
+					</span>
+				</span>
 			</p>
 		</div>
 
