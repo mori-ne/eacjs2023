@@ -1578,7 +1578,7 @@ a {
 		margin: 0 auto;
 		display: flex;
 		flex-direction: row;
-		gap: 30px;
+		gap: 40px;
 		padding: 0 20px;
 
 		@include tablet {
@@ -1587,12 +1587,12 @@ a {
 		}
 
 		@include sp {
-			padding: 0 10px;
+			padding: 0 40px;
 			flex-direction: column;
 		}
 
 		.footer_box {
-			width: 33%;
+			width: 28%;
 
 			&:first-child {
 				width: 25%;
@@ -1604,21 +1604,21 @@ a {
 			}
 
 			&:nth-child(2) {
-				width: 42%;
+				width: 44%;
 
 				@include sp {
 					width: 100%;
-					text-align: center;
+					// text-align: center;
 				}
 			}
 
 			@include sp {
 				width: 100%;
-				text-align: center;
+				// text-align: center;
 			}
 
 			.footer_logo {
-				width: 270px;
+				width: 260px;
 
 				@include tablet {
 					max-width: 100%;
@@ -1641,6 +1641,11 @@ a {
 
 				@include tablet {
 					font-size: 16px;
+					margin: -5px 0 10px 0;
+				}
+
+				@include sp {
+					font-size: 18px;
 					margin: -5px 0 10px 0;
 				}
 			}

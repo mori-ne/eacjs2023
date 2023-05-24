@@ -11,20 +11,16 @@
 		<!-- 中段 -->
 		<div class="footer_box">
 			<h5 class="footer_ttl">第7回国際学術大会</h5>
-			<p class="ind3">
-				主催：東京外国語大学<br>
-			</p>
-			<p class="ind3">
-				共催：独立行政法人 国際交流基金
-			</p>
+			<p>主　　催：東京外国語大学</p>
+			<p>共　　催：独立行政法人 国際交流基金</p>
 			<p class="">
-				後援団体：<br>財団法人 東芝国際交流財団<br>
-				<span style="line-height:1.4; display:inline-block;">
+				後援団体：<span>財団法人 東芝国際交流財団</span>
+				<br>
+				<span style="display: inline-block; margin-left:5em; line-height:1.3">
 					公益財団法人 渥美国際交流財団 関口グローバル研究会<br>
-					<span style="font-size:12px;">
+					<i style="font-size:12px; font-style:normal; display: inline-block; line-height:1.4">
 						(Atsumi International Foundation Sekiguchi Global Research Association)
-					</span>
-				</span>
+					</i>
 			</p>
 		</div>
 
