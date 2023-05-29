@@ -43,12 +43,12 @@
 	<url>
 		<loc>https://eacjs2023.jp/p_nextgenpanel.php</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
+		<lastmod>2023-05-29</lastmod>
 	</url>
 	<url>
 		<loc>https://eacjs2023.jp/p_nextgenabstract.php</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
+		<lastmod>2023-05-29</lastmod>
 	</url>
 	<url>
 		<loc>https://eacjs2023.jp/p_abstract.php</loc>
@@ -113,6 +113,6 @@
 	<url>
 		<loc>https://eacjs2023.jp/common/footer.php</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-05-24</lastmod>
+		<lastmod>2023-05-29</lastmod>
 	</url>
 </urlset>
