@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+// colors
+$primary_color:#be4682;
+$primary_color_dark:#993869;
+$primaty_hover_color:#fff7fb;
+$text_color: #444444;
+$btn_txt_color:#999891;
+$btn_bg_color:#F0EEE4;
+$bg_lignt_gray: #F9F9F9;
+$border_gray_color: #e6e6e6;
+$footer_txt_color: #999999;
+
+// radius
+$radius_base: 6px;
+
+// breakpoint
+$brakepint_pc: 1200px;
+$brakepint_tablet: 960px;
+$brakepint_sp: 620px;
+
+
+@mixin sp {
+	@media (max-width: ($brakepint_sp)) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: ($brakepint_tablet)) {
+		@content;
+	}
+}
+
+.swiper {
+	position: relative;
+	height: 400px;
+	margin: 0 0 60px 0;
+	overflow: hidden;
+
+	@include sp {
+		height: 200px;
+	}
+}
+
+.swiper-wrapper {
+	width: 100%;
+}
+
+.swiper-slide {
+	color: #ffffff;
+	width: 100%;
+	text-align: center;
+	line-height: 300px;
+	overflow: hidden;
+
+	@include sp {
+		height: 200px;
+	}
+
+}
+
+/* 画像のサイズ調整 */
+.swiper-slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.swiper-button-prev:after {
+	color: #fff;
+
+	@include sp {
+		font-size: 22px !important;
+	}
+}
+
+.swiper-button-next:after {
+	color: #fff;
+
+	@include sp {
+		font-size: 22px !important;
+	}
+}
+
+.ttl {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-shadow: 0 0 7px rgba(0, 0, 0, 1);
+	text-align: center;
+
+	// @include sp {
+	// 	height: 200px;
+	// }
+
+	.main_ttl {
+		font-size: 40px;
+		line-height: 1.25;
+		text-align: center;
+
+		@include tablet {
+			font-size: 32px;
+			min-width: 500px;
+			max-width: 100%;
+			line-height: 1.4;
+		}
+
+		@include sp {
+			font-size: 26px;
+			min-width: 375px;
+			max-width: 100%;
+			line-height: 1.4;
+		}
+
+	}
+
+	.sub_ttl {
+		font-size: 16px;
+		line-height: 1.7;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 400;
+
+		@include sp {
+			font-size: 16px;
+		}
+
+	}
+}

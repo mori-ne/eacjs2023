@@ -20,9 +20,9 @@
 
 
 		<!-- classに disable_english 付加で無効化 -->
-		<a class="translate" href="en/index.php">
+		<a class="translate" href="../index.php">
 			<i class="fa-solid fa-globe"></i>
-			<p>English</p>
+			<p>Japanese</p>
 		</a>
 
 
@@ -49,29 +49,29 @@
 					</a>
 					<ul class="sp_nav_menu">
 						<li>
-							<a href="./about.php">概要</a>
+							<a href="./about.php">Overview</a>
 						</li>
 						<li>
-							<a class="onclicksp">参加について<i class="fa-solid fa-chevron-down"></i></a>
+							<a class="onclicksp">About Participation<i class="fa-solid fa-chevron-down"></i></a>
 							<ul class="sp_nav_submenu">
 								<li>
-									<a href="./p_panel.php">パネル発表</a>
-									<a href="./p_abstract.php">個人研究発表</a>
-									<a href="./p_nextgenpanel.php">次世代パネル発表</a>
-									<a href="./p_nextgenabstract.php">次世代研究発表</a>
-									<a href="./p_public.php">一般参加（参観のみ）</a>
+									<a href="./p_panel.php">Panel Presentation</a>
+									<a href="./p_abstract.php">Individual Research Presentation</a>
+									<a href="./p_nextgenpanel.php">Next-Generation Panel Presentation</a>
+									<a href="./p_nextgenabstract.php">Next-Generation Research Presentation</a>
+									<a href="./p_public.php">General Participants (only observation)</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a class="onclicksp2">お申込み<i class="fa-solid fa-chevron-down"></i></a>
+							<a class="onclicksp2">The Application<i class="fa-solid fa-chevron-down"></i></a>
 							<ul class="sp_nav_submenu2">
 								<li>
-									<a href="./r_panel.php">パネル発表</a>
-									<a href="./r_abstract.php">個人研究発表</a>
-									<a href="./r_nextgenpanel.php">次世代パネル発表</a>
-									<a href="./r_nextgenabstract.php">次世代研究発表</a>
-									<a href="./r_public.php">一般参加（参観のみ）</a>
+									<a href="./r_panel.php">Panel Presentation</a>
+									<a href="./r_abstract.php">Individual Research Presentation</a>
+									<a href="./r_nextgenpanel.php">Next-Generation Panel Presentation</a>
+									<a href="./r_nextgenabstract.php">Next-Generation Research Presentation</a>
+									<a href="./r_public.php">General Participants (only observation)</a>
 								</li>
 							</ul>
 						</li>

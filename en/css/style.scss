@@ -1,0 +1,1784 @@
+@charset "UTF-8";
+@use "ress";
+@use "swiper";
+// Noto Sans Regular Bold + M PLUS 1p Bold
+// Japanese Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap');
+
+// colors
+$primary_color:#be4682;
+$primary_color_dark:#993869;
+$primaty_hover_color:#fff7fb;
+$text_color: #444444;
+$btn_txt_color:#999891;
+$btn_bg_color:#F0EEE4;
+$bg_lignt_gray: #F9F9F9;
+$border_gray_color: #e6e6e6;
+$footer_txt_color: #999999;
+
+// radius
+$radius_base: 6px;
+
+// breakpoint
+$brakepint_pc: 1200px;
+$brakepint_tablet: 960px;
+$brakepint_sp: 620px;
+
+@mixin sp {
+	@media (max-width: ($brakepint_sp)) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: ($brakepint_tablet)) {
+		@content;
+	}
+}
+
+//-----------------------------------------------------------------------------------
+//--------------------------------  ベース  -----------------------------------------
+//-----------------------------------------------------------------------------------
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 16px;
+	line-height: 1.75;
+	color: $text_color;
+
+	@include sp {
+		padding-top: 60px;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'M PLUS 1p', sans-serif;
+	line-height: 1.25;
+
+}
+
+h1 {
+	line-height: 0;
+	vertical-align: bottom;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+a {
+	color: $primary_color;
+	text-decoration: underline;
+
+	&:hover {
+		color: #993869;
+		text-decoration: none;
+	}
+}
+
+// 文字選択のカラー
+::selection {
+	color: #fff;
+	background: $primary_color;
+}
+
+.h3 {
+	margin: 0 0 30px 0;
+
+	h3 {
+		text-align: center;
+		line-height: 1.25;
+	}
+
+	p {
+		text-align: center;
+		color: $primary_color;
+		font-size: 14px;
+	}
+}
+
+.h4 {
+	h4 {
+		font-size: 18px;
+		margin: 0 0 30px 0;
+	}
+}
+
+// 期日用　数字（ボールド　bg有り）
+.bf {
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: middle;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: $btn_txt_color;
+	background: $btn_bg_color;
+	font-size: 26px;
+
+	@include sp {
+		padding: 0 5px;
+	}
+}
+
+// 期日用　数字（ボールド　bg無し）
+.mf {
+	display: inline-block;
+	vertical-align: baseline;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #666;
+	text-indent: 0;
+	font-size: 16px;
+}
+
+// 期日用　月日
+.tf {
+	display: inline-block;
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 3px;
+	vertical-align: middle;
+	font-size: 18px;
+	color: $text_color;
+
+	@include sp {
+		padding: 0 2px;
+	}
+}
+
+.mw-500 {
+	max-width: 500px;
+	margin: 0 0 15px 0;
+	overflow: hidden;
+
+	img {
+		max-width: 100%;
+	}
+
+	@include sp {
+		max-width: 100%;
+		overflow-x: scroll;
+		margin: 0 auto 15px auto;
+
+		img {
+			max-width: none;
+		}
+	}
+}
+
+.mw-600 {
+	max-width: 600px;
+	margin: 0 0 15px 0;
+	overflow: hidden;
+
+	img {
+		max-width: 100%;
+	}
+
+	@include sp {
+		max-width: 100%;
+		overflow-x: scroll;
+		margin: 0 auto 15px auto;
+
+		img {
+			max-width: none;
+		}
+	}
+}
+
+.mw-700 {
+	max-width: 700px;
+	margin: 0 0 15px 0;
+
+	@include sp {
+		max-width: 100%;
+		// width: 100%;
+		overflow-x: scroll;
+		margin: 0 auto 15px auto;
+	}
+}
+
+.mw-800 {
+	max-width: 800px;
+	margin: 0 0 15px 0;
+
+	@include sp {
+		max-width: 100%;
+		// width: 100%;
+		overflow-x: scroll;
+		margin: 0 auto 15px auto;
+	}
+}
+
+.mw-900 {
+	max-width: 900px;
+	margin: 0 0 15px 0;
+	overflow: hidden;
+
+	img {
+		max-width: 100%;
+	}
+
+
+	@include sp {
+		max-width: 100%;
+		overflow-x: scroll;
+		margin: 0 auto 15px auto;
+
+		img {
+			max-width: 700px;
+			// max-width: none;
+		}
+	}
+}
+
+.sp-img-mw100 {
+	@include sp {
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 460px;
+	height: 50px;
+	margin: 0 auto;
+	background: $primary_color;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s;
+	border-radius: $radius_base;
+
+	&:hover {
+		background: $primary_color_dark;
+		color: #fff;
+		transition: all 0.2s;
+	}
+
+	@include sp {
+		width: 80%;
+	}
+}
+
+.btn-disable {
+	background: #cccccc;
+	border: 1px solid #bbbbbb;
+	color: #fff;
+	transition: none;
+	pointer-events: none;
+
+	&:hover {
+		background: #cccccc;
+		border: 1px solid #bbbbbb;
+		color: #fff;
+		transition: none;
+	}
+}
+
+.btn-info {
+	display: flex;
+	max-width: 300px;
+	height: 44px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: $text_color;
+	background: #fff;
+	border: 1px solid $text_color;
+	transition: all 0.2s;
+	margin: 30px 0;
+
+	&:hover {
+		color: $primary_color;
+		border: 1px solid $primary_color;
+	}
+
+	@include sp {
+		margin: 30px auto;
+	}
+
+}
+
+.form_area {}
+
+//-----------------------------------------------------------------------------------
+//--------------------------------  レイアウト  --------------------------------------
+//-----------------------------------------------------------------------------------
+
+.inner {
+	max-width: $brakepint_pc;
+	margin: 0 auto;
+	padding: 0 20px;
+
+	@include tablet {
+		padding: 0 20px;
+	}
+
+	@include sp {
+		padding: 0 15px;
+	}
+}
+
+.header {
+	position: static;
+	width: 100%;
+	height: 100px;
+	background: #fff;
+
+	@include sp {
+		height: 60px;
+		position: fixed;
+		top: 0;
+		z-index: 998;
+	}
+
+	.header_inner {
+		height: 100px;
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 20px;
+
+		@include tablet {
+			max-width: 100%;
+			padding: 0 20px;
+		}
+
+		@include sp {
+			padding: 0 20px;
+			height: 60px;
+		}
+
+		.logo {
+			width: 260px;
+			height: auto;
+
+			@include tablet {
+				width: 220px;
+			}
+
+			@include sp {
+				width: 200px;
+			}
+		}
+
+		.contact {
+			margin-left: auto;
+			margin-right: 25px;
+
+			@include sp {
+				display: none;
+			}
+
+			a {
+				font-size: 14px;
+				color: $text_color;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.translate {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			color: $btn_txt_color;
+			background: $btn_bg_color;
+			width: 120px;
+			height: 44px;
+			text-decoration: none;
+			border-radius: $radius_base;
+			transition: all 0.2s;
+
+			@include sp {
+				display: none;
+			}
+
+			&:hover {
+				background: $btn_txt_color;
+				color: #F0EEE4;
+				transition: all 0.2s;
+
+			}
+
+			i {
+				width: 22px;
+
+			}
+		}
+
+
+
+		.sp_nav_btn {
+			display: none;
+
+			@include sp {
+				display: block;
+
+				#menu-btn-check {
+					display: none;
+				}
+
+				#menu-btn-check:checked~.menu-btn span {
+					background-color: rgba(255, 255, 255, 0);
+					/*メニューオープン時は真ん中の線を透明にする*/
+				}
+
+				#menu-btn-check:checked~.menu-btn span::before {
+					bottom: 0;
+					transform: rotate(45deg);
+				}
+
+				#menu-btn-check:checked~.menu-btn span::after {
+					top: 0;
+					transform: rotate(-45deg);
+				}
+
+
+
+				.menu-btn {
+					position: fixed;
+					top: 0;
+					right: 0;
+					display: flex;
+					height: 60px;
+					width: 60px;
+					justify-content: center;
+					align-items: center;
+					z-index: 90;
+					background-color: transparent;
+
+					span {
+						content: '';
+						display: block;
+						height: 3px;
+						width: 25px;
+						background-color: $primary_color;
+						position: absolute;
+
+						&::before {
+							content: '';
+							display: block;
+							height: 3px;
+							width: 25px;
+							background-color: $primary_color;
+							position: absolute;
+						}
+
+						&::after {
+							content: '';
+							display: block;
+							height: 3px;
+							width: 25px;
+							background-color: $primary_color;
+							position: absolute;
+						}
+
+						&:before {
+							bottom: 8px;
+						}
+
+						&:after {
+							top: 8px;
+						}
+					}
+				}
+
+				.menu-content-cover {
+					opacity: 0;
+					visibility: hidden;
+					position: fixed;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: rgba(0, 0, 0, 0.6);
+					transition: all 0.2s;
+
+					.menu-content {
+						width: 100%;
+						// height: 100%;
+						position: fixed;
+						top: -100%;
+						// top: 0;
+						left: 0;
+						z-index: 80;
+						background-color: #fff;
+						transition: all 0.5s;
+						padding: 0 0 60px 0;
+
+						.sp_nav_menu {
+							margin: 0 20px;
+							display: flex;
+							flex-direction: column;
+
+							li {
+								list-style: none;
+								border-bottom: 1px solid $border_gray_color;
+
+								a {
+									height: 60px;
+									display: flex;
+									flex-direction: row;
+									align-items: center;
+									justify-content: space-between;
+									max-width: 100%;
+									font-size: 17px;
+									color: $text_color;
+									font-weight: 700;
+									text-decoration: none;
+									position: relative;
+									padding: 0 10px;
+
+
+									i {
+										color: $primary_color;
+									}
+								}
+
+								.sp_nav_submenu {
+									display: none;
+									background: $primary_color;
+									margin: 0 -20px;
+									padding: 0 20px;
+									box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+
+									li {
+										a {
+											color: #fff;
+											height: 44px;
+											font-weight: 400;
+										}
+									}
+								}
+
+								.showsubmenu {
+									display: block;
+								}
+
+								.sp_nav_submenu2 {
+									display: none;
+									background: #dd7a2a;
+									margin: 0 -20px;
+									padding: 0 20px;
+									box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+
+									li {
+										a {
+											color: #fff;
+											height: 44px;
+											font-weight: 400;
+										}
+									}
+								}
+
+								.showsubmenu2 {
+									display: block;
+								}
+
+							}
+						}
+
+						.sp_nav_lower_menu {
+							margin: 15px 0 0 0;
+							padding: 0 30px;
+
+							li {
+								list-style: none;
+
+								a {
+									color: $text_color;
+									text-decoration: none;
+
+									&:hover {
+										text-decoration: underline;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			#menu-btn-check:checked~.menu-content-cover>.menu-content {
+
+				top: 0;
+			}
+
+			#menu-btn-check:checked~.menu-content-cover {
+				opacity: 1;
+				visibility: visible;
+			}
+
+			.translate_sp {
+				margin: 10px 20px 30px 20px;
+				max-width: 100%;
+
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				color: $btn_txt_color;
+				background: $btn_bg_color;
+				height: 44px;
+				text-decoration: none;
+				border-radius: $radius_base;
+				transition: all 0.2s;
+
+				&:hover {
+					background: $btn_txt_color;
+					color: #F0EEE4;
+					transition: all 0.2s;
+				}
+
+				i {
+					width: 22px;
+				}
+			}
+		}
+	}
+}
+
+.nav {
+	width: 100%;
+	background: #fff;
+
+	@include sp {
+		display: none;
+	}
+
+	.nav_inner {
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+
+		@include tablet {
+			max-width: 100%;
+		}
+
+		.nav_pc {
+
+			.nav_list {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin: 0 auto;
+				position: relative;
+
+				li {
+					// position: relative;
+					list-style: none;
+					width: 180px;
+					height: 60px;
+
+					@include tablet {
+						width: auto;
+					}
+
+					a {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 180px;
+						height: 60px;
+						color: $text_color;
+						font-family: 'Noto Sans JP', sans-serif;
+						font-weight: 700;
+						text-decoration: none;
+						transition: all 0.2s;
+						cursor: pointer;
+
+						@include tablet {
+							width: 100%;
+							padding: 0 30px;
+						}
+
+						&:hover {
+							color: $primary_color;
+							background: $primaty_hover_color;
+							transition: all 0.2s;
+						}
+
+						i {
+							padding: 0 0 0 5px;
+							font-size: 12px;
+							color: $primary_color;
+						}
+					}
+
+
+				}
+			}
+
+
+		}
+	}
+}
+
+.dropdown_list {
+	overflow: hidden;
+	height: 0;
+	width: 100vw;
+	margin: 0 calc(50% - 50vw);
+	position: absolute;
+	top: 0;
+	left: 0;
+	top: 60px;
+	background: $primary_color;
+	z-index: 998;
+	transition: all 0.2s;
+
+	.dropdown_list_inner {
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		li {
+			list-style: none;
+
+			a {
+				width: 160px;
+				height: 60px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				text-align: center;
+				text-decoration: none;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 1.4;
+				color: #fff !important;
+				transition: all 0.2s;
+
+				@include tablet {
+					font-size: 15px;
+					width: 100%;
+					padding: 0 10px;
+				}
+
+				&:hover {
+					background: $primary_color_dark !important;
+					// transition: all 0.2s;
+				}
+			}
+		}
+	}
+}
+
+.dropdown_list2 {
+	overflow: hidden;
+	height: 0;
+	width: 100vw;
+	margin: 0 calc(50% - 50vw);
+	position: absolute;
+	left: 0;
+	top: 60px;
+	background: #dd7a2a;
+	z-index: 998;
+	transition: all 0.2s;
+
+	.dropdown_list_inner2 {
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		li {
+			list-style: none;
+
+			a {
+				width: 160px;
+				height: 60px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				text-align: center;
+				text-decoration: none;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 1.4;
+				color: #fff !important;
+				transition: all 0.2s;
+
+				@include tablet {
+					font-size: 15px;
+					width: 100%;
+					padding: 0 10px;
+				}
+
+				&:hover {
+					background: #b96622 !important;
+					transition: all 0.2s;
+				}
+			}
+		}
+	}
+}
+
+.active {
+	height: 60px;
+	// transition: all 0.2s;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.main {
+	margin: 0 0 30px 0;
+}
+
+.sub_mv {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 160px;
+	background-image: url("../img/sub_mv_p.jpg");
+	background-position: center center;
+	background-size: cover;
+
+	&::before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background: rgba(0, 0, 0, 0.4);
+	}
+}
+
+.sub_mv2 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 160px;
+	background-image: url("../img/sub_mv_r.jpg");
+	background-position: center center;
+	background-size: cover;
+
+	&::before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background: rgba(0, 0, 0, 0.4);
+	}
+}
+
+.sub_mv3 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 160px;
+	background-image: url("../img/sub_mv_a.jpg");
+	background-position: center center;
+	background-size: cover;
+
+	&::before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background: rgba(0, 0, 0, 0.4);
+	}
+}
+
+.sub_mv_ttl {
+	color: #fff;
+	z-index: 2;
+
+	@include sp {
+		font-size: 26px;
+	}
+}
+
+// パンくずリスト
+.breadcrumb {
+	padding: 20px 0;
+	font-size: 11px;
+	margin: 0 0 35px 0;
+	border-bottom: 1px solid $border_gray_color;
+
+	@include sp {
+		font-size: 12px;
+		padding: 10px 0;
+		margin: 0 0 30px 0;
+	}
+
+	.arrow {
+		margin: 0 3px;
+		position: relative;
+		top: 0;
+		border: solid #878787;
+		border-width: 0 1px 1px 0;
+		transform: rotate(-45deg);
+		display: inline-block;
+		padding: 3px;
+	}
+}
+
+// 下層ページの共通クラス
+.contents {
+	font-size: 16px;
+	line-height: 1.7;
+	text-align: justify;
+
+	@include sp {
+		font-size: 15px;
+		line-height: 1.8;
+	}
+
+	h3 {
+		font-size: 24px;
+		margin: 30px 0 15px 0;
+		color: $primary_color;
+
+		@include sp {
+			font-size: 22px;
+		}
+	}
+
+	h4 {
+		font-size: 20px;
+		margin: 0 0 30px 0;
+		color: $text_color;
+		background: $border_gray_color;
+		padding: 14px 16px;
+
+		@include sp {
+			font-size: 18px;
+		}
+	}
+
+	h5 {
+		margin: 60px 0 15px 0;
+		color: $primary_color;
+	}
+
+	p {
+		margin-bottom: 1em;
+	}
+
+	hr {
+		border: 1px solid $border_gray_color;
+	}
+
+	section {
+		margin: 0 0 60px 0;
+	}
+
+	ul {
+		li {
+			position: relative;
+			list-style-type: none;
+			padding: 0 0 0 1em;
+			margin-bottom: 0.5em;
+
+			&:before {
+				position: absolute;
+				top: 12px;
+				left: 0;
+				content: "";
+				width: 6px;
+				height: 6px;
+				border-radius: 1em;
+				background: $primary_color;
+			}
+		}
+	}
+}
+
+.theme {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		gap: 10px;
+		margin-right: -10px;
+		margin-bottom: 15px;
+
+		@include sp {
+			flex-direction: column;
+			gap: 10px;
+			margin-right: 0;
+		}
+
+		li {
+			width: calc(50% - 10px);
+			background: $bg_lignt_gray;
+			border: 1px solid $border_gray_color;
+			min-height: 55px;
+			padding: 15px 15px 15px 2.5em;
+			text-indent: -0.8em;
+			line-height: 1.4;
+			margin: 0;
+
+			@include sp {
+				width: 100%;
+			}
+
+			span {
+
+				i {
+					color: $primary_color;
+					padding: 0 10px 0 0;
+				}
+			}
+
+			&:before {
+				content: none;
+			}
+		}
+	}
+
+}
+
+// 1文字用インデント
+.ind1 {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+// 1文字用インデント　アキあり
+.ind1-1 {
+	display: inline-block;
+	margin: 0;
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+// 2文字用インデント
+.ind2 {
+	text-indent: -2em;
+	padding-left: 2em;
+}
+
+// 3文字用インデント
+.ind3 {
+	text-indent: -3em;
+	padding-left: 3em;
+}
+
+// 4文字用インデント
+.ind4 {
+	text-indent: -4em;
+	padding-left: 4em;
+}
+
+// 5文字用インデント
+.ind5 {
+	text-indent: -5em;
+	padding-left: 5em;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.news {
+	// border-top: 1px solid $border_gray_color;
+	// border-bottom: 1px solid $border_gray_color;
+	padding: 30px 0 0 0;
+	// margin: 0 0 60px 0;
+}
+
+.participation {
+	margin: 0 0 60px 0;
+}
+
+.register {
+	margin: 0 0 60px 0;
+}
+
+// トップページのカード型ボタン
+.cards {
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 15px;
+
+		@include tablet {
+			gap: 10px;
+		}
+
+		@include sp {
+			gap: 12px;
+			flex-direction: column;
+		}
+
+		li {
+			width: 20%;
+
+			@include sp {
+				width: 100%;
+			}
+
+			a {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				text-decoration: none;
+				color: $text_color;
+				font-size: 18px;
+				font-weight: 700;
+				height: 100px;
+				background: $bg_lignt_gray;
+				border: 1px solid $border_gray_color;
+				border-radius: $radius_base;
+				transition: all 0.2s;
+
+				@include tablet {
+					font-size: 14px;
+					line-height: 1.4;
+					gap: 5px;
+				}
+
+				@include sp {
+					font-size: 16px;
+					flex-direction: row;
+					height: 60px;
+					justify-content: flex-start;
+				}
+
+				&:hover {
+					border: 1px solid $primary_color_dark;
+					background: $primary_color;
+					color: #fff;
+
+					transform: translateY(-3px);
+					box-shadow: rgba(17, 12, 46, 0.25) 0px 20px 50px 0px;
+					transition: all 0.2s;
+
+					@include tablet {
+						transform: none;
+						box-shadow: none;
+					}
+
+					@include sp {
+						transform: none;
+						box-shadow: none;
+					}
+				}
+
+				&:hover .ico01 {
+					background: url("../img/01_panel_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico02 {
+					background: url("../img/02_abst_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico03 {
+					background: url("../img/03_newgenepanel_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico04 {
+					background: url("../img/04_newgeneabst_ico_hover.svg") no-repeat center center;
+				}
+
+				&:hover .ico05 {
+					background: url("../img/05_participation_ico_hover.svg") no-repeat center center;
+				}
+
+				.ico01 {
+					background: url("../img/01_panel_ico.svg") no-repeat center center;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
+				}
+
+				.ico02 {
+					background: url("../img/02_abst_ico.svg") no-repeat center center;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
+				}
+
+				.ico03 {
+					background: url("../img/03_newgenepanel_ico.svg") no-repeat center center;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
+				}
+
+				.ico04 {
+					background: url("../img/04_newgeneabst_ico.svg") no-repeat center center;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
+				}
+
+				.ico05 {
+					background: url("../img/05_participation_ico.svg") no-repeat center center;
+					width: 42px;
+					height: 42px;
+					margin: 0 0 2px 0;
+
+					@include sp {
+						margin: 0 25px 0 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.rows {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	gap: 30px;
+
+	@include tablet {
+		gap: 30px;
+	}
+
+	@include sp {
+		flex-direction: column;
+	}
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+
+	@include sp {
+		flex-direction: column;
+		gap: 0;
+	}
+}
+
+.row-50 {
+	max-width: 50%;
+
+	@include sp {
+		max-width: 100%;
+	}
+}
+
+.notice {
+	max-width: 600px;
+	margin: 0 0 40px 0;
+
+	@include sp {
+		width: 100%;
+		margin: 0 0 60px 0;
+	}
+
+	.lists {
+		border-bottom: 1px solid $border_gray_color;
+
+		ul {
+			li {
+				list-style: none;
+				border-top: 1px solid $border_gray_color;
+
+				// オープンあり
+				.list_column {
+					position: relative;
+					text-decoration: none;
+					color: $text_color;
+
+					height: 60px;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					transition: all 0.2s;
+					cursor: pointer;
+
+					// 下向き矢印
+					&:before {
+						content: "";
+						position: absolute;
+						width: 10px;
+						height: 10px;
+						right: 20px;
+						top: 35%;
+						transform: rotate(45deg);
+						border-bottom: 1px solid $text_color;
+						border-right: 1px solid $text_color;
+						transition: all 0.2s;
+					}
+
+					@include tablet {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
+
+					@include sp {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
+
+					&:hover {
+						background: $bg_lignt_gray;
+						transition: all 0.2s;
+					}
+
+					.date {
+						font-size: 13px;
+						margin: 0 10px 0 0;
+					}
+
+					.notice_ttl {
+						@include sp {
+							font-size: 16px;
+							line-height: 1.4;
+						}
+					}
+
+					p {
+						font-size: 17px;
+						font-weight: 700;
+					}
+				}
+
+				.list_column_closed {
+					position: relative;
+					text-decoration: none;
+					color: $text_color;
+
+					height: 60px;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					transition: all 0.2s;
+					// cursor: pointer;
+
+
+					@include tablet {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
+
+					@include sp {
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: center;
+						padding: 0 10px;
+					}
+
+					&:hover {
+						background: $bg_lignt_gray;
+						transition: all 0.2s;
+					}
+
+					.date {
+						font-size: 13px;
+						margin: 0 10px 0 0;
+					}
+
+					.notice_ttl {
+						@include sp {
+							font-size: 16px;
+							line-height: 1.4;
+						}
+					}
+
+					p {
+						font-size: 17px;
+						font-weight: 700;
+					}
+				}
+
+				.description {
+					display: none;
+					border-top: 1px solid $border_gray_color;
+					background: $bg_lignt_gray;
+
+					div {
+						padding: 30px;
+
+					}
+				}
+			}
+		}
+	}
+}
+
+.speciallecture {
+	max-width: 600px;
+	margin: 0 0 40px 0;
+	border: 1px solid $border_gray_color;
+	border-radius: $radius_base;
+	padding: 25px;
+
+	@include sp {
+		width: 100%;
+		margin: 0 0 60px 0;
+	}
+
+	.speciallecture_box {
+		border-bottom: 1px solid $border_gray_color;
+		padding: 0 0 30px 0;
+
+		&:last-child {
+			border-bottom: none;
+			padding: 30px 0 0 0;
+		}
+
+		.speciallecture_date {
+			font-size: 18px;
+			font-weight: 700;
+			color: #be4682;
+			margin: 0 0 10px 0;
+		}
+
+		.speciallecture_ttl {
+			font-size: 19px;
+			margin: 0 0 5px 0;
+		}
+
+		p {
+			line-height: 1.5;
+			margin: 0 0 7px 0;
+		}
+
+	}
+}
+
+.question {
+	max-width: 600px;
+	margin: 0 0 40px 0;
+	border: 1px solid $border_gray_color;
+	border-radius: $radius_base;
+	padding: 25px;
+
+	@include sp {
+		width: 100%;
+		margin: 0 0 60px 0;
+	}
+}
+
+.schedule {
+	width: 400px;
+
+	@include sp {
+		width: 100%;
+	}
+
+	.month_box {
+		border: 1px solid $border_gray_color;
+		padding: 30px;
+		margin: 0 0 25px 0;
+		border-radius: $radius_base;
+
+		@include sp {
+			margin: 0 0 15px 0;
+		}
+
+		.month_around {
+			font-size: 18px;
+			font-weight: 700;
+			color: $primary_color;
+			margin: 0 0 25px 0;
+		}
+
+		.month_ttl {
+			font-size: 17px;
+			font-weight: bold;
+			line-height: 1.4;
+		}
+
+		p {
+			margin: 25px 0 0 0;
+			font-size: 14px;
+			line-height: 1.75;
+		}
+	}
+}
+
+.footer {
+	color: $btn_bg_color;
+	background: $text_color;
+	padding: 45px 0;
+
+	@include sp {
+		padding: 45px 0 90px 0;
+	}
+
+	.footer_inner {
+		max-width: $brakepint_pc;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		gap: 40px;
+		padding: 0 20px;
+
+		@include tablet {
+			gap: 30px;
+			padding: 0 20px;
+		}
+
+		@include sp {
+			padding: 0 40px;
+			flex-direction: column;
+		}
+
+		.footer_box {
+			width: 28%;
+
+			&:first-child {
+				width: 25%;
+
+				@include sp {
+					width: 100%;
+					text-align: center;
+				}
+			}
+
+			&:nth-child(2) {
+				width: 44%;
+
+				@include sp {
+					width: 100%;
+					// text-align: center;
+				}
+			}
+
+			@include sp {
+				width: 100%;
+				// text-align: center;
+			}
+
+			.footer_logo {
+				width: 260px;
+
+				@include tablet {
+					max-width: 100%;
+
+					img {
+						max-width: 100%;
+					}
+				}
+
+				@include sp {
+					margin: 0 auto;
+				}
+			}
+
+			.footer_ttl {
+				font-size: 20px;
+				color: #fff;
+				margin: -5px 0 15px 0;
+				line-height: 1.5;
+
+				@include tablet {
+					font-size: 16px;
+					margin: -5px 0 10px 0;
+				}
+
+				@include sp {
+					font-size: 18px;
+					margin: -5px 0 10px 0;
+				}
+			}
+
+			p {
+				font-size: 16px;
+				color: $footer_txt_color;
+				line-height: 1.8;
+
+				@include tablet {
+					font-size: 14px;
+				}
+
+				@include sp {
+					font-size: 16px;
+				}
+			}
+
+		}
+	}
+}
+
+// トップへ戻る
+.page-top {
+	display: block;
+	position: fixed;
+	right: 15px;
+	bottom: -50px;
+	z-index: 9999;
+	width: 100px;
+	height: 50px;
+	background: $primary_color;
+	color: #fff;
+	text-align: center;
+	transition: all 0.2s;
+	border-top-left-radius: $radius_base;
+	border-top-right-radius: $radius_base;
+	cursor: pointer;
+
+	@include sp {
+		display: block;
+		position: fixed;
+		bottom: -50px;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		background: $primary_color;
+		color: #fff;
+		z-index: 9999;
+		transition: all 0.2s;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+
+	span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 16px;
+		font-weight: bold;
+		display: block;
+		text-align: center;
+
+		@include sp {
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 18px;
+			font-weight: bold;
+			text-align: center;
+		}
+	}
+}
+
+.js_active {
+	bottom: 0 !important;
+	transition: all 0.2s;
+}
+
+// 単語改行処理
+.sp_br {
+	display: none;
+
+	@include sp {
+		display: block;
+	}
+}
+
+.sp_tb {
+	display: none;
+
+	@include tablet {
+		display: block;
+	}
+
+	@include sp {
+		display: none;
+	}
+}
+
+.disable {
+	color: #aaa !important;
+	pointer-events: none !important;
+	transition: none !important;
+
+	&:hover {
+		color: #aaa !important;
+		pointer-events: none !important;
+	}
+}
+
+.disable_english {
+	background-color: #eee !important;
+	color: #ccc !important;
+	pointer-events: none !important;
+	transition: none !important;
+
+	&:hover {
+		pointer-events: none !important;
+	}
+}
+
+iframe {
+	margin: 0 !important;
+	padding: 0 !important;
+	min-height: 100% !important;
+	max-height: 100% !important;
+}
+
+.form_all {
+	min-height: 100% !important;
+	max-height: 100% !important;
+}
