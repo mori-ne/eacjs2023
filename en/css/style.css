@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
@@ -315,21 +315,21 @@ progress {
   text-align: center;
 }
 .ttl .main_ttl {
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1.25;
   text-align: center;
 }
 @media (max-width: 960px) {
   .ttl .main_ttl {
-    font-size: 32px;
+    font-size: 28px;
     min-width: 500px;
     max-width: 100%;
-    line-height: 1.4;
+    line-height: 1.25;
   }
 }
 @media (max-width: 620px) {
   .ttl .main_ttl {
-    font-size: 26px;
+    font-size: 20px;
     min-width: 375px;
     max-width: 100%;
     line-height: 1.4;
@@ -337,20 +337,20 @@ progress {
 }
 .ttl .sub_ttl {
   font-size: 16px;
-  line-height: 1.7;
-  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.4;
+  font-family: "Source Serif Pro", serif;
   font-weight: 400;
 }
 @media (max-width: 620px) {
   .ttl .sub_ttl {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Source Serif Pro", serif;
   font-size: 16px;
-  line-height: 1.75;
+  line-height: 1.1;
   color: #444444;
 }
 @media (max-width: 620px) {
@@ -365,7 +365,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "M PLUS 1p", sans-serif;
+  font-family: "Source Serif Pro", serif;
   line-height: 1.25;
 }
 
@@ -375,7 +375,7 @@ h1 {
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 38px;
 }
 
 h3 {
@@ -431,7 +431,7 @@ a:hover {
   display: inline-block;
   padding: 0 10px;
   vertical-align: middle;
-  font-family: "M PLUS 1p", sans-serif;
+  font-family: "Source Serif Pro", serif;
   color: #999891;
   background: #F0EEE4;
   font-size: 26px;
@@ -445,7 +445,7 @@ a:hover {
 .mf {
   display: inline-block;
   vertical-align: baseline;
-  font-family: "M PLUS 1p", sans-serif;
+  font-family: "Source Serif Pro", serif;
   color: #666;
   text-indent: 0;
   font-size: 16px;
@@ -453,7 +453,7 @@ a:hover {
 
 .tf {
   display: inline-block;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Source Serif Pro", serif;
   padding: 0 3px;
   vertical-align: middle;
   font-size: 18px;
@@ -564,6 +564,8 @@ a:hover {
   text-decoration: none;
   transition: all 0.2s;
   border-radius: 6px;
+  line-height: 1.2;
+  text-align: center;
 }
 .btn:hover {
   background: #993869;
@@ -572,7 +574,9 @@ a:hover {
 }
 @media (max-width: 620px) {
   .btn {
-    width: 80%;
+    width: 90%;
+    padding: 5px 0;
+    height: 60px;
   }
 }
 
@@ -666,17 +670,17 @@ a:hover {
   }
 }
 .header .header_inner .logo {
-  width: 260px;
+  width: 360px;
   height: auto;
 }
 @media (max-width: 960px) {
   .header .header_inner .logo {
-    width: 220px;
+    width: 320px;
   }
 }
 @media (max-width: 620px) {
   .header .header_inner .logo {
-    width: 200px;
+    width: 280px;
   }
 }
 .header .header_inner .contact {
@@ -950,11 +954,12 @@ a:hover {
   width: 180px;
   height: 60px;
   color: #444444;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Source Serif Pro", serif;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.2s;
   cursor: pointer;
+  line-height: 1;
 }
 @media (max-width: 960px) {
   .nav .nav_inner .nav_pc .nav_list li a {
@@ -1156,7 +1161,7 @@ a:hover {
 }
 @media (max-width: 620px) {
   .sub_mv_ttl {
-    font-size: 26px;
+    font-size: 30px;
   }
 }
 
@@ -1185,24 +1190,24 @@ a:hover {
 }
 
 .contents {
-  font-size: 16px;
-  line-height: 1.7;
-  text-align: justify;
+  font-size: 17px;
+  line-height: 1.6;
+  overflow-wrap: break-word;
 }
 @media (max-width: 620px) {
   .contents {
-    font-size: 15px;
-    line-height: 1.8;
+    font-size: 17px;
+    line-height: 1.6;
   }
 }
 .contents h3 {
-  font-size: 24px;
+  font-size: 28px;
   margin: 30px 0 15px 0;
   color: #be4682;
 }
 @media (max-width: 620px) {
   .contents h3 {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 .contents h4 {
@@ -1317,6 +1322,11 @@ a:hover {
   padding-left: 5em;
 }
 
+.ind2en {
+  text-indent: -2.7em;
+  padding-left: 2.7em;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -1368,13 +1378,26 @@ a:hover {
   text-align: center;
   text-decoration: none;
   color: #444444;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   height: 100px;
   background: #F9F9F9;
   border: 1px solid #e6e6e6;
   border-radius: 6px;
   transition: all 0.2s;
+}
+.cards ul li a p {
+  display: flex;
+  align-items: center;
+  min-height: 38px;
+}
+@media (max-width: 620px) {
+  .cards ul li a p {
+    display: block;
+    align-items: normal;
+    min-height: auto;
+    text-align: left;
+  }
 }
 @media (max-width: 960px) {
   .cards ul li a {
@@ -1389,6 +1412,7 @@ a:hover {
     flex-direction: row;
     height: 60px;
     justify-content: flex-start;
+    line-height: 1.1;
   }
 }
 .cards ul li a:hover {
@@ -1917,6 +1941,20 @@ a:hover {
 }
 @media (max-width: 620px) {
   .sp_tb {
+    display: none;
+  }
+}
+
+.pc_br {
+  display: block;
+}
+@media (max-width: 960px) {
+  .pc_br {
+    display: block;
+  }
+}
+@media (max-width: 620px) {
+  .pc_br {
     display: none;
   }
 }

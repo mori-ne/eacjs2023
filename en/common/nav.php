@@ -11,9 +11,9 @@
 						<ul class="dropdown_list_inner">
 							<li><a href="./p_panel.php">Panel Presentation</a></li>
 							<li><a href="./p_abstract.php">Individual Research Presentation</a></li>
-							<li><a href="./p_nextgenpanel.php">Next-Generation Panel Presentation</a></li>
-							<li><a href="./p_nextgenabstract.php">Next-Generation Research Presentation</a></li>
-							<li><a href="./p_public.php">一般参加<br>（参観のみ）</a></li>
+							<li><a href="./p_nextgenpanel.php">Next-Generation<br class="pc_br"> Panel Presentation</a></li>
+							<li><a href="./p_nextgenabstract.php">Next-Generation<br class="pc_br"> Research Presentation</a></li>
+							<li><a href="./p_public.php">General Participants<br class="pc_br"> (only observation)</a></li>
 						</ul>
 					</div>
 
@@ -25,15 +25,15 @@
 						<ul class="dropdown_list_inner2">
 							<li><a href="./r_panel.php">Panel Presentation</a></li>
 							<li><a href="./r_abstract.php">Individual Research Presentation</a></li>
-							<li><a href="./r_nextgenpanel.php">Next-Generation Panel Presentation</a></li>
-							<li><a href="./r_nextgenabstract.php">Next-Generation Research Presentation</a></li>
-							<li><a href="./r_public.php">一般参加<br>（参観のみ）</a></li>
+							<li><a href="./r_nextgenpanel.php">Next-Generation<br class="pc_br"> Panel Presentation</a></li>
+							<li><a href="./r_nextgenabstract.php">Next-Generation<br class="pc_br"> Research Presentation</a></li>
+							<li><a href="./r_public.php">General Participants<br class="pc_br"> (only observation)</a></li>
 						</ul>
 					</div>
 
 				</li>
 				<li><a class="disable" href="#">お支払い</a></li>
-				<li><a href="./access.php">アクセス情報</a></li>
+				<li><a href="./access.php">Access</a></li>
 				<!-- <li><a href="#">よくあるご質問</a></li> -->
 			</ul>
 		</div>

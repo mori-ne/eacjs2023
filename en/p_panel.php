@@ -15,9 +15,9 @@ $separetor = " | ";
 	<link href="img/favicon.ico" rel="icon">
 	<link href="img/favicon.ico" rel="apple-touch-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="本大会は、東アジアを中心とした国々の研究者に、多様な分野において蓄積されてきた日本研究に関する成果を発表・議論する場を提供し、日本研究と日本研究者の国際的交流の発展に寄与することを目的としています。" />
-	<meta content="東アジア日本研究者協議会,第7回国際学術大会,East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($sub_pagettl . $separetor); ?>東アジア日本研究者協議会 第7回国際学術大会</title>
+	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
+	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
+	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -92,103 +92,70 @@ $separetor = " | ";
 					<section>
 						<h3><?php print($sub_pagettl); ?></h3>
 						<p>
-							各パネルは基本的に司会・発表者・討論者で構成し、合計4～7名とします。
+							Each panel will basically consist of a moderator, presenter, and discussant, with a total of 4 to 7 members.
 						</p>
 						<ul>
 							<li>
-								パネルの持ち時間は１パネルにつき1時間30分です。
+								Panels are limited to 1 hour and 30 minutes per panel.
 							</li>
 							<li>
-								パネルは参加団体・機関が自由にパネルを構成するものです。パネルの運営、経費（交通費・宿泊費・参加費・謝礼など）は自己負担とし、会議資料の作成もパネルですべて責任を持って行うものとします。
+								Panels are to be organized freely by the participating group/organization. The panel will be responsible for its own management and expenses (transportation, accommodation, registration fees, honoraria, etc.), and the panel will be responsible for the preparation of all the presentation materials.
 							</li>
 						</ul>
 					</section>
 
 					<section>
-						<h3>テーマについて</h3>
+						<h3>About the theme</h3>
 						<div class="theme">
 							<ul>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける歴史認識問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>帝国日本の支配と植民地社会の変容</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける思想交流</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける諸宗教の交流</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける政治と国際関係</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける人・物の移動と変容</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける経済、資本と国家</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>「世界文学」のなかの日本文学</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアの高齢化問題・福祉問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける日本語研究の諸問題</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>AIと日本語教育</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける社会とジェンダー</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>東アジアにおける社会運動</span>
-								</li>
-								<li>
-									<span><i class="fa-solid fa-check"></i>日本研究と文化表象</span>
-								</li>
+								<li><span><i class="fa-solid fa-check"></i>Historical Perception Issues in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Domination of Imperial Japan and Transformation of Colonial Societies</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Ideological Exchange in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Religions and Religious Interaction in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Politics and International Relations in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Migration and Transformation of People and Commodities in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Economy, Capital, and State in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Japanese Literature in "World Literature"</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Issues of Aging and Welfare in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Issues in Japanese Language Studies in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>AI and Japanese Language Education</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Society and Gender in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Social Movements in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Japanese Studies and Cultural Representation</span></li>
 							</ul>
 						</div>
-						<p class="ind2">
-							注：上記のテーマはあくまで例示であり、これ以外のテーマを排除するものではありません。参加者は上記のテーマを参考に、サブテーマを設定の上、パネル全体の発表要旨（1,200字程度）を提出して下さい。
+						<p class="ind2en">
+							Note: The above themes are examples only and do not exclude other themes. Participants are requested to submit an abstract (approximately 1,200 words) of their presentation for the entire panel, with sub-themes based on the above themes.
 						</p>
 					</section>
 
 					<section>
-						<h3>使用言語</h3>
+						<h3>Language</h3>
 						<p>
-							言語は原則として日本語とします。もし日本語以外の言語で発表する場合、意思疎通のためレジュメやパワーポイントに日本語訳をつけるようにしてください。
+							In principle, the language shall be Japanese. If you wish to present your presentation in non-Japanese, please provide a Japanese translation of your resume or PowerPoint presentation for the sake of communication.
 						</p>
 					</section>
 
 
 
 					<section>
-						<h3>申込期限</h3>
+						<h3>Application Deadlines</h3>
 						<p>
-							<span class="bf">5</span>
-							<span class="tf">月</span>
-							<span class="bf">23</span>
-							<span class="tf">日（火）～</span>
-							<span class="bf">7</span>
-							<span class="tf">月</span>
-							<span class="bf">19</span>
-							<span class="tf">日（水、必着）</span>
+							Tuesday, May 23 - Wednesday, July 19
+							<br class="sp_br">
+							(must arrive no later than <b>Wednesday, July 19</b>)
 						</p>
 					</section>
 
 					<section>
-						<h3>参加費</h3>
+						<h3>Registration Fee</h3>
 						<p>
-							8,000円
+							8,000 JPY
 						</p>
 					</section>
 
 					<section>
-						<a class="btn" href="r_panel.php">お申込みはこちら</a>
+						<a class="btn" href="r_panel.php">Sign up for a <br class="sp_br">panel presentation</a>
 					</section>
 				</div>
 			</div>

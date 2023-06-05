@@ -99,19 +99,19 @@ $brakepint_sp: 620px;
 	// }
 
 	.main_ttl {
-		font-size: 40px;
+		font-size: 36px;
 		line-height: 1.25;
 		text-align: center;
 
 		@include tablet {
-			font-size: 32px;
+			font-size: 28px;
 			min-width: 500px;
 			max-width: 100%;
-			line-height: 1.4;
+			line-height: 1.25;
 		}
 
 		@include sp {
-			font-size: 26px;
+			font-size: 20px;
 			min-width: 375px;
 			max-width: 100%;
 			line-height: 1.4;
@@ -121,12 +121,12 @@ $brakepint_sp: 620px;
 
 	.sub_ttl {
 		font-size: 16px;
-		line-height: 1.7;
-		font-family: 'Noto Sans JP', sans-serif;
+		line-height: 1.4;
+		font-family: 'Source Serif Pro', serif;
 		font-weight: 400;
 
 		@include sp {
-			font-size: 16px;
+			font-size: 14px;
 		}
 
 	}

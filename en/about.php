@@ -14,9 +14,9 @@ $separetor = " | ";
 	<link href="img/favicon.ico" rel="icon">
 	<link href="img/favicon.ico" rel="apple-touch-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="本大会は、東アジアを中心とした国々の研究者に、多様な分野において蓄積されてきた日本研究に関する成果を発表・議論する場を提供し、日本研究と日本研究者の国際的交流の発展に寄与することを目的としています。" />
-	<meta content="東アジア日本研究者協議会,第7回国際学術大会,East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($main_pagettl . $separetor); ?>東アジア日本研究者協議会 第7回国際学術大会</title>
+	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
+	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
+	<title><?php print($main_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -91,16 +91,16 @@ $separetor = " | ";
 					<section>
 						<h3>About East Asian Consortium of Japanese Studies (EACJS)</h3>
 						<p>
-							　本協議会は、東アジアを中心とした国々の研究者に、多様な分野において蓄積されてきた日本研究に関する成果を発表・議論する場を提供し、日本研究と日本研究者の国際的交流の発展に寄与することを目的としています。本協議会が誕生した背景には、東アジアにおける日本研究の蓄積に比べて研究者間の交流が少ないという事実があります。北米を中心としたAAS（アジア学会）、欧州を中心としたEAJS（欧州日本学会）に対し、東アジア地域にはたくさんの日本研究者が活動しているにもかかわらず、個人あるいはグループ単位での交流は行われていますが、東アジアの日本研究者が一堂に会して交流しあう場は設けられませんでした。
+							The purpose of the EACJS is to contribute to the development of Japanese studies and international exchange among Japanese studies scholars by providing a forum for scholars in East Asia and other countries to present and discuss the results of Japanese studies accumulated in diverse fields. The background to the creation of the EACJS is that there has been little exchange among researchers in East Asia compared to the accumulation of Japanese studies in the region. In contrast to the AAS (Association for Asian Studies) and EAJS (European Association for Japanese Studies), mainly based in North America and Europe, many Japanese studies scholars are working in the East Asia region, there have been no opportunities for East Asian scholars to meet and interact with each other, either individually or on a group basis.
 						</p>
 						<p>
-							　そのため、5名の発起人により東アジアの日本研究機関を中心とする「東アジア日本研究者協議会」（以下協議会）を発足させ、議論を重ねてきました。その趣旨は、第一に、日本研究の質的な向上を目指すこと。第二に、地域の境界に閉ざされた日本研究から脱し、より多様な観点と立場からの日本研究を志向すること。第三に、東アジアの安定と平和に寄与すること。東アジアの日本研究者が一堂に集まり真剣に議論しあい、 交流すること自体に意味があります。また、本協議会は、東アジア地域を網羅する学会の設立を目標としています。
+							Accordingly, a group of five founders established the "East Asian Consortium of Japanese Studies" (after this referred to as the "Consortium"), mainly consisting of East Asian institutions of Japanese studies, and have held a series of discussions on the subject. The consortium's purpose is, first, to improve the quality of Japanese studies. Secondly, to move away from studying Japan confined to regional boundaries and to studying Japan from a more diverse range of perspectives and positions. The third is to contribute to stability and peace in East Asia. The gathering of Japanese studies scholars in East Asia for earnest discussion and exchange is meaningful in and of itself. The Consortium also aims to establish an academic society covering the entire East Asia region.
 						</p>
 						<p>
-							　上記の趣旨のもと、東アジアの日本研究機関が順次執行を担当することにより、年に1回の国際学術大会を開催することになっています。第1回はソウル大学（2016年・仁川）、第2回は南開大学（2017年・天津）、第3回は国際日本文化研究センター（2018年・京都）、第4回は台湾大学（2019年・台北）が主催機関となり開催されました。2020年のCOVID-19のパンデミックによる延期を挟んで、2021年の第5回は高麗大学主催で、昨年の第6回は北京外国語大学北京日本学研究センター主催で開催され、これまでいずれも300名にのぼる日本研究者が東アジア各国・地域から集まりました。
+							To the above objectives, we hold an annual international academic conference, with Japanese research institutes in East Asia taking charge of the execution. The first conference was held at Seoul National University (Incheon, 2016), the second at Nankai University (Tianjin, 2017), the third at the International Research Center for Japanese Studies (Kyoto, 2018), and the fourth at National Taiwan University (Taipei, 2019). After a postponement due to the COVID-19 pandemic in 2020, Korea University hosted the fifth conference in 2021, and Beijing Center for Japanese Studies at Beijing Foreign Studies University hosted the sixth conference last year, in total, more than 300 Japanese studies scholars from East Asian countries and regions have gathered at all these events.
 						</p>
 						<p>
-							　第7回となる今回の大会は、日本・東京の東京外国語大学において開催いたします。第5回と第6回の大会はパンデミックにより、オンラインでの開催でしたが、今大会は対面の開催を予定しています。東アジアの日本研究者の皆様が東京に集まり、日本研究の新たな広がりと深化が実現されることを期待しています。 また、これまでの大会を踏襲して、次世代の日本研究者も積極的に支援したいと考えています。
+							We will be holding the seventh conference at Tokyo University of Foreign Studies in Tokyo, Japan. While the fifth and sixth conferences had to be conducted online due to the pandemic, this year's conference is scheduled to be on-site. We hope this gathering of East Asian scholars of Japanese studies in Tokyo will bring new depth and broaden the scope of Japanese studies. We also hope to actively support the next generation of Japanese studies scholars in keeping with past conferences.
 						</p>
 					</section>
 

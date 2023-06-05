@@ -6,7 +6,7 @@
 		<div class="logo">
 			<a href="./">
 				<h1>
-					<img src="img/logo.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
+					<img src="img/logo_en.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
 				</h1>
 			</a>
 		</div>
@@ -38,14 +38,14 @@
 						<div class="logo">
 							<a href="./">
 								<h1>
-									<img src="img/logo.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
+									<img src="img/logo_en.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
 								</h1>
 							</a>
 						</div>
 					</div>
-					<a class="translate_sp disable_english" href="#">
+					<a class="translate_sp" href="../index.php">
 						<i class="fa-solid fa-globe"></i>
-						<p>English</p>
+						<p>Japanese</p>
 					</a>
 					<ul class="sp_nav_menu">
 						<li>
@@ -79,7 +79,7 @@
 							<a class="disable" href="#">お支払い</a>
 						</li>
 						<li>
-							<a href="./access.php">アクセス情報</a>
+							<a href="./access.php">Access</a>
 						</li>
 						<!-- <li>
 							<a href="#">よくあるご質問</a>

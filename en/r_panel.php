@@ -15,9 +15,9 @@ $separetor = " | ";
 	<link href="img/favicon.ico" rel="icon">
 	<link href="img/favicon.ico" rel="apple-touch-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="本大会は、東アジアを中心とした国々の研究者に、多様な分野において蓄積されてきた日本研究に関する成果を発表・議論する場を提供し、日本研究と日本研究者の国際的交流の発展に寄与することを目的としています。" />
-	<meta content="東アジア日本研究者協議会,第7回国際学術大会,East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($sub_pagettl . $separetor); ?>東アジア日本研究者協議会 第7回国際学術大会</title>
+	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
+	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
+	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>

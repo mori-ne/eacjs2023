@@ -1,9 +1,8 @@
 @charset "UTF-8";
 @use "ress";
 @use "swiper";
-// Noto Sans Regular Bold + M PLUS 1p Bold
-// Japanese Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap');
+// Source Serif Pro
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 // colors
 $primary_color:#be4682;
@@ -41,10 +40,11 @@ $brakepint_sp: 620px;
 //-----------------------------------------------------------------------------------
 
 body {
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Source Serif Pro', serif;
 	font-size: 16px;
-	line-height: 1.75;
+	line-height: 1.1;
 	color: $text_color;
+
 
 	@include sp {
 		padding-top: 60px;
@@ -57,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'M PLUS 1p', sans-serif;
+	font-family: 'Source Serif Pro', serif;
 	line-height: 1.25;
 
 }
@@ -68,7 +68,7 @@ h1 {
 }
 
 h2 {
-	font-size: 34px;
+	font-size: 38px;
 }
 
 h3 {
@@ -126,7 +126,7 @@ a {
 	display: inline-block;
 	padding: 0 10px;
 	vertical-align: middle;
-	font-family: 'M PLUS 1p', sans-serif;
+	font-family: 'Source Serif Pro', serif;
 	color: $btn_txt_color;
 	background: $btn_bg_color;
 	font-size: 26px;
@@ -140,7 +140,7 @@ a {
 .mf {
 	display: inline-block;
 	vertical-align: baseline;
-	font-family: 'M PLUS 1p', sans-serif;
+	font-family: 'Source Serif Pro', serif;
 	color: #666;
 	text-indent: 0;
 	font-size: 16px;
@@ -149,7 +149,7 @@ a {
 // 期日用　月日
 .tf {
 	display: inline-block;
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Source Serif Pro', serif;
 	padding: 0 3px;
 	vertical-align: middle;
 	font-size: 18px;
@@ -266,6 +266,8 @@ a {
 	text-decoration: none;
 	transition: all 0.2s;
 	border-radius: $radius_base;
+	line-height: 1.2;
+	text-align: center;
 
 	&:hover {
 		background: $primary_color_dark;
@@ -274,7 +276,9 @@ a {
 	}
 
 	@include sp {
-		width: 80%;
+		width: 90%;
+		padding: 5px 0;
+		height: 60px;
 	}
 }
 
@@ -371,15 +375,15 @@ a {
 		}
 
 		.logo {
-			width: 260px;
+			width: 360px;
 			height: auto;
 
 			@include tablet {
-				width: 220px;
+				width: 320px;
 			}
 
 			@include sp {
-				width: 200px;
+				width: 280px;
 			}
 		}
 
@@ -706,11 +710,12 @@ a {
 						width: 180px;
 						height: 60px;
 						color: $text_color;
-						font-family: 'Noto Sans JP', sans-serif;
+						font-family: 'Source Serif Pro', serif;
 						font-weight: 700;
 						text-decoration: none;
 						transition: all 0.2s;
 						cursor: pointer;
+						line-height: 1;
 
 						@include tablet {
 							width: 100%;
@@ -936,7 +941,7 @@ a {
 	z-index: 2;
 
 	@include sp {
-		font-size: 26px;
+		font-size: 30px;
 	}
 }
 
@@ -967,22 +972,24 @@ a {
 
 // 下層ページの共通クラス
 .contents {
-	font-size: 16px;
-	line-height: 1.7;
-	text-align: justify;
+	font-size: 17px;
+	line-height: 1.6;
+	// text-align: justify;
+	overflow-wrap: break-word;
 
 	@include sp {
-		font-size: 15px;
-		line-height: 1.8;
+		font-size: 17px;
+		line-height: 1.6;
+
 	}
 
 	h3 {
-		font-size: 24px;
+		font-size: 28px;
 		margin: 30px 0 15px 0;
 		color: $primary_color;
 
 		@include sp {
-			font-size: 22px;
+			font-size: 24px;
 		}
 	}
 
@@ -1119,6 +1126,11 @@ a {
 	padding-left: 5em;
 }
 
+.ind2en {
+	text-indent: -2.7em;
+	padding-left: 2.7em;
+}
+
 .column {
 	display: flex;
 	flex-direction: column;
@@ -1172,13 +1184,27 @@ a {
 				text-align: center;
 				text-decoration: none;
 				color: $text_color;
-				font-size: 18px;
+				font-size: 16px;
 				font-weight: 700;
 				height: 100px;
 				background: $bg_lignt_gray;
 				border: 1px solid $border_gray_color;
 				border-radius: $radius_base;
 				transition: all 0.2s;
+
+				p {
+					display: flex;
+					align-items: center;
+					min-height: 38px;
+
+					@include sp {
+						display: block;
+						align-items: normal;
+						min-height: auto;
+						text-align: left;
+
+					}
+				}
 
 				@include tablet {
 					font-size: 14px;
@@ -1191,6 +1217,7 @@ a {
 					flex-direction: row;
 					height: 60px;
 					justify-content: flex-start;
+					line-height: 1.1;
 				}
 
 				&:hover {
@@ -1739,6 +1766,18 @@ a {
 
 .sp_tb {
 	display: none;
+
+	@include tablet {
+		display: block;
+	}
+
+	@include sp {
+		display: none;
+	}
+}
+
+.pc_br {
+	display: block;
 
 	@include tablet {
 		display: block;
