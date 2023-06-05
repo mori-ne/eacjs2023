@@ -43,7 +43,7 @@
 							</a>
 						</div>
 					</div>
-					<a class="translate_sp disable_english" href="#">
+					<a class="translate_sp" href="en/index.php">
 						<i class="fa-solid fa-globe"></i>
 						<p>English</p>
 					</a>
