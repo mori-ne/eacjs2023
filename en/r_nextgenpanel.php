@@ -104,7 +104,7 @@ $separetor = " | ";
 
 						<!-- Jotform -->
 						<div class="form_area">
-							<script type="text/javascript" src="https://form.jotform.com/jsform/231200762310438"></script>
+							<script type="text/javascript" src="https://form.jotform.com/jsform/231560538214451"></script>
 						</div>
 
 
