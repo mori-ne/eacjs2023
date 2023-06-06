@@ -32,7 +32,7 @@
 					</div>
 
 				</li>
-				<li><a class="disable" href="#">お支払い</a></li>
+				<li><a class="disable" href="#">Payment</a></li>
 				<li><a href="./access.php">Access</a></li>
 				<!-- <li><a href="#">よくあるご質問</a></li> -->
 			</ul>

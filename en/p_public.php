@@ -17,7 +17,7 @@ $separetor = " | ";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
 	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
+	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies (EACJS) The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -94,8 +94,9 @@ $separetor = " | ";
 					<section>
 						<h3><?php print($sub_pagettl); ?></h3>
 						<p>
-							観覧のみのご参加をご希望される方は、事前お申込みが必要です。<br>
-							参加登録システムにアクセスし、登録をお願いいたします。
+							Advance registration is required for those who wish to attend only to view the exhibition.<br>
+							Please access the registration system to register.
+
 						</p>
 					</section>
 
@@ -103,27 +104,26 @@ $separetor = " | ";
 
 					<section>
 						<!-- class btn-disableで無効化 -->
-						<a class="btn btn-disable" href="r_public.php">参加登録</a>
+						<a class="btn btn-disable" href="r_public.php">Registration</a>
 					</section>
 
 
 
 					<section>
-						<h3>参加費</h3>
+						<h3>Participation Fee</h3>
 						<p>
-							本大会の参加にあたり、参加費をお支払いお願いいたします。<br>
-							参加費　8,000円<br>
-							<span class="ind1-1">
-								※参加費には、大会資料、バッグなどが含まれております。
+							8,000 yen<br>
+							Please pay the registration fee to attend the conference.<br>
+							<span class="ind1en">
+								*The registration fee includes conference materials and baggage.
 							</span>
-							<br>
-							<span class="ind1-1">
-								※懇親会（11月4日）に参加されたい方は、10月10日までにお申し込みください。
+							<span class="ind1en">
+								*If you wish to attend the reception (November 4), please register by October 10.
 							</span>
-							<br>
-							<span class="ind1-1">
-								※当日会場でのお申込みは受付不可となります。
+							<span class="ind1en">
+								*Registration at the venue on the day of the conference will not be accepted.
 							</span>
+
 						</p>
 					</section>
 
@@ -141,7 +141,7 @@ $separetor = " | ";
 
 		<!-- to top -->
 		<div class="page-top" id="page-top">
-			<span>TOPへ</span>
+			<span>Back to TOP</span>
 		</div>
 
 

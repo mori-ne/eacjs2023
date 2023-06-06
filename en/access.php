@@ -16,7 +16,7 @@ $separetor = " | ";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
 	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($main_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
+	<title><?php print($main_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies (EACJS) The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -89,7 +89,7 @@ $separetor = " | ";
 
 
 					<section>
-						<h3>交通アクセス</h3>
+						<!-- <h3>交通アクセス</h3>
 						<h4 style="margin: 45px 0">東京外国語大学 府中キャンパス</h4>
 
 						<h5>成田国際空港から</h5>
@@ -204,7 +204,7 @@ $separetor = " | ";
 									</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 
 					</section>
 
@@ -222,7 +222,7 @@ $separetor = " | ";
 
 		<!-- to top -->
 		<div class="page-top" id="page-top">
-			<span>TOPへ</span>
+			<span>Back to TOP</span>
 		</div>
 
 

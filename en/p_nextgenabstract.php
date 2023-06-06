@@ -17,7 +17,7 @@ $separetor = " | ";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
 	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
+	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies (EACJS) The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -93,9 +93,9 @@ $separetor = " | ";
 						<h3><?php print($sub_pagettl); ?></h3>
 						<ul>
 							<li>
-								次世代研究者の育成を通して、東アジアでの日本研究の更なる発展と交流を期し、これまでの大会と同様、大学院博士後期課程院生や若手研究者（学位授与から8年未満）の発表を積極的に支援します。<br>
-								<span style="padding-left: 1em; text-indent:-1em; display:inline-block;">
-									＊地域やテーマ等を配慮し、「次世代」枠の応募者から選考を経て採択された「次世代個人研究発表者」には参加費の免除及び旅費の一部補助（定額）を提供します。
+								As in past conferences, we will actively support presentations by doctoral students and young scholars (less than eight years after receiving their degrees).<br>
+								<span style="padding-left: 0.4em; text-indent:-0.4em; display:inline-block;">
+									*In consideration of the region, theme, etc., the "Next-Generation Panel Presenters" selected from the "Next-Generation" applicants will be exempted from the registration fee and provided with a partial subsidy (fixed amount) for travel expenses.
 								</span>
 							</li>
 							<li>
@@ -106,62 +106,55 @@ $separetor = " | ";
 					</section>
 
 					<section>
-						<h3>テーマについて</h3>
+						<h3>About the theme</h3>
 						<div class="theme">
 							<ul>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける歴史認識問題</span></li>
-								<li><span><i class="fa-solid fa-check"></i>帝国日本の支配と植民地社会の変容</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける思想交流</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける諸宗教の交流</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける政治と国際関係</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける人・物の移動と変容</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける経済、資本と国家</span></li>
-								<li><span><i class="fa-solid fa-check"></i>「世界文学」のなかの日本文学</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアの高齢化問題・福祉問題</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける日本語研究の諸問題</span></li>
-								<li><span><i class="fa-solid fa-check"></i>AIと日本語教育</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける社会とジェンダー</span></li>
-								<li><span><i class="fa-solid fa-check"></i>東アジアにおける社会運動</span></li>
-								<li><span><i class="fa-solid fa-check"></i>日本研究と文化表象</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Historical Perception Issues in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Domination of Imperial Japan and Transformation of Colonial Societies</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Ideological Exchange in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Religions and Religious Interaction in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Politics and International Relations in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Migration and Transformation of People and Commodities in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Economy, Capital, and State in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Japanese Literature in "World Literature"</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Issues of Aging and Welfare in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Issues in Japanese Language Studies in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>AI and Japanese Language Education</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Society and Gender in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Social Movements in East Asia</span></li>
+								<li><span><i class="fa-solid fa-check"></i>Japanese Studies and Cultural Representation</span></li>
 							</ul>
 
 
 						</div>
-						<p class="ind2">
-							注：上記のテーマはあくまで例示であり、これ以外のテーマを排除するものではありません。参加者は上記のテーマを参考に、サブテーマを設定の上、パネル全体の発表要旨（800字程度）を提出して下さい。
+						<p class="ind2en">
+							Note: The above themes are examples only and do not exclude other themes. Participants are requested to submit an abstract (approximately 1,200 words) of their presentation for the entire panel, with sub-themes based on the above themes.
 						</p>
 					</section>
 
 					<section>
-						<h3>使用言語</h3>
+						<h3>Language</h3>
 						<p>
-							言語は原則として日本語とします。もし日本語以外の言語で発表する場合、意思疎通のためレジュメやパワーポイントに日本語訳をつけるようにしてください。
+							In principle, the language shall be Japanese. If you wish to present your presentation in non-Japanese, please provide a Japanese translation of your resume or PowerPoint presentation for the sake of communication.
 						</p>
 					</section>
 
 					<section>
-						<h3>申込期限</h3>
+						<h3>Application Deadlines</h3>
 						<p>
-							<span class="bf">5</span>
-							<span class="tf">月</span>
-							<span class="bf">23</span>
-							<span class="tf">日（火）～</span>
-							<span class="bf">7</span>
-							<span class="tf">月</span>
-							<span class="bf">19</span>
-							<span class="tf">日（水、必着）</span>
+							Tuesday, May 23 - Wednesday, July 19
+							<br class="sp_br">
+							(must arrive no later than <b>Wednesday, July 19</b>)
 						</p>
 					</section>
 
 					<section>
-						<h3>参加費</h3>
-						<p>
-							免除
-						</p>
+						<h3>Registration Fee</h3>
+						<p>Free</p>
 					</section>
 
 					<section>
-						<a class="btn" href="r_nextgenabstract.php">お申込みはこちら</a>
+						<a class="btn" href="r_nextgenabstract.php">Sign up for a <br class="sp_br">Next-Generation Research Presentation</a>
 					</section>
 				</div>
 			</div>
@@ -175,7 +168,7 @@ $separetor = " | ";
 
 		<!-- to top -->
 		<div class="page-top" id="page-top">
-			<span>TOPへ</span>
+			<span>Back to TOP</span>
 		</div>
 
 

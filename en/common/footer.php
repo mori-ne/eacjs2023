@@ -4,7 +4,7 @@
 		<!-- 左段 -->
 		<div class="footer_box">
 			<div class="footer_logo">
-				<img src="img/logo_white.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
+				<img src="img/logo_en_w.svg" alt="東アジア日本研究者協議会 第7回国際学術大会">
 			</div>
 		</div>
 

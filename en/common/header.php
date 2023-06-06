@@ -14,7 +14,7 @@
 
 
 		<div class="contact">
-			<a class="disable" href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
+			<a class="disable" href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>Contact</a>
 		</div>
 
 
@@ -76,7 +76,7 @@
 							</ul>
 						</li>
 						<li>
-							<a class="disable" href="#">お支払い</a>
+							<a class="disable" href="#">Payment</a>
 						</li>
 						<li>
 							<a href="./access.php">Access</a>
@@ -88,7 +88,7 @@
 					<div class="sp_nav_lower_menu">
 						<ul>
 							<li>
-								<a class="disable" href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>お問い合わせ</a>
+								<a class="disable" href="#"><i style="padding-right: 5px;" class="fa-regular fa-envelope"></i>Contact</a>
 							</li>
 						</ul>
 					</div>

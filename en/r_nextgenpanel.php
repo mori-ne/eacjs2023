@@ -17,7 +17,7 @@ $separetor = " | ";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
 	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
+	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies (EACJS) The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -94,9 +94,10 @@ $separetor = " | ";
 
 
 						<div class="news">
-							<p class="ind1-1" style="margin-bottom: 0;">
-								※発表希望パネル・個人の応募につきまして、国際日本研究センター等の研究機関の研究者によって構成される審査委員会で採否を決定します。<br>
-								採択者は、2023年8月10日（木）に第7回東アジア日本研究者協議会国際学術会議のホームページにて告知します。<br>（採択後参加申込締切： <span class="mf">2023年8月31日）</span>
+							<p class="ind1en" style="margin-bottom: 0;">
+								*Regarding the applications of panels and individuals who wish to present their research, the screening committee consisting of researchers from the International Research Center for Japanese Studies of TUFS and other research institutions will decide on the acceptance or rejection of the applications.<br>
+								Accepted applicants will be announced on the website of the seventh International Conference of EACJS on Thursday, August 10, 2023.<br>
+								(Deadline for application for participation after acceptance: <b>August 31, 2023</b>)
 							</p>
 						</div>
 
@@ -121,7 +122,7 @@ $separetor = " | ";
 
 		<!-- to top -->
 		<div class="page-top" id="page-top">
-			<span>TOPへ</span>
+			<span>Back to TOP</span>
 		</div>
 
 

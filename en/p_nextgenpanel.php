@@ -17,7 +17,7 @@ $separetor = " | ";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="The purpose of the conference is to provide a forum for scholars from East Asia and other countries to present and discuss the results of Japanese studies that have been accumulated in diverse fields, and to contribute to the development of Japanese studies and international exchange among scholars of Japan." />
 	<meta content="East Asian Consortium of Japanese Studies" name="keywords">
-	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies（EACJS） The 7th International Academic Conference</title>
+	<title><?php print($sub_pagettl . $separetor); ?>East Asian Consortium of Japanese Studies (EACJS) The 7th International Academic Conference</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
@@ -94,8 +94,8 @@ $separetor = " | ";
 						<ul>
 							<li>
 								As in past conferences, we will actively support presentations by doctoral students and young scholars (less than eight years after receiving their degrees).<br>
-								<span style="display:inline-block; text-indent:-1em; padding-left:1em;">
-									※In consideration of the region, theme, etc., the "Next-Generation Panel Presenters" selected from the "Next-Generation" applicants will be exempted from the registration fee and provided with a partial subsidy (fixed amount) for travel expenses.
+								<span style="padding-left: 0.4em; text-indent:-0.4em; display:inline-block;">
+									*In consideration of the region, theme, etc., the "Next-Generation Panel Presenters" selected from the "Next-Generation" applicants will be exempted from the registration fee and provided with a partial subsidy (fixed amount) for travel expenses.
 								</span>
 							</li>
 							<li>
@@ -152,14 +152,12 @@ $separetor = " | ";
 					</section>
 
 					<section>
-						<h3>参加費</h3>
-						<p>
-							免除
-						</p>
+						<h3>Registration Fee</h3>
+						<p>Free</p>
 					</section>
 
 					<section>
-						<a class="btn" href="r_nextgenpanel.php">お申込みはこちら</a>
+						<a class="btn" href="r_nextgenpanel.php">Sign up for a <br class="sp_br">Next-Generation Panel Presentation</a>
 					</section>
 				</div>
 			</div>
@@ -173,7 +171,7 @@ $separetor = " | ";
 
 		<!-- to top -->
 		<div class="page-top" id="page-top">
-			<span>TOPへ</span>
+			<span>Back to TOP</span>
 		</div>
 
 
