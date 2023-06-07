@@ -976,12 +976,13 @@ a {
 .contents {
 	font-size: 17px;
 	line-height: 1.6;
-	// text-align: justify;
-	overflow-wrap: break-word;
+	text-align: justify;
+	// overflow-wrap: break-word;
 
 	@include sp {
 		font-size: 17px;
 		line-height: 1.6;
+		text-align: left;
 
 	}
 
@@ -1046,6 +1047,8 @@ a {
 }
 
 .theme {
+	text-align: left;
+
 	ul {
 		display: flex;
 		flex-wrap: wrap;

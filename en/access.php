@@ -89,7 +89,7 @@ $separetor = " | ";
 
 
 					<section>
-						<!-- <h3>交通アクセス</h3>
+						<h3>Access</h3>
 						<h4 style="margin: 45px 0">東京外国語大学 府中キャンパス</h4>
 
 						<h5>成田国際空港から</h5>
@@ -204,7 +204,7 @@ $separetor = " | ";
 									</p>
 								</div>
 							</div>
-						</div> -->
+						</div>
 
 					</section>
 

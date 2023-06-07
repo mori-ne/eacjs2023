@@ -1194,12 +1194,13 @@ a:hover {
 .contents {
   font-size: 17px;
   line-height: 1.6;
-  overflow-wrap: break-word;
+  text-align: justify;
 }
 @media (max-width: 620px) {
   .contents {
     font-size: 17px;
     line-height: 1.6;
+    text-align: left;
   }
 }
 .contents h3 {
@@ -1254,6 +1255,9 @@ a:hover {
   background: #be4682;
 }
 
+.theme {
+  text-align: left;
+}
 .theme ul {
   display: flex;
   flex-wrap: wrap;
