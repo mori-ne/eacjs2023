@@ -10,7 +10,7 @@
 
 		<!-- 中段 -->
 		<div class="footer_box">
-			<h5 class="footer_ttl">第7回国際学術大会</h5>
+			<h5 class="footer_ttl">The 7th International Academic Conference</h5>
 			<p>主　　催：東京外国語大学</p>
 			<p>共　　催：独立行政法人 国際交流基金</p>
 			<p>
@@ -31,7 +31,7 @@
 
 		<!-- 右段 -->
 		<div class="footer_box">
-			<h5 class="footer_ttl">連絡先</h5>
+			<h5 class="footer_ttl">Contact</h5>
 			<p>
 				東京外国語大学　<br class="sp_tb">国際日本研究センター<br>
 				第7回国際学術大会委員長：友常 勉<br>

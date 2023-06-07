@@ -228,7 +228,7 @@
 
 							<div class="speciallecture_box">
 								<p class="speciallecture_date">
-									11月3日　14時
+									November 3, 14:00
 								</p>
 								<p class="speciallecture_ttl">
 									「〈日本語文学〉の異他なる経験」
@@ -248,7 +248,7 @@
 							<div class="speciallecture_box">
 
 								<p class="speciallecture_date">
-									11月5日
+									November 5
 								</p>
 								<p class="ind3">
 									調整中
@@ -276,7 +276,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年5月23日（火）
+								Tuesday, May 23, 2023
 							</h4>
 							<p class="month_ttl">
 								参加者募集開始
@@ -286,7 +286,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年7月19日（水、必着）
+								Wednesday, July 19<br>(must arrive no later than Wednesday, July 19)
 							</h4>
 							<p class="month_ttl">
 								参加募集締め切り
@@ -296,7 +296,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年8月中旬
+								Mid-August 2023
 							</h4>
 							<p class="month_ttl">
 								採択結果発表
@@ -306,7 +306,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								2023年9月初旬
+								Early September 2023
 							</h4>
 							<p class="month_ttl">
 								大会プログラムHPにて掲載
