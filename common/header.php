@@ -20,7 +20,15 @@
 
 
 		<!-- classに disable_english 付加で無効化 -->
-		<a class="translate" href="en/index.php">
+		<a class="translate" href="
+		<?php
+		// 現在のファイル名を取得
+		// ディレクトリ名にenをつけてhrefへ返す
+		$filename = $_SERVER['SCRIPT_NAME'];
+		$path = "en" . str_replace("/eacjs2023", "", $filename);
+		echo $path;
+		?>
+		">
 			<i class="fa-solid fa-globe"></i>
 			<p>English</p>
 		</a>

@@ -1,3 +1,11 @@
+<?php
+// 現在のファイル名を取得
+// ディレクトリ名にenをつけてhrefへ返す
+$filename = $_SERVER['SCRIPT_NAME'];
+// $path = "" . str_replace("/en/", "/", $filename);
+echo $filename;
+?>
+
 <header id="header" class="header">
 	<div class="header_inner">
 
