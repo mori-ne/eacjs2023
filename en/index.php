@@ -61,7 +61,7 @@
 
 			<div class="ttl">
 				<h2 class="main_ttl">
-					East Asian Consortium of Japanese Studies (EACJS)<br>
+					East Asian Consortium of<br class="sp_br"> Japanese Studies (EACJS)<br>
 					The 7th International Academic Conference
 				</h2>
 				<p class="sub_ttl">

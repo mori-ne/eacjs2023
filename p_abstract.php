@@ -17,10 +17,9 @@ $separetor = " | ";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="本大会は、東アジアを中心とした国々の研究者に、多様な分野において蓄積されてきた日本研究に関する成果を発表・議論する場を提供し、日本研究と日本研究者の国際的交流の発展に寄与することを目的としています。" />
 	<meta content="東アジア日本研究者協議会,第7回国際学術大会,East Asian Consortium of Japanese Studies" name="keywords">
-	<link rel=”canonical” href=”https://eacjs2023.jp/p_abstract.php>” />
 	<title><?php print($sub_pagettl . $separetor); ?>東アジア日本研究者協議会 第7回国際学術大会</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" hrevf="css/swiper.min.css">
 	<script src="https://kit.fontawesome.com/ae63728a6d.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/common.js"></script>
