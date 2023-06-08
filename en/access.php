@@ -90,34 +90,36 @@ $separetor = " | ";
 
 					<section>
 						<h3>Access</h3>
-						<h4 style="margin: 45px 0">東京外国語大学 府中キャンパス</h4>
-
-						<h5>成田国際空港から</h5>
+						<h4 style="margin: 45px 0; font-size:22px">Directions to TUFS</h4>
+						<p>
+							There are various ways to get to TUFS from the International and Domestic Airports as well as from other parts of Tokyo. The more convenient and lowest cost options use public transportation. Please refer to the Maps and Directions below.
+						</p>
+						<h5>Directions From Narita Airport</h5>
 						<div style="margin-bottom: 60px;">
-							<a class="btn-info" href="https://goo.gl/maps/uxQU2" target="_blank">Google マップで確認<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
+							<a class="btn-info" href="https://goo.gl/maps/yHmQ5" target="_blank">Check on Google Maps<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
 							<div class="column">
 								<div class="mw-900">
 									<img src="img/direction_Narita.png" alt="成田国際空港から">
 								</div>
 								<div>
 									<p>
-										<b>◆成田エクスプレス（所要時間：約2時間）</b><br>
-										<span class="ind1">【成田エクスプレス】で、JR「新宿」駅（約80分）→</span><br>
-										<span class="ind1">【JR中央線】JR中央線「新宿」駅から、「JR武蔵境」駅（約36分）→</span><br>
-										<span class="ind1">【西武多摩川線】西武多摩川線「武蔵境」駅から、「多磨」駅下車、徒歩約5分</span>
+										<b style="margin-bottom: 10px; display:inline-block;">Option 1: Train - Narita Express (NEX)</b><br>
+										<span class="ind1"><b>Narita Airport</b> (Narita Express(NEX)) →</span><br>
+										<span class="ind1"><b>JR Shinjuku Station</b> (JR Chuo Line heading towards Takao) →</span><br>
+										<span class="ind1"><b>Musashi-sakai Station</b> (Seibu-Tamagawa Line) → <b>Tama Station</b></span>
 									</p>
 									<p>
-										<b>◆京成スカイライナー（所要時間：約2時間）</b><br>
-										<span class="ind1">【京成スカイライナー】で、「日暮里駅」（約36分）→</span><br>
-										<span class="ind1">【JR山手線】JR山手線「日暮里」駅から「JR新宿」駅（約22分）→</span><br>
-										<span class="ind1">【JR中央線】JR中央線「新宿」駅から、「JR武蔵境」駅（約36分）→</span><br>
-										<span class="ind1">【西武多摩川線】西武多摩川線「武蔵境」駅から、「多磨」駅下車、徒歩約５分</span>
+										<b style="margin-bottom: 10px; display:inline-block;">Option 2: Train - Keisei Skyliner or Limited Express</b><br>
+										<span class="ind1"><b>Narita Airport</b> (Keisei Skyliner) →</span><br>
+										<span class="ind1"><b>JR Nippori Station</b> (JR Yamanote Line heading towards Shinjuku) →</span><br>
+										<span class="ind1"><b>Musashi-sakai Station</b> (JR Chuo Line hedaing towards Takao) →</span><br>
+										<span class="ind1"><b>Musashi-sakai Station</b> (Seibu-Tamagawa Line)→ <b>Tama Station</b></span>
 									</p>
 									<p>
-										<b>◆リムジンバス（所要時間：約2時間）</b><br>
-										<span class="ind1">リムジンバスで京王線「調布」駅（約120分）→</span><br>
-										<span class="ind1">調布駅北口バスターミナル13番乗り場から、京王バス「調33　多磨駅行き」にて約20分</span> <br>
-										<span class="ind1">「東京外国語大学前」下車</span>
+										<b style="margin-bottom: 10px; display:inline-block;">Option 3: Bus - Airport Limousine</b><br>
+										<span class="ind1"><b>Narita Airport</b> (Airport Limousine Bus) → </span><br>
+										<span class="ind1"><b>Keio Chofu Station</b> ( #33 Keio Bus bound for Tama Station) →</span> <br>
+										<span class="ind1"><b>Tokyo Gaikokugo Daigaku Mae</b> Bus Stop (or <b>Tama Eki Bus Stop</b> if you miss this earlier stop)</span>
 									</p>
 								</div>
 							</div>
@@ -125,33 +127,32 @@ $separetor = " | ";
 
 						<hr>
 
-						<h5>羽田空港から</h5>
+						<h5>Directions From Haneda Airport</h5>
 						<div style="margin-bottom: 60px;">
-							<a class="btn-info" href="https://goo.gl/maps/vHabY" target="_blank">Google マップで確認<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
+							<a class="btn-info" href="https://goo.gl/maps/STP1h" target="_blank">Check on Google Maps<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
 							<div class="column">
 								<div class="mw-900">
 									<img src="img/direction_Haneda.png" alt="成田国際空港から">
 								</div>
 								<div>
 									<p>
-										<b>◆東京モノレール（所要時間：約1時間30分）</b><br>
-										<span class="ind1">【東京モノレール】で、「浜松町」駅（約20分）→</span><br>
-										<span class="ind1">【JR山手線】JR山手線「浜松町」駅から「JR新宿」駅（約25分）→</span><br>
-										<span class="ind1">【JR中央線】JR中央線「新宿」駅から、「JR武蔵境」駅（約36分）→</span><br>
-										<span class="ind1">【西武多摩川線】西武多摩川線「武蔵境」駅から、「多磨」駅下車、徒歩約5分</span>
+										<b style="margin-bottom: 10px; display:inline-block;">Option 1: Train - Tokyo Monorail</b><br>
+										<span class="ind1"><b>Haneda Airport Terminal 1 or 2</b> (Tokyo Monorail) →</span><br>
+										<span class="ind1"><b>JR Hamamatsucho Station</b> (JR Chuo Line heading towards Shinjuku) →</span><br>
+										<span class="ind1"><b>JR Shinjuku Station</b> (JR Chuo Line heading towards Takao) →</span><br>
+										<span class="ind1"><b>Musashi-sakai Station</b> (Seibu-Tamagawa Line)→ <b>Tama Station</b></span>
 									</p>
 									<p>
-										<b>◆京急空港線（所要時間：約1時間30分）</b><br>
-										<span class="ind1">【京急空港線】で、「品川」駅（約36分）→</span><br>
-										<span class="ind1">【JR山手線】JR山手線「品川」駅から「JR新宿」駅（約20分）→</span><br>
-										<span class="ind1">【JR中央線】JR中央線「新宿」駅から、「JR武蔵境」駅（約36分）→</span><br>
-										<span class="ind1">【西武多摩川線】西武多摩川線「武蔵境」駅から、「多磨」駅下車、徒歩約5分</span>
+										<b style="margin-bottom: 10px; display:inline-block;">Option 2: Train - Keihin Kyuko (Keikyu) Line</b><br>
+										<span class="ind1"><b>Haneda Airport Station</b> (Keihin Kyuko (also called Keikyu) Line) →</span><br>
+										<span class="ind1"><b>JR Shingawa Station</b> (JR Yamanote Line heading towards Shinjuku) →</span><br>
+										<span class="ind1"><b>JR Shinjuku Station</b> (JR Chuo Line heading towards Takao) →</span><br>
+										<span class="ind1"><b>Musashi-sakai Station</b> (Seibu-Tamagawa Line)→ <b>Tama Station</b></span>
 									</p>
 									<p>
-										<b>◆リムジンバス（所要時間：約1時間20分）</b><br>
-										<span class="ind1">リムジンバスで京王線「調布」駅（約60分）→</span><br>
-										<span class="ind1">調布駅北口バスターミナル13番乗り場から、京王バス「調33　多磨駅行き」にて約20分</span><br>
-										<span class="ind1">「東京外国語大学前」下車
+										<b style="margin-bottom: 10px; display:inline-block;">Option 3: Bus - Airport Limousine</b><br>
+										<span class="ind1"><b>Haneda Airport</b> (Limousine Bus) → <b>Keio Chofu Station</b> ( #33 Keio Bus bound for Tama Station) →</span><br>
+										<span class="ind1"><b>Tokyo Gaikokugo Daigaku Mae</b> Bus Stop (or <b>Tama Eki Bus Stop</b> if you miss this earlier stop)</span><br>
 									</p>
 								</div>
 							</div>
@@ -159,24 +160,33 @@ $separetor = " | ";
 
 						<hr>
 
-						<h5>最寄り駅から</h5>
+						<h5>Local Map of TUFS Campus Area</h5>
 						<div style="margin-bottom: 60px;">
-							<a class="btn-info" href="https://goo.gl/maps/YfhTi" target="_blank">Google マップで確認<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
+							<a class="btn-info" href="https://goo.gl/maps/0pr2q" target="_blank">Check on Google Maps<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
 							<div class="column">
 								<div class="mw-900">
-									<img src="img/tama_map.gif" alt="成田国際空港から">
+									<img src="img/tama_map_en.gif" alt="Local Map of TUFS Campus Area">
 								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h5>Directions From Other Parts of Tokyo</h5>
+						<div style="margin-bottom: 60px;">
+							<div class="column">
 								<div>
+									<b style="margin-bottom: 10px; display:inline-block;">Option 1: Train - JR Chuo Line</b><br>
 									<p>
-										<b>◆JR中央線</b><br>
-										<span class="ind1">「武蔵境」駅のりかえ</span><br>
-										<span class="ind1">西武多摩川線「多磨」 駅下車　徒歩5分</span><br>
-										<span class="ind1">（JR新宿駅から約40分）</span>
+										The JR Chuo Line can be caught at several major stations (Tokyo, Shinjuku, Hachioji, Tachikawa, etc.) and taken to Musashisakai Station. From there, you should transfer to the Seibu Tamagawa Line and take it two stops to Tama Station. After exiting the station, walk towards the left and take the underground stairwell to the other side of the station. Proceed to the main intersection ahead of you, and cross the street to the TUFS campus.
 									</p>
+									<b style="margin-bottom: 10px; display:inline-block;">Option 2: Train - Keio New Line</b><br>
 									<p>
-										<b>◆京王電鉄</b><br>
-										<span class="ind1">「飛田給」駅北口より多磨駅行き京王バスにて約10分</span><br>
-										<span class="ind1">「東京外国語大学前」下車</span><br>
+										The Keio New Line can be caught at several major stations (Shinjuku, Keio-Hachioji, etc.) and taken to either Chofu Station or Tobitakyu Station. From Chofu Station, head to the closest bus stop on the right of the North Entrance. Catch the #33 Keio Bus to Tama Station. Alternatively, from Tobitakyu you can catch the #2 or #33 Keio Bus to Tama Station. Get off at Tokyo Gaikokugo Daigaku Mae Bus Stop (you have to press the purple button near your seat on the bus after the stop is announced), or Tama Eki Bus Stop if you miss this earlier stop. At the main intersection, cross the street to the TUFS campus.
+									</p>
+									<b style="margin-bottom: 10px; display:inline-block;">Option 3: Bus</b><br>
+									<p>
+										Various buses go to Musashi-sakai, Chofu, and Tobitakyu Station, from which one can reach the TUFS Campus as described above. Also, there is bus service from JR Mitaka Station to Seibu Tama Station which is only few minutes walk from the TUFS Campus.
 									</p>
 								</div>
 							</div>
@@ -184,23 +194,23 @@ $separetor = " | ";
 
 						<hr>
 
-						<h5>キャンパスマップ</h5>
+						<h5>Campus Map</h5>
 						<div style="margin-bottom: 60px;">
 							<div class="column">
 								<div class="mw-600 sp-img-mw100">
 									<img src="img/campusmap202202.jpg" alt="キャンパスマップ">
 								</div>
 								<div class="mw-600">
-									<a style="display:block; text-align:center; text-decoration: none; margin: 10px 0 0 0" href="http://www.tufs.ac.jp/abouttufs/contactus/campusmap.html" target="_blank">
-										詳細はこちらをクリック<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
+									<a style="display:block; text-align:center; text-decoration: none; margin: 10px 0 0 0" href="http://www.tufs.ac.jp/english/abouttufs/contactus/campusmap.html" target="_blank">
+										Click here for details<sup style="top:0;"><i style="margin-left:5px;" class="fa-regular fa-window-restore"></i></sup></a>
 								</div>
 								<div>
 									<p>
 										<b>
-											◆所在地
+											Address :
 										</b>
 										<br>
-										<span class="ind1">〒183-8534 東京都府中市朝日町3-11-1</span>
+										<span class="ind1">3-11-1, Asahi-cho, Fuchu-shi, Tokyo 183-8534, Japan</span>
 									</p>
 								</div>
 							</div>

@@ -387,7 +387,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 a {
@@ -1228,6 +1228,11 @@ a:hover {
 .contents h5 {
   margin: 60px 0 15px 0;
   color: #be4682;
+}
+@media (max-width: 620px) {
+  .contents h5 {
+    font-size: 22px;
+  }
 }
 .contents p {
   margin-bottom: 1em;

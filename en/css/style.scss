@@ -80,7 +80,7 @@ h4 {
 }
 
 h5 {
-	font-size: 20px;
+	font-size: 22px;
 }
 
 a {
@@ -1011,6 +1011,10 @@ a {
 	h5 {
 		margin: 60px 0 15px 0;
 		color: $primary_color;
+
+		@include sp {
+			font-size: 22px;
+		}
 	}
 
 	p {
