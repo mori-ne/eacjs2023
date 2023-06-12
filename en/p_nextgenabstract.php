@@ -3,7 +3,7 @@
 
 <?php
 // ページタイトル、パンくずリスト用の変数
-$main_pagettl = "About Participation";
+$main_pagettl = "Participation";
 $sub_pagettl = "Next-Generation Research Presentation";
 // title セパレータ
 $separetor = " | ";
@@ -99,7 +99,7 @@ $separetor = " | ";
 								</span>
 							</li>
 							<li>
-								各発表者には20分の発表と10分の質疑応答（3分ほどのコメント時間が含まれます）、合計30分の発表時間があります。資料の作成も発表者がすべて責任をもって行うものとします。
+								Each presenter will have 20 minutes to present and 10 minutes for questions and answers (including 3 minutes for comments), for 30 minutes. The presenter is responsible for the preparation of all the presentation materials.
 							</li>
 
 						</ul>
@@ -150,7 +150,7 @@ $separetor = " | ";
 
 					<section>
 						<h3>Registration Fee</h3>
-						<p>Free</p>
+						<p>Exemption</p>
 					</section>
 
 					<section>

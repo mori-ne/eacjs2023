@@ -1,3 +1,31 @@
+<?php
+
+// echo '〇URL' . PHP_EOL;
+// var_dump((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
+// echo PHP_EOL . "<br>";
+
+// echo '〇SSL' . PHP_EOL;
+// var_dump($_SERVER['HTTPS']);
+// echo PHP_EOL . "<br>";
+
+// echo '〇ホスト名' . PHP_EOL;
+// var_dump($_SERVER['HTTP_HOST']);
+// echo PHP_EOL . "<br>";
+
+// echo '〇URI' . PHP_EOL;
+// var_dump($_SERVER['REQUEST_URI']);
+// echo PHP_EOL . "<br>";
+
+// echo '〇スクリプト名' . PHP_EOL;
+// var_dump($_SERVER['SCRIPT_NAME']);
+// echo PHP_EOL . "<br>";
+
+// echo '〇パラメータ' . PHP_EOL;
+// var_dump($_GET);
+// echo PHP_EOL;
+
+?>
+
 <header id="header" class="header">
 	<div class="header_inner">
 
@@ -20,13 +48,11 @@
 
 
 		<!-- classに disable_english 付加で無効化 -->
-		<a class="translate" href="
+		<a class="translate" href="en/index.php
 		<?php
-		// 現在のファイル名を取得
-		// ディレクトリ名にenをつけてhrefへ返す
-		$filename = $_SERVER['SCRIPT_NAME'];
-		$path = "en" . str_replace("/eacjs2023", "", $filename);
-		echo $path;
+		// $scriptName = $_SERVER['REQUEST_URI'];;
+		// $modifiedURL = str_replace("eacjs2023/", "eacjs2023/en/", $scriptName);
+		// echo $modifiedURL;
 		?>
 		">
 			<i class="fa-solid fa-globe"></i>

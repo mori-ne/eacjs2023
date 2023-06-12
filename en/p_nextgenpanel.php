@@ -3,7 +3,7 @@
 
 <?php
 // ページタイトル、パンくずリスト用の変数
-$main_pagettl = "About Participation";
+$main_pagettl = "Participation";
 $sub_pagettl = "Next-Generation Panel Presentation";
 // title セパレータ
 $separetor = " | ";
@@ -153,7 +153,7 @@ $separetor = " | ";
 
 					<section>
 						<h3>Registration Fee</h3>
-						<p>Free</p>
+						<p>Exemption</p>
 					</section>
 
 					<section>

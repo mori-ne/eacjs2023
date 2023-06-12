@@ -3,7 +3,7 @@
 
 <?php
 // ページタイトル、パンくずリスト用の変数
-$main_pagettl = "About Participation";
+$main_pagettl = "Participation";
 $sub_pagettl = "Individual Research Presentation";
 // title セパレータ
 $separetor = " | ";

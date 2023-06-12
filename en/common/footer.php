@@ -10,22 +10,22 @@
 
 		<!-- 中段 -->
 		<div class="footer_box">
-			<h5 class="footer_ttl">The 7th International Academic Conference</h5>
-			<p>主　　催：東京外国語大学</p>
-			<p>共　　催：独立行政法人 国際交流基金</p>
+			<h5 class="footer_ttl">The 7th International Conference</h5>
+			<p>Organizer: Tokyo University of Foreign Studies</p>
+			<p>Joint Organizer: Japan Foundation </p>
 			<p>
-				後援団体：
-				<span style="display: inline-block; margin-bottom:3px;">
-					財団法人 東芝国際交流財団
+				Support Organization:<br>
+				<span style="display: inline-block; margin-bottom:3px; margin-left: 20px;">
+					Toshiba International Foundation
 				</span>
 				<br>
-				<span style="display: inline-block; margin-left:5em; line-height:1.3; margin-bottom:3px;">
-					公益財団法人 渥美国際交流財団 関口グローバル研究会
-					<br>
-					<i style="font-size:12px; font-style:normal; display: inline-block; line-height:1.4">(Atsumi International Foundation Sekiguchi Global Research Association)</i>
+				<span style="display: inline-block; line-height:1.3; margin-bottom:3px; margin-left: 20px;">
+					Atsumi International Foundation, Sekiguchi Global Research Association
 				</span>
 				<br>
-				<span style="display: inline-block; margin-left:5em; line-height:1.3">「国際日本研究」コンソーシアム</span>
+				<span style="display: inline-block; line-height:1.3; margin-left: 20px;">
+					Consortium for Global Japanese Studies
+				</span>
 			</p>
 		</div>
 
@@ -33,12 +33,11 @@
 		<div class="footer_box">
 			<h5 class="footer_ttl">Contact</h5>
 			<p>
-				東京外国語大学　<br class="sp_tb">国際日本研究センター<br>
-				第7回国際学術大会委員長：友常 勉<br>
-				〒183-8534 <br class="sp_tb">東京都府中市朝日町3-11-1<br>
-				Tel: 042-330-5794<br>
+				International Center for Japanese, Tokyo University of Foreign Studies <br>
+				The 7th International Conferences Chairperson: Dr. Tsutomu Tomotsune<br>
+				3-11-1 Asahi-cho, Fuchu-shi, Tokyo, 183-8534, Japan<br>
+				Tel: +81-42-330-5794<br>
 				E-mail: info@eacjs2023.jp
-			</p>
 			</p>
 		</div>
 

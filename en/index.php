@@ -105,10 +105,10 @@
 
 
 				<div class="column">
-					<!-- About Participation -->
+					<!-- Participation -->
 					<div class="participation">
 						<div class="h3">
-							<h3>About Participation</h3>
+							<h3>Participation</h3>
 							<!-- <p>Participation</p> -->
 						</div>
 						<div class="cards">
@@ -188,19 +188,6 @@
 							</ul>
 						</div>
 					</div>
-
-					<!-- ニュース -->
-					<!-- <div class="news">
-						<p class="ind1" style="margin: 0 0 15px 0;">
-							※発表希望パネル・個人の応募につきまして、国際日本研究センター等の研究機関の研究者によって構成される審査委員会で採否を決定します。<br>
-							採択者は、2023年8月10日（木）に第7回東アジア日本研究者協議会国際学術会議のホームページにて告知します。
-						</p>
-
-						<p>
-							<span>＊参加申込締切：</span>
-							<span class="mf">2023年8月31日</span>
-						</p>
-					</div> -->
 				</div>
 
 
@@ -210,7 +197,7 @@
 					<div class="column">
 
 
-						<!-- お知らせ -->
+						<!-- Notice -->
 						<div class="notice">
 							<div class="h3">
 								<h3>Notice</h3>
@@ -219,52 +206,67 @@
 							<?php require_once("common/notice.php"); ?>
 						</div>
 
-						<!-- 特別講演・鼎談情報 -->
+						<!-- Lecture  -->
 						<div class="speciallecture">
 
 							<div class="h4">
-								<h4>特別講演・鼎談</h4>
+								<h4>Lecture</h4>
 							</div>
 
 							<div class="speciallecture_box">
 								<p class="speciallecture_date">
-									November 3, 14:00
+									2p.m. Friday, November 3
 								</p>
 								<p class="speciallecture_ttl">
-									「〈日本語文学〉の異他なる経験」
+									「Exploring Heterotopic Experiences of Japanese Literature」
 								</p>
-								<p class="ind3">
-									<b>講演：</b>エレナ・ヤヌリス<br class="sp_br">（ベルリン自由大学）<br>
-									Images detached from space and time - Heterotopias and non-places in contemporary Japanese literature
-								</p>
-								<p class="ind3">
-									<b>鼎談：</b>多和田葉子（作家）、<br class="sp_br">李琴峰（作家）、<br class="sp_br">邵丹（東京外国語大学）
-								</p>
-								<p class="ind3">
-									<b>司会：</b>山口裕之<br class="sp_br">（東京外国語大学）
+
+								<table>
+									<tr style="vertical-align: top; line-height:1.4">
+										<td style="text-align: right;">
+											<b>Lecture: </b>
+										</td>
+										<td>
+											Elena Giannoulis<br class="sp_br">（Freie universität Berlin）<br>
+											Images detached from space and time - Heterotopias and non-places in contemporary Japanese literature
+										</td>
+									</tr>
+									<tr style="vertical-align: top; line-height:1.4">
+										<td>
+											<b>Discussion: </b>
+										</td>
+										<td>
+											Yoko Tawada, <br class="sp_br">Qinfeng Li, Dan Shao
+										</td>
+									</tr>
+									<tr style="vertical-align: top; line-height:1.4">
+										<td>
+											<b>Moderator: </b>
+										</td>
+										<td>
+											Hiroyuki Yamaguchi
+										</td>
+									</tr>
+								</table>
+
+								<p>
 								</p>
 							</div>
 
 							<div class="speciallecture_box">
-
 								<p class="speciallecture_date">
-									November 5
+									2p.m. Sunday, November 5
 								</p>
-								<p class="ind3">
-									調整中
+								<p>
+									<b>Lecture: </b>Chiyo Wakabayashi
+								</p>
+								<p>
+									<b>Schedule: May 23, 2023</b>
+									Chiyo Wakabayashi
 								</p>
 							</div>
 
 						</div>
-
-						<!-- よくあるご質問 -->
-						<!-- <div class="question">
-							<div class="h4">
-								<h4>よくあるご質問</h4>
-							</div>
-							<div class="question_box"> </div>
-						</div> -->
-
 					</div>
 
 					<!-- スケジュール -->
@@ -276,40 +278,40 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								Tuesday, May 23, 2023
+								May 23, 2023
 							</h4>
 							<p class="month_ttl">
-								参加者募集開始
+								Call for Participants
 							</p>
 							<!-- <p>description</p> -->
 						</div>
 
 						<div class="month_box">
 							<h4 class="month_around">
-								Wednesday, July 19<br>(must arrive no later than Wednesday, July 19)
+								Jul.19, 2023（must arrive by Wed.）
 							</h4>
 							<p class="month_ttl">
-								参加募集締め切り
+								The due date for the application
 							</p>
 							<!-- <p>description</p> -->
 						</div>
 
 						<div class="month_box">
 							<h4 class="month_around">
-								Mid-August 2023
+								Mid. Aug. 2023
 							</h4>
 							<p class="month_ttl">
-								採択結果発表
+								Announcement of the selection results
 							</p>
 							<!-- <p>description</p> -->
 						</div>
 
 						<div class="month_box">
 							<h4 class="month_around">
-								Early September 2023
+								The Early Sept. 2023
 							</h4>
 							<p class="month_ttl">
-								大会プログラムHPにて掲載
+								The conference program will be posted on the web site.
 							</p>
 							<!-- <p>description</p> -->
 						</div>

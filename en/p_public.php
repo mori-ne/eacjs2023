@@ -3,7 +3,7 @@
 
 <?php
 // ページタイトル、パンくずリスト用の変数
-$main_pagettl = "About Participation";
+$main_pagettl = "Participation";
 $sub_pagettl = "General Participants (only observation)";
 // title セパレータ
 $separetor = " | ";
@@ -67,7 +67,7 @@ $separetor = " | ";
 		<!-- main -->
 		<main class="main">
 			<div class="sub_mv">
-				<h2 class="sub_mv_ttl">About Participation</h2>
+				<h2 class="sub_mv_ttl">Participation</h2>
 			</div>
 
 
@@ -94,8 +94,9 @@ $separetor = " | ";
 					<section>
 						<h3><?php print($sub_pagettl); ?></h3>
 						<p>
-							Advance registration is required for those who wish to attend only to view the exhibition.<br>
-							Please access the registration system to register.
+							Those who wish to attend the conferences only need to pre-register.<br>
+							Please be sure to pre-register for the conferences via the registration system.
+
 
 						</p>
 					</section>
@@ -112,16 +113,16 @@ $separetor = " | ";
 					<section>
 						<h3>Participation Fee</h3>
 						<p>
-							8,000 yen<br>
-							Please pay the registration fee to attend the conference.<br>
+							8,000 JPY<br>
+							Please pay the participation fee for this conference.<br>
 							<span class="ind1en">
-								*The registration fee includes conference materials and baggage.
+								*The participation fee includes conference materials, a bag, etc.
 							</span>
 							<span class="ind1en">
-								*If you wish to attend the reception (November 4), please register by October 10.
+								*If you wish to attend the banquet (November 4), please register by October 10.
 							</span>
 							<span class="ind1en">
-								*Registration at the venue on the day of the conference will not be accepted.
+								*Registration at the Conferences venue on the day of the conferences will not be accepted.
 							</span>
 
 						</p>

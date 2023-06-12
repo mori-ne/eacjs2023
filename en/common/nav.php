@@ -5,7 +5,7 @@
 			<ul class="nav_list">
 				<li><a href="about.php">Overview</a></li>
 				<li class="onhover">
-					<a>About Participation<i class="fa-solid fa-chevron-down"></i></a>
+					<a>Participation<i class="fa-solid fa-chevron-down"></i></a>
 
 					<div class="dropdown_list">
 						<ul class="dropdown_list_inner">

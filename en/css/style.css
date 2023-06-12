@@ -1344,6 +1344,11 @@ a:hover {
   padding-left: 2.7em;
 }
 
+.ind3en {
+  text-indent: -4.1em;
+  padding-left: 4.1em;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -1686,6 +1691,9 @@ a:hover {
 }
 .notice .lists ul li .description div {
   padding: 30px;
+}
+.notice .lists ul li .description div p {
+  line-height: 1.6 !important;
 }
 
 .speciallecture {
