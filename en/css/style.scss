@@ -116,7 +116,7 @@ a {
 
 .h4 {
 	h4 {
-		font-size: 18px;
+		font-size: 20px;
 		margin: 0 0 30px 0;
 	}
 }
@@ -1547,7 +1547,7 @@ a {
 		}
 
 		.speciallecture_date {
-			font-size: 18px;
+			font-size: 20px;
 			font-weight: 700;
 			color: #be4682;
 			margin: 0 0 10px 0;
@@ -1597,7 +1597,7 @@ a {
 		}
 
 		.month_around {
-			font-size: 18px;
+			font-size: 20px;
 			font-weight: 700;
 			color: $primary_color;
 			margin: 0 0 25px 0;
@@ -1645,10 +1645,10 @@ a {
 		}
 
 		.footer_box {
-			width: 28%;
+			width: 30%;
 
 			&:first-child {
-				width: 25%;
+				width: 40%;
 
 				@include sp {
 					width: 100%;
@@ -1657,7 +1657,7 @@ a {
 			}
 
 			&:nth-child(2) {
-				width: 44%;
+				width: 30%;
 
 				@include sp {
 					width: 100%;
@@ -1690,7 +1690,7 @@ a {
 				font-size: 20px;
 				color: #fff;
 				margin: -5px 0 15px 0;
-				line-height: 1.5;
+				line-height: 1.2;
 
 				@include tablet {
 					font-size: 16px;
@@ -1698,7 +1698,7 @@ a {
 				}
 
 				@include sp {
-					font-size: 18px;
+					font-size: 22px;
 					margin: -5px 0 10px 0;
 				}
 			}
@@ -1706,7 +1706,7 @@ a {
 			p {
 				font-size: 16px;
 				color: $footer_txt_color;
-				line-height: 1.8;
+				line-height: 1.4;
 
 				@include tablet {
 					font-size: 14px;

@@ -201,7 +201,6 @@
 						<div class="notice">
 							<div class="h3">
 								<h3>Notice</h3>
-								<!-- <p>Notice</p> -->
 							</div>
 							<?php require_once("common/notice.php"); ?>
 						</div>
@@ -222,48 +221,57 @@
 								</p>
 
 								<table>
-									<tr style="vertical-align: top; line-height:1.4">
-										<td style="text-align: right;">
+									<tr style="vertical-align: top; line-height:1.4;">
+										<td style="text-align: right; padding-right:5px; min-width:100px;">
 											<b>Lecture: </b>
 										</td>
-										<td>
+										<td style="padding-bottom: 5px;">
 											Elena Giannoulis<br class="sp_br">（Freie universität Berlin）<br>
 											Images detached from space and time - Heterotopias and non-places in contemporary Japanese literature
 										</td>
 									</tr>
-									<tr style="vertical-align: top; line-height:1.4">
-										<td>
+									<tr style="vertical-align: top; line-height:1.4;">
+										<td style="text-align: right; padding-right:5px; min-width:100px;">
 											<b>Discussion: </b>
 										</td>
-										<td>
+										<td style="padding-bottom: 5px;">
 											Yoko Tawada, <br class="sp_br">Qinfeng Li, Dan Shao
 										</td>
 									</tr>
-									<tr style="vertical-align: top; line-height:1.4">
-										<td>
+									<tr style="vertical-align: top; line-height:1.4;">
+										<td style="text-align: right; padding-right:5px; min-width:100px;">
 											<b>Moderator: </b>
 										</td>
-										<td>
+										<td style="padding-bottom: 5px;">
 											Hiroyuki Yamaguchi
 										</td>
 									</tr>
 								</table>
-
-								<p>
-								</p>
 							</div>
 
 							<div class="speciallecture_box">
 								<p class="speciallecture_date">
 									2p.m. Sunday, November 5
 								</p>
-								<p>
-									<b>Lecture: </b>Chiyo Wakabayashi
-								</p>
-								<p>
-									<b>Schedule: May 23, 2023</b>
-									Chiyo Wakabayashi
-								</p>
+
+								<table>
+									<tr style="vertical-align: top; line-height:1.4;">
+										<td style="text-align: right; padding-right:5px; min-width:100px;">
+											<b>Lecture: </b>
+										</td>
+										<td style="padding-bottom: 5px;">
+											Chiyo Wakabayashi
+										</td>
+									</tr>
+									<tr style="vertical-align: top; line-height:1.4;">
+										<td style="text-align: right; padding-right:5px; min-width:100px;">
+											<b>Schedule: </b>
+										</td>
+										<td style="padding-bottom: 5px;">
+											<b>May 23, 2023 </b><br>Chiyo Wakabayashi
+										</td>
+									</tr>
+								</table>
 							</div>
 
 						</div>
@@ -273,7 +281,6 @@
 					<div class="schedule">
 						<div class="h3">
 							<h3>Schedule</h3>
-							<!-- <p>Schedule</p> -->
 						</div>
 
 						<div class="month_box">
