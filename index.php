@@ -220,13 +220,13 @@
 							<?php require_once("common/notice.php"); ?>
 						</div>
 
+
+
 						<!-- 特別講演・鼎談情報 -->
 						<div class="speciallecture">
-
 							<div class="h4">
 								<h4>特別講演・鼎談</h4>
 							</div>
-
 							<div class="speciallecture_box">
 								<p class="speciallecture_date">
 									11月3日　14時
@@ -246,27 +246,55 @@
 								</p>
 							</div>
 
-							<div class="speciallecture_box">
 
+
+							<div class="speciallecture_box">
 								<p class="speciallecture_date">
 									11月5日
 								</p>
-								<p class="ind3">
-									調整中
+								<p class="speciallecture_ttl">
+									「沖縄は東アジアの平和の「触媒」になり得るか」
+								</p>
+								<table>
+									<tr>
+										<td style="text-align: right; vertical-align:top; width:5em;">
+											<b>基調報告：</b>
+										</td>
+										<td>
+											若林千代（沖縄大学）
+										</td>
+									</tr>
+									<tr>
+										<td style="text-align: right; vertical-align:top; width:5em;">
+											<b>討論：</b>
+										</td>
+										<td>
+											居原田遙<br class="sp_br">（キュレーター／東京藝術大学大学院博士後期課程）、<br>
+											上原こずえ（東京外国語大学）、<br>
+											金誾愛（明治学院大学国際平和研究所）
+										</td>
+									</tr>
+									<tr>
+										<td style="text-align: right; vertical-align:top; width:5em;">
+											<b>司会：</b>
+										</td>
+										<td>
+											友常勉（東京外国語大学）
+										</td>
+									</tr>
+								</table>
+								<p class="ind5">
+								</p>
+								<p class="ind5">
 								</p>
 							</div>
 
+
+
 						</div>
-
-						<!-- よくあるご質問 -->
-						<!-- <div class="question">
-							<div class="h4">
-								<h4>よくあるご質問</h4>
-							</div>
-							<div class="question_box"> </div>
-						</div> -->
-
 					</div>
+
+
 
 					<!-- スケジュール -->
 					<div class="schedule">
