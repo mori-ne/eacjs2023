@@ -105,6 +105,9 @@
 
 
 				<div class="column">
+
+
+
 					<!-- Participation -->
 					<div class="participation">
 						<div class="h3">
@@ -146,6 +149,8 @@
 							</ul>
 						</div>
 					</div>
+
+
 
 					<!-- The Application -->
 					<div class="register">
@@ -197,6 +202,7 @@
 					<div class="column">
 
 
+
 						<!-- Notice -->
 						<div class="notice">
 							<div class="h3">
@@ -205,12 +211,15 @@
 							<?php require_once("common/notice.php"); ?>
 						</div>
 
+
+
 						<!-- Lecture  -->
 						<div class="speciallecture">
 
 							<div class="h4">
 								<h4>Lecture</h4>
 							</div>
+
 
 							<div class="speciallecture_box">
 								<p class="speciallecture_date">
@@ -249,26 +258,38 @@
 								</table>
 							</div>
 
+
+
 							<div class="speciallecture_box">
 								<p class="speciallecture_date">
 									2p.m. Sunday, November 5
 								</p>
-
+								<p class="speciallecture_ttl">
+									Can Okinawa be the “Catalyst” for peace in East Asia?
+								</p>
 								<table>
 									<tr style="vertical-align: top; line-height:1.4;">
 										<td style="text-align: right; padding-right:5px; min-width:100px;">
 											<b>Lecture: </b>
 										</td>
 										<td style="padding-bottom: 5px;">
-											Chiyo Wakabayashi
+											Chiyo Wakabayashi<br class="sp_br">（Okinawa University）
 										</td>
 									</tr>
 									<tr style="vertical-align: top; line-height:1.4;">
 										<td style="text-align: right; padding-right:5px; min-width:100px;">
-											<b>Schedule: </b>
+											<b>Discussion: </b>
 										</td>
 										<td style="padding-bottom: 5px;">
-											<b>May 23, 2023 </b><br>Chiyo Wakabayashi
+											Haruka Iharada, <br class="sp_br">Kozue Uehara, <br class="sp_br">Eun-ae Kim
+										</td>
+									</tr>
+									<tr style="vertical-align: top; line-height:1.4;">
+										<td style="text-align: right; padding-right:5px; min-width:100px;">
+											<b>Moderator: </b>
+										</td>
+										<td style="padding-bottom: 5px;">
+											Tsutomu Tomotsune
 										</td>
 									</tr>
 								</table>
@@ -295,7 +316,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								Jul.19, 2023（must arrive by Wed.）
+								Jul.19, 2023<br class="sp_br">（must arrive by Wed.）
 							</h4>
 							<p class="month_ttl">
 								The due date for the application

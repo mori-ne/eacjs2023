@@ -1554,8 +1554,14 @@ a {
 		}
 
 		.speciallecture_ttl {
+			line-height: 1.5;
 			font-size: 19px;
 			margin: 0 0 5px 0;
+
+			@include sp {
+				line-height: 1.3;
+				margin: 0 0 10px 0;
+			}
 		}
 
 		p {
