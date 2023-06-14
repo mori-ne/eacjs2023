@@ -339,7 +339,7 @@ progress {
   font-size: 16px;
   line-height: 1.4;
   font-family: "Source Serif Pro", serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 @media (max-width: 620px) {
   .ttl .sub_ttl {

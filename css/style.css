@@ -339,11 +339,11 @@ progress {
   font-size: 16px;
   line-height: 1.7;
   font-family: "Noto Sans JP", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 @media (max-width: 620px) {
   .ttl .sub_ttl {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 

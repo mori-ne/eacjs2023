@@ -265,7 +265,7 @@
 									2p.m. Sunday, November 5
 								</p>
 								<p class="speciallecture_ttl">
-									Can Okinawa be the “Catalyst” for peace in East Asia?
+									Can Okinawa be the "Catalyst" for peace in East Asia?
 								</p>
 								<table>
 									<tr style="vertical-align: top; line-height:1.4;">

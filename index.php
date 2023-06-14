@@ -66,7 +66,7 @@
 					第7回国際学術大会
 				</h2>
 				<p class="sub_ttl">
-					時間：2023年11月3日 ～ 11月5日<br>
+					時間：2023年11月3日（金、午後2時）〜<br class="sp_br"> 11月5日（日、午後）<br>
 					場所：東京外国語大学
 				</p>
 			</div>
@@ -250,7 +250,7 @@
 
 							<div class="speciallecture_box">
 								<p class="speciallecture_date">
-									11月5日
+									11月5日　14時
 								</p>
 								<p class="speciallecture_ttl">
 									「沖縄は東アジアの平和の「触媒」になり得るか」
