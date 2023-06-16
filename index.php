@@ -115,7 +115,7 @@
 						<div class="cards">
 							<ul>
 								<li>
-									<a href="./p_panel.php">
+									<a href="./p_panel">
 										<div class="ico01"></div>
 										<p>パネル発表</p>
 									</a>
