@@ -6,52 +6,7 @@
 		<lastmod>2023-06-16</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/about.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/access.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/p_abstract.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-06-08</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/p_nextgenabstract.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-29</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/p_nextgenpanel.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-29</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/p_panel.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/p_public.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/r_abstract.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/r_nextgenabstract.php</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-05-23</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/r_nextgenpanel.php</loc>
+		<loc>https://eacjs2023.jp/r_public.php</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-05-23</lastmod>
 	</url>
@@ -61,47 +16,82 @@
 		<lastmod>2023-05-23</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/r_public.php</loc>
+		<loc>https://eacjs2023.jp/r_nextgenpanel.php</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-05-23</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/04 Next-Generation Research Presentation.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2023-06-14</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/02 Individual Research Presentation.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2023-06-14</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/01 Panel Presentation.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2023-06-14</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/common/footer.php</loc>
-		<priority>0.33</priority>
-		<lastmod>2023-05-29</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/common/header.php</loc>
-		<priority>0.33</priority>
-		<lastmod>2023-06-12</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/common/nav.php</loc>
-		<priority>0.33</priority>
-		<lastmod>2023-05-12</lastmod>
-	</url>
-	<url>
-		<loc>https://eacjs2023.jp/common/notice.php</loc>
-		<priority>0.33</priority>
+		<loc>https://eacjs2023.jp/r_nextgenabstract.php</loc>
+		<priority>0.67</priority>
 		<lastmod>2023-05-23</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/01_パネル発表_内容.html</loc>
+		<loc>https://eacjs2023.jp/r_abstract.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-05-23</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/p_public.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-05-23</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/p_panel.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-05-23</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/p_nextgenpanel.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-05-29</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/p_nextgenabstract.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-05-29</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/p_abstract.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-06-08</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/access.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-05-23</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/about.php</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-05-23</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/05 General Participants (only observation).html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-06-19</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/03 Next-Generation Panel Presentation.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-06-19</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/06_07_08_ご決済フォーム.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-05-18</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/05_一般参加_内容.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-06-19</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/04_次世代研究発表_内容.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-06-15</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/03_次世代パネル発表_内容.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2023-06-14</lastmod>
 	</url>
@@ -111,28 +101,43 @@
 		<lastmod>2023-06-14</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/03_次世代パネル発表_内容.html</loc>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/01_パネル発表_内容.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2023-06-14</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/04_次世代研究発表_内容.html</loc>
+		<loc>https://eacjs2023.jp/common/notice.php</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-06-15</lastmod>
+		<lastmod>2023-05-23</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/05_一般参加_内容.html</loc>
+		<loc>https://eacjs2023.jp/common/nav.php</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-05-19</lastmod>
+		<lastmod>2023-05-12</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/06_07_08_ご決済フォーム.html</loc>
+		<loc>https://eacjs2023.jp/common/header.php</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-05-18</lastmod>
+		<lastmod>2023-06-12</lastmod>
 	</url>
 	<url>
-		<loc>https://eacjs2023.jp/jotform_reply_mail/03 Next-Generation Panel Presentation.html</loc>
+		<loc>https://eacjs2023.jp/common/footer.php</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-06-14</lastmod>
+		<lastmod>2023-05-29</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/01 Panel Presentation.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-06-19</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/02 Individual Research Presentation.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-06-19</lastmod>
+	</url>
+	<url>
+		<loc>https://eacjs2023.jp/jotform_reply_mail/04 Next-Generation Research Presentation.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-06-19</lastmod>
 	</url>
 </urlset>
