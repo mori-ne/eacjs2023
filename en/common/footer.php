@@ -10,7 +10,7 @@
 
 		<!-- 中段 -->
 		<div class="footer_box">
-			<h5 class="footer_ttl">The 7th International Conference</h5>
+			<h5 class="footer_ttl">The 7th International Academic Conference</h5>
 
 			<p style="margin-bottom: 15px;">
 				<b>Organizer:</b>
@@ -49,7 +49,7 @@
 			<p>
 				<span style="margin-bottom:7px; display:block;">
 					International Center for Japanese, Tokyo University of Foreign Studies <br>
-					The 7th International Conferences<br>
+					The 7th International Academic Conferences<br>
 					<b>Chairperson: </b>Dr. Tsutomu Tomotsune<br>
 				</span>
 				<span style="margin-bottom:7px; display:block;">

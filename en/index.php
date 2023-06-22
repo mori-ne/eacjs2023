@@ -336,7 +336,7 @@
 
 						<div class="month_box">
 							<h4 class="month_around">
-								The Early Sept. 2023
+								Early Sept. 2023
 							</h4>
 							<p class="month_ttl">
 								The conference program will be posted on the web site.
